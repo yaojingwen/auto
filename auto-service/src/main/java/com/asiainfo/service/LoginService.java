@@ -16,5 +16,5 @@ public interface LoginService {
      //根据用户名更新
      void updateByName(String name, WebAdmin userlogin);
      //根据名字查找用户
-     WebAdmin getUserByUsername(String userAdmin);
+     WebAdmin getByUserName(String user_Admin);
 }

@@ -36,7 +36,7 @@ public class LoginServiceImpl implements LoginService {
     }
 
     @Override
-    public WebAdmin getUserByUsername(String userAdmin) {
-        return webAdminMapper.getByUserName(userAdmin);
+    public WebAdmin getByUserName(String user_Admin) {
+        return webAdminMapper.getByUserName(user_Admin);
     }
 }

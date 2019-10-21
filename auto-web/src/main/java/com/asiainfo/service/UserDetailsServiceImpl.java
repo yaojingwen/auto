@@ -23,12 +23,14 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
 
 @Override
-    public UserDetails loadUserByUsername(String userAdmin) throws UsernameNotFoundException {
+    public UserDetails loadUserByUsername(String user_Admin) throws UsernameNotFoundException {
 
-          WebAdmin webAdmin= loginService.getUserByUsername(userAdmin);
+          WebAdmin webAdmin= loginService.getByUserName(user_Admin);
 
         List<GrantedAuthority> authorities =new ArrayList<GrantedAuthority>();
         authorities.add(new SimpleGrantedAuthority("ROLE_USER"));
-        return new User(userAdmin,"{noop}"+webAdmin.getUserPass(),authorities);
+    System.out.println(webAdmin.getUserPass()+user_Admin+"这里出问题了.........");
+    System.out.println("{noop}"+webAdmin.getUserPass()+"这里出问题了.........");
+        return new User(user_Admin,"{noop}"+webAdmin.getUserPass(),authorities);
     }
 }

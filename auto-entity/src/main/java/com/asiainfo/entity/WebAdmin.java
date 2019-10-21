@@ -3,6 +3,7 @@ package com.asiainfo.entity;
 import java.math.BigDecimal;
 
 public class WebAdmin {
+
     private BigDecimal operatorId;
 
     private String userAdmin;
@@ -22,6 +23,22 @@ public class WebAdmin {
     private String ip;
 
     private BigDecimal roleid;
+
+    @Override
+    public String toString() {
+        return "WebAdmin{" +
+                "operatorId=" + operatorId +
+                ", userAdmin='" + userAdmin + '\'' +
+                ", userPass='" + userPass + '\'' +
+                ", userName='" + userName + '\'' +
+                ", userMobile='" + userMobile + '\'' +
+                ", userStaff='" + userStaff + '\'' +
+                ", userEmail='" + userEmail + '\'' +
+                ", isUsed='" + isUsed + '\'' +
+                ", ip='" + ip + '\'' +
+                ", roleid=" + roleid +
+                '}';
+    }
 
     public BigDecimal getOperatorId() {
         return operatorId;

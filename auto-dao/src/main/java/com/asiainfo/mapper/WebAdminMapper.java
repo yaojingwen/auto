@@ -22,6 +22,7 @@ public interface WebAdminMapper {
 
     int updateByExample(@Param("record") WebAdmin record, @Param("example") WebAdminExample example);
 
-    @Select("select * from WEB_ADMIN where userAdmin=#{userAdmin}")
-    WebAdmin getByUserName(String userAdmin);
+
+    @Select("select user_Admin as useradmin,user_pass as userpass from WEB_ADMIN where user_Admin=#{user_Admin}")
+    WebAdmin getByUserName(String user_Admin);
 }
