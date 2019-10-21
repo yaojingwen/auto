@@ -111,7 +111,7 @@
 
 		<!-- 页面头部 -->
 		<!-- 页面头部 -->
-<header class="main-header">
+<%--<header class="main-header">
 	<!-- Logo -->
 	<a href="all-admin-index.html" class="logo"> <!-- mini logo for sidebar mini 50x50 pixels -->
 		<span class="logo-mini"><b>数据</b></span> <!-- logo for regular state and mobile devices -->
@@ -156,11 +156,11 @@
 			</ul>
 		</div>
 	</nav>
-</header>
+</header>--%>
 <!-- 页面头部 /-->
 		<!-- 页面头部 /-->
 
-		<!-- 导航侧栏 -->
+<%--		<!-- 导航侧栏 -->
 		<aside class="main-sidebar">
 	<!-- sidebar: style can be found in sidebar.less -->
 	<section class="sidebar">
@@ -229,7 +229,7 @@
 		</ul>
 	</section>
 	<!-- /.sidebar -->
-</aside>
+</aside>--%>
 		<!-- 导航侧栏 /-->
 
 		<!-- 内容区域 -->
@@ -274,7 +274,7 @@
 				<b>Version</b> 1.0.8
 			</div>
 			<strong>Copyright &copy; 2014-2017 <a
-				href="http://www.itcast.cn">研究院研发部</a>.
+				href="http://www.itcast.cn">亚信研究院研发部</a>.
 			</strong> All rights reserved.
 		</footer>
 		<!-- 底部导航 /-->
@@ -365,7 +365,7 @@
 		src="${pageContext.request.contextPath}/plugins/ionslider/ion.rangeSlider.min.js"></script>
 	<script
 		src="${pageContext.request.contextPath}/plugins/bootstrap-slider/bootstrap-slider.js"></script>
-	<script>
+<%--	<script>
 		$(document).ready(function() {
 			// 选择框
 			$(".select2").select2();
@@ -388,7 +388,7 @@
 		$(document).ready(function() {
 			setSidebarActive("admin-500");
 		});
-	</script>
+	</script>--%>
 </body>
 
 </html>
