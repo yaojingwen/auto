@@ -6,10 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="614661cf-6fbc-4c7c-b4e1-027994becbf9" name="Default Changelist" comment="第wu个">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="614661cf-6fbc-4c7c-b4e1-027994becbf9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/auto-dao/src/main/resources/properties/xp_oracle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-dao/src/main/resources/properties/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/auto-dao/src/main/resources/properties/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-dao/src/main/resources/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auto-dao/src/main/resources/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auto-util/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,9 +60,10 @@
           <entry key="ft" value="32" />
           <entry key="java" value="659" />
           <entry key="jsp" value="155" />
+          <entry key="properties" value="11" />
           <entry key="sql" value="2" />
           <entry key="txt" value="13" />
-          <entry key="xml" value="369" />
+          <entry key="xml" value="387" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -69,9 +72,10 @@
           <entry key="JAVA" value="659" />
           <entry key="JSP" value="155" />
           <entry key="PLAIN_TEXT" value="13" />
+          <entry key="Properties" value="11" />
           <entry key="Scratch" value="2" />
           <entry key="VTL" value="32" />
-          <entry key="XML" value="369" />
+          <entry key="XML" value="387" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -80,11 +84,11 @@
           <entry key="css" value="9" />
           <entry key="html" value="2" />
           <entry key="ico" value="1" />
-          <entry key="java" value="58" />
+          <entry key="java" value="59" />
           <entry key="jpg" value="8" />
           <entry key="jsp" value="18" />
           <entry key="png" value="18" />
-          <entry key="properties" value="2" />
+          <entry key="properties" value="3" />
           <entry key="sql" value="1" />
           <entry key="xml" value="32" />
           <entry key="xsd" value="2" />
@@ -96,9 +100,9 @@
           <entry key="CSS" value="9" />
           <entry key="HTML" value="2" />
           <entry key="Image" value="27" />
-          <entry key="JAVA" value="58" />
+          <entry key="JAVA" value="59" />
           <entry key="JSP" value="18" />
-          <entry key="Properties" value="2" />
+          <entry key="Properties" value="3" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="34" />
         </counts>
@@ -107,11 +111,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/auto-dao/src/main/resources/spring-mybatis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="170">
+              <caret line="19" column="66" lean-forward="true" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+              <folding>
+                <element signature="e#1028#1041#0" expanded="true" />
+                <element signature="e#1093#1111#0" expanded="true" />
+                <element signature="e#1147#1165#0" expanded="true" />
+                <element signature="e#1216#1232#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -176,8 +186,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/asiainfo/entity/WebAdmin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="221">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -203,17 +213,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-util/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="391">
+              <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            <state relative-caret-position="493">
+              <caret line="49" column="84" selection-start-line="49" selection-start-column="84" selection-end-line="49" selection-end-column="84" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/asiainfo/entity/WebRole.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -243,7 +265,7 @@
         <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/403.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1887">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -252,7 +274,7 @@
         <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/header.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="385">
-              <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+              <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -290,8 +312,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-dao/src/main/resources/properties/db.properties">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-dao/src/main/resources/properties/xp_oracle.properties">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -340,7 +371,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/auto-util/pom.xml" />
         <option value="$PROJECT_DIR$/auto-entity/pom.xml" />
         <option value="$PROJECT_DIR$/auto-mapper/pom.xml" />
         <option value="$PROJECT_DIR$/auto-mapper/src/main/java/com/asiainfo/mapper/WebCaseMapper.java" />
@@ -367,16 +397,18 @@
         <option value="$PROJECT_DIR$/auto-web/src/main/webapp/plugins/adminLTE/css/AdminLTE.css" />
         <option value="$PROJECT_DIR$/auto-web/src/main/webapp/login.jsp" />
         <option value="$PROJECT_DIR$/auto-web/src/main/webapp/css/pages-login-manage.css" />
-        <option value="$PROJECT_DIR$/auto-dao/src/main/resources/properties/db.properties" />
         <option value="$PROJECT_DIR$/auto-service/src/main/java/com/asiainfo/service/impl/LoginServiceImpl.java" />
         <option value="$PROJECT_DIR$/auto-service/src/main/java/com/asiainfo/service/LoginService.java" />
         <option value="$PROJECT_DIR$/auto-web/src/main/java/com/asiainfo/service/UserDetailsServiceImpl.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/247b2e96-1ff5-4e1f-9a3e-1407f446f4e6/console.sql" />
-        <option value="$PROJECT_DIR$/auto-dao/src/main/resources/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/auto-dao/src/main/java/com/asiainfo/mapper/WebAdminMapper.java" />
         <option value="$PROJECT_DIR$/auto-entity/src/main/java/com/asiainfo/entity/WebAdmin.java" />
         <option value="$PROJECT_DIR$/auto-web/src/main/webapp/failer.jsp" />
         <option value="$PROJECT_DIR$/auto-web/src/main/webapp/pages/header.jsp" />
+        <option value="$PROJECT_DIR$/auto-util/pom.xml" />
+        <option value="$PROJECT_DIR$/auto-dao/src/main/resources/properties/db.properties" />
+        <option value="$PROJECT_DIR$/auto-dao/src/main/resources/properties/xp_oracle.properties" />
+        <option value="$PROJECT_DIR$/auto-dao/src/main/resources/spring-mybatis.xml" />
       </list>
     </option>
   </component>
@@ -447,45 +479,37 @@
             <path>
               <item name="auto" type="b2602c69:ProjectViewProjectNode" />
               <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="auto-web" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="auto" type="b2602c69:ProjectViewProjectNode" />
               <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="auto-web" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-dao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="auto" type="b2602c69:ProjectViewProjectNode" />
               <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="auto-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="auto-web" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-dao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="auto" type="b2602c69:ProjectViewProjectNode" />
               <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="auto-web" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-dao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="auto" type="b2602c69:ProjectViewProjectNode" />
               <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="auto-web" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-dao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -499,7 +523,7 @@
     <property name="SearchEverywhereHistoryKey" value="spring&#9;FILE&#9;file://D:/chromedownloads/auto/auto-service/src/main/resources/spring.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571651779081" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572160783293" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/auto-dao/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -507,7 +531,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3976261" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -620,7 +644,7 @@
       <workItem from="1571620410938" duration="13251000" />
       <workItem from="1571658475768" duration="1767000" />
       <workItem from="1571709380334" duration="1810000" />
-      <workItem from="1572144859579" duration="786000" />
+      <workItem from="1572144859579" duration="3345000" />
     </task>
     <task id="LOCAL-00001" summary="第一个">
       <created>1571453021810</created>
@@ -657,17 +681,24 @@
       <option name="project" value="LOCAL" />
       <updated>1571630207445</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="第wu个">
+      <created>1572147201692</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572147201692</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35333000" />
+    <option name="totallyTimeSpent" value="37892000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
+    <frame x="-7" y="-7" width="1455" height="935" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" x="653" y="223" width="421" height="666" id="Project" order="0" visible="true" weight="0.28632784" />
+      <window_info x="653" y="223" width="421" height="666" id="Project" order="0" visible="true" weight="0.28632784" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -678,17 +709,17 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.35110664" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32293764" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.32254046" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32997987" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32997987" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32876712" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" visible="true" weight="0.15691158" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.46699876" />
       <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32997987" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.3501006" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -777,12 +808,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="第wu个" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/img/photo3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/img/visa.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/img/user8-128x128.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -940,13 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto-dao/src/main/resources/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auto-web/src/main/resources/springsecurity.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -982,27 +1000,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/asiainfo/entity/WebAdmin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-util/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-dao/src/main/java/com/asiainfo/mapper/WebCaseCurrentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auto-web/src/main/java/com/asiainfo/service/UserDetailsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1010,20 +1007,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-dao/src/main/resources/properties/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1047,7 +1030,7 @@
     <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
-          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1069,7 +1052,7 @@
     <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/403.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1887">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -1089,8 +1072,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="49" column="84" selection-start-line="49" selection-start-column="84" selection-end-line="49" selection-end-column="84" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/asiainfo/entity/WebRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/asiainfo/entity/WebAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-entity/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-util/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-dao/src/main/java/com/asiainfo/mapper/WebCaseCurrentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-dao/src/main/resources/properties/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-dao/src/main/resources/properties/xp_oracle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-dao/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="66" lean-forward="true" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+          <folding>
+            <element signature="e#1028#1041#0" expanded="true" />
+            <element signature="e#1093#1111#0" expanded="true" />
+            <element signature="e#1147#1165#0" expanded="true" />
+            <element signature="e#1216#1232#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
