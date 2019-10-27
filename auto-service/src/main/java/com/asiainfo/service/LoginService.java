@@ -1,6 +1,7 @@
 package com.asiainfo.service;
 
 import com.asiainfo.entity.WebAdmin;
+import com.github.pagehelper.PageInfo;
 
 
 public interface LoginService {
@@ -17,4 +18,14 @@ public interface LoginService {
      void updateByName(String name, WebAdmin userlogin);
      //根据名字查找用户
      WebAdmin getByUserName(String user_Admin);
+
+     /**
+      * 用户集合查询-接口
+      * @return
+      * @param page
+      * @param size
+      */
+     PageInfo<WebAdmin> list(int page, int size);
+
+
 }

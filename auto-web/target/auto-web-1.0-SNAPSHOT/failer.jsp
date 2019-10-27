@@ -109,127 +109,6 @@
 
 	<div class="wrapper">
 
-		<!-- 页面头部 -->
-		<!-- 页面头部 -->
-<%--<header class="main-header">
-	<!-- Logo -->
-	<a href="all-admin-index.html" class="logo"> <!-- mini logo for sidebar mini 50x50 pixels -->
-		<span class="logo-mini"><b>数据</b></span> <!-- logo for regular state and mobile devices -->
-		<span class="logo-lg"><b>数据</b>后台管理</span>
-	</a>
-	<!-- Header Navbar: style can be found in header.less -->
-	<nav class="navbar navbar-static-top">
-		<!-- Sidebar toggle button-->
-		<a href="#" class="sidebar-toggle" data-toggle="offcanvas"
-			role="button"> <span class="sr-only">Toggle navigation</span>
-		</a>
-
-		<div class="navbar-custom-menu">
-			<ul class="nav navbar-nav">
-
-				<li class="dropdown user user-menu"><a href="#"
-					class="dropdown-toggle" data-toggle="dropdown"> <img
-						src="${pageContext.request.contextPath}/img/user2-160x160.jpg"
-						class="user-image" alt="User Image"> <span class="hidden-xs">
-							未登录
-					</span>
-
-				</a>
-					<ul class="dropdown-menu">
-						<!-- User image -->
-						<li class="user-header"><img
-							src="${pageContext.request.contextPath}/img/user2-160x160.jpg"
-							class="img-circle" alt="User Image"></li>
-
-						<!-- Menu Footer-->
-						<li class="user-footer">
-							<div class="pull-left">
-								<a href="#" class="btn btn-default btn-flat">修改密码</a>
-							</div>
-							<div class="pull-right">
-								<a href="${pageContext.request.contextPath}/logout.do"
-									class="btn btn-default btn-flat">注销</a>
-							</div>
-						</li>
-					</ul></li>
-
-			</ul>
-		</div>
-	</nav>
-</header>--%>
-<!-- 页面头部 /-->
-		<!-- 页面头部 /-->
-
-<%--		<!-- 导航侧栏 -->
-		<aside class="main-sidebar">
-	<!-- sidebar: style can be found in sidebar.less -->
-	<section class="sidebar">
-		<!-- Sidebar user panel -->
-		<div class="user-panel">
-			<div class="pull-left image">
-				<img src="${pageContext.request.contextPath}/img/user2-160x160.jpg"
-					class="img-circle" alt="User Image">
-			</div>
-			<div class="pull-left info">
-				<p>
-					未登录
-				</p>
-				<a href="#"><i class="fa fa-circle text-success"></i> 在线</a>
-			</div>
-		</div>
-
-		<!-- sidebar menu: : style can be found in sidebar.less -->
-		<ul class="sidebar-menu">
-			<li class="header">菜单</li>
-			<li id="admin-index"><a
-				href="${pageContext.request.contextPath}/pages/main.jsp"><i
-					class="fa fa-dashboard"></i> <span>首页</span></a></li>
-
-			<li class="treeview"><a href="#"> <i class="fa fa-cogs"></i>
-					<span>系统管理</span> <span class="pull-right-container"> <i
-						class="fa fa-angle-left pull-right"></i>
-				</span>
-			</a>
-				<ul class="treeview-menu">
-
-					<li id="system-setting"><a
-						href="${pageContext.request.contextPath}/user/findAll.do"> <i
-							class="fa fa-circle-o"></i> 用户管理
-					</a></li>
-					<li id="system-setting"><a href="${pageContext.request.contextPath}/role/findAll.do">
-							<i class="fa fa-circle-o"></i> 角色管理
-					</a></li>
-					<li id="system-setting"><a href="${pageContext.request.contextPath}/permission/findAll.do">
-							<i class="fa fa-circle-o"></i> 资源权限管理
-					</a></li>
-					<li id="system-setting"><a
-						href="${pageContext.request.contextPath}/sysLog/findAll.do"> <i
-							class="fa fa-circle-o"></i> 访问日志
-					</a></li>
-
-				</ul></li>
-			<li class="treeview"><a href="#"> <i class="fa fa-cube"></i>
-					<span>基础数据</span> <span class="pull-right-container"> <i
-						class="fa fa-angle-left pull-right"></i>
-				</span>
-			</a>
-				<ul class="treeview-menu">
-
-					<li id="system-setting"><a
-						href="${pageContext.request.contextPath}/product/findAll.do">
-							<i class="fa fa-circle-o"></i> 产品管理
-					</a></li>
-					<li id="system-setting"><a
-						href="${pageContext.request.contextPath}/order/findAll.do?page=1&pageSize=3">
-							<i class="fa fa-circle-o"></i> 订单管理
-					</a></li>
-
-				</ul></li>
-
-		</ul>
-	</section>
-	<!-- /.sidebar -->
-</aside>--%>
 		<!-- 导航侧栏 /-->
 
 		<!-- 内容区域 -->
@@ -271,9 +150,9 @@
 		<!-- 底部导航 -->
 		<footer class="main-footer">
 			<div class="pull-right hidden-xs">
-				<b>Version</b> 1.0.8
+				<b>Version</b> 1.0.2
 			</div>
-			<strong>Copyright &copy; 2014-2017 <a
+			<strong>Copyright &copy; 2019-2029 <a
 				href="http://www.itcast.cn">亚信研究院研发部</a>.
 			</strong> All rights reserved.
 		</footer>
@@ -365,30 +244,7 @@
 		src="${pageContext.request.contextPath}/plugins/ionslider/ion.rangeSlider.min.js"></script>
 	<script
 		src="${pageContext.request.contextPath}/plugins/bootstrap-slider/bootstrap-slider.js"></script>
-<%--	<script>
-		$(document).ready(function() {
-			// 选择框
-			$(".select2").select2();
 
-			// WYSIHTML5编辑器
-			$(".textarea").wysihtml5({
-				locale : 'zh-CN'
-			});
-		});
-
-		// 设置激活菜单
-		function setSidebarActive(tagUri) {
-			var liObj = $("#" + tagUri);
-			if (liObj.length > 0) {
-				liObj.parent().parent().addClass("active");
-				liObj.addClass("active");
-			}
-		}
-
-		$(document).ready(function() {
-			setSidebarActive("admin-500");
-		});
-	</script>--%>
 </body>
 
 </html>

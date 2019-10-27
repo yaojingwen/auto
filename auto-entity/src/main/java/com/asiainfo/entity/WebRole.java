@@ -1,35 +1,54 @@
 package com.asiainfo.entity;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 public class WebRole {
-    private BigDecimal roleid;
+    private Integer id;
+    private String roleName;
+    private String roleDesc;
+    //一个角色可以授予多个用户，角色和用户之间属于一对多关系,彼此之间属于多对多关系
+    private List<WebAdmin> webAdmins;
+    //一个角色可以有多个权限，角色和权限之间属于一对多关系，彼此之间属于多对多关系
+    private List<WebPermisson> permissions;
 
-    private String rolename;
-
-    private String permissions;
-
-    public BigDecimal getRoleid() {
-        return roleid;
+    public Integer getId() {
+        return id;
     }
 
-    public void setRoleid(BigDecimal roleid) {
-        this.roleid = roleid;
+    public void setId(Integer id) {
+        this.id = id;
     }
 
-    public String getRolename() {
-        return rolename;
+    public String getRoleName() {
+        return roleName;
     }
 
-    public void setRolename(String rolename) {
-        this.rolename = rolename == null ? null : rolename.trim();
+    public void setRoleName(String roleName) {
+        this.roleName = roleName;
     }
 
-    public String getPermissions() {
+    public String getRoleDesc() {
+        return roleDesc;
+    }
+
+    public void setRoleDesc(String roleDesc) {
+        this.roleDesc = roleDesc;
+    }
+
+    public List<WebAdmin> getWebAdmins() {
+        return webAdmins;
+    }
+
+    public void setWebAdmins(List<WebAdmin> webAdmins) {
+        this.webAdmins = webAdmins;
+    }
+
+    public List<WebPermisson> getPermissions() {
         return permissions;
     }
 
-    public void setPermissions(String permissions) {
-        this.permissions = permissions == null ? null : permissions.trim();
+    public void setPermissions(List<WebPermisson> permissions) {
+        this.permissions = permissions;
     }
 }

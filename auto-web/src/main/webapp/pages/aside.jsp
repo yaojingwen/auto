@@ -34,7 +34,7 @@
 				<ul class="treeview-menu">
 
 					<li id="system-setting"><a
-						href="${pageContext.request.contextPath}/pages/user-list.jsp"> <i
+						href="/user/list"> <i
 							class="fa fa-circle-o"></i> 用户管理
 					</a></li>
 					<li id="system-setting"><a

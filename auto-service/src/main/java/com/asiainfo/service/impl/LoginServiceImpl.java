@@ -3,8 +3,12 @@ package com.asiainfo.service.impl;
 import com.asiainfo.entity.WebAdmin;
 import com.asiainfo.mapper.WebAdminMapper;
 import com.asiainfo.service.LoginService;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 /**
  * @Author: wangdawei
@@ -38,5 +42,24 @@ public class LoginServiceImpl implements LoginService {
     @Override
     public WebAdmin getByUserName(String user_Admin) {
         return webAdminMapper.getByUserName(user_Admin);
+    }
+
+    /***
+     * 实现类
+     * @param page
+     * @param size
+     * @return
+     */
+    @Override
+    public PageInfo<WebAdmin> list(int page, int size) {
+        //分页
+        PageHelper.startPage(page,size);
+        //集合查询
+        List<WebAdmin> users = webAdminMapper.list();
+        System.out.println(users);
+        for (WebAdmin user : users) {
+            System.out.println(user);
+        }
+        return new PageInfo<WebAdmin>(users);
     }
 }
