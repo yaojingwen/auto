@@ -7,9 +7,9 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>数据 - AdminLTE2定制版</title>
-<meta name="description" content="AdminLTE2定制版">
-<meta name="keywords" content="AdminLTE2定制版">
+<title>界面自动化</title>
+<meta name="description" content="界面自动化">
+<meta name="keywords" content="界面自动化">
 
 <!-- Tell the browser to be responsive to screen width -->
 <meta
@@ -100,7 +100,7 @@
 
 					<div class="box-body">
 
-						<!-- 数据表格 -->
+						<!-- 界面表格 -->
 						<div class="table-box">
 
 							<!--工具栏-->
@@ -126,7 +126,7 @@
 							</div>
 							<!--工具栏/-->
 
-							<!--数据列表-->
+							<!--界面列表-->
 							<table id="dataList"
 								class="table table-bordered table-striped table-hover dataTable">
 								<thead>
@@ -165,10 +165,10 @@
                             </tr>
                             </tfoot>-->
 							</table>
-							<!--数据列表/-->
+							<!--界面列表/-->
 
 						</div>
-						<!-- 数据表格 /-->
+						<!-- 界面表格 /-->
 
 					</div>
 					<!-- /.box-body -->
@@ -177,7 +177,7 @@
 					<div class="box-footer">
 						<div class="pull-left">
 							<div class="form-group form-inline">
-								总共2 页，共14 条数据。 每页 <select class="form-control">
+								总共2 页，共14 条界面。 每页 <select class="form-control">
 									<option>1</option>
 									<option>2</option>
 									<option>3</option>
@@ -219,7 +219,7 @@
 				<b>Version</b> 1.0.8
 			</div>
 			<strong>Copyright &copy; 2014-2017 <a
-				href="http://www.itcast.cn">研究院研发部</a>.
+				href="#">研究院研发部</a>.
 			</strong> All rights reserved. </footer>
 			<!-- 底部导航 /-->
 

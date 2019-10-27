@@ -12,7 +12,7 @@
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!--包扫描-->
-    <context:component-scan base-package="com.asiainfo" />
+    <context:component-scan base-package="com.auto" />
     <!--引入SpringSecurity配置-->
     <import resource="springsecurity.xml" />
 

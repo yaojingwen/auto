@@ -354,7 +354,7 @@ a:focus {
     top: 0;
     right: 0;
     float: none;
-    background:url("/img/2019-10-13_13-09-42.png");
+    background: #d2d6de;
     padding-left: 10px;
   }
   .content-header > .breadcrumb li:before {
@@ -1611,7 +1611,7 @@ a:focus {
 }
 .box.box-solid.box-default > .box-header {
   color: #444444;
-  background:url("/img/2019-10-13_13-09-42.png");
+  background: #d2d6de;
   background-color: #d2d6de;
 }
 .box.box-solid.box-default > .box-header a,
@@ -2172,7 +2172,7 @@ a:focus {
   line-height: 30px;
   position: absolute;
   color: #666;
-  background:url("/img/2019-10-13_13-09-42.png");
+  background: #d2d6de;
   border-radius: 50%;
   text-align: center;
   left: 18px;
@@ -2765,7 +2765,7 @@ table.text-center th {
   border-radius: 5px;
   position: relative;
   padding: 5px 10px;
-  background:url("/img/2019-10-13_13-09-42.png");
+  background: #d2d6de;
   border: 1px solid #d2d6de;
   margin: 5px 0 0 50px;
   color: #444444;
@@ -3159,7 +3159,7 @@ table.text-center th {
  */
 /* ADD THIS CLASS TO THE <BODY> TAG */
 .lockscreen {
-  background:url("/img/2019-10-13_13-09-42.png");
+  background: #d2d6de;
 }
 .lockscreen-logo {
   font-size: 35px;
@@ -3236,7 +3236,7 @@ table.text-center th {
 }
 .login-page,
 .register-page {
-  background:url("/img/2019-10-13_13-09-42.png");
+  background: #d2d6de;
 }
 .login-box,
 .register-box {

@@ -56,7 +56,7 @@
         />
     </security:http>
 
-    <bean class="com.asiainfo.service.UserDetailsServiceImpl" id="userDetailsService">
+    <bean class="com.auto.service.UserDetailsServiceImpl" id="userDetailsService">
 
     </bean>
     <!--配置授权信息-->

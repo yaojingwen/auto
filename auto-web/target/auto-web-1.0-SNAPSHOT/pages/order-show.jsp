@@ -7,9 +7,9 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>数据 - AdminLTE2定制版</title>
-<meta name="description" content="AdminLTE2定制版">
-<meta name="keywords" content="AdminLTE2定制版">
+<title>界面自动化</title>
+<meta name="description" content="界面自动化">
+<meta name="keywords" content="界面自动化">
 
 <!-- Tell the browser to be responsive to screen width -->
 <meta
@@ -157,7 +157,7 @@
 			<!--订单信息/--> <!--游客信息-->
 			<div class="panel panel-default">
 				<div class="panel-heading">游客信息</div>
-				<!--数据列表-->
+				<!--界面列表-->
 				<table id="dataList"
 					class="table table-bordered table-striped table-hover dataTable">
 					<thead>
@@ -191,7 +191,7 @@
 
 					</tbody>
 				</table>
-				<!--数据列表/-->
+				<!--界面列表/-->
 			</div>
 			<!--游客信息/--> <!--联系人信息-->
 			<div class="panel panel-default">
@@ -244,7 +244,7 @@
 			<b>Version</b> 1.0.8
 		</div>
 		<strong>Copyright &copy; 2014-2017 <a
-			href="http://www.itcast.cn">研究院研发部</a>.
+			href="#">研究院研发部</a>.
 		</strong> All rights reserved. </footer>
 		<!-- 底部导航 /-->
 

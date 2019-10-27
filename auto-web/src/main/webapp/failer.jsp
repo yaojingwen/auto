@@ -9,8 +9,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <title>界面自动化运维平台</title>
-<meta name="description" content="AdminLTE2定制版">
-<meta name="keywords" content="AdminLTE2定制版">
+<meta name="description" content="界面自动化">
+<meta name="keywords" content="界面自动化">
 
 <!-- Tell the browser to be responsive to screen width -->
 <meta
@@ -153,7 +153,7 @@
 				<b>Version</b> 1.0.2
 			</div>
 			<strong>Copyright &copy; 2019-2029 <a
-				href="http://www.itcast.cn">亚信研究院研发部</a>.
+				href="#">亚信研究院研发部</a>.
 			</strong> All rights reserved.
 		</footer>
 		<!-- 底部导航 /-->

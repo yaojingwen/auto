@@ -7,7 +7,7 @@
 
     <context:property-placeholder location="classpath:properties/xp_oracle.properties"></context:property-placeholder>
 
-    <!-- 数据库连接池 -->
+    <!-- 界面库连接池 -->
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
           destroy-method="close">
       <!--  <property name="url" value="jdbc:oracle:thin:@10.226.28.151:1521:ggtest" />
@@ -22,15 +22,15 @@
 
     <!--SqlSessionFactoryBean-->
     <bean id="sqlSessionFactoryBean" class="org.mybatis.spring.SqlSessionFactoryBean">
-        <!--注入数据源-->
+        <!--注入界面源-->
         <property name="dataSource" ref="dataSource" />
-        <property name="typeAliasesPackage" value="com.asiainfo.entity" />
+        <property name="typeAliasesPackage" value="com.auto.entity" />
         <!--集成分页插件-->
         <property name="plugins">
             <bean class="com.github.pagehelper.PageInterceptor">
                 <property name="properties">
                     <props>
-                        <!--数据库方言选中oracle-->
+                        <!--界面库方言选中oracle-->
                         <prop key="helperDialect">oracle</prop>
                         <!--当该参数设置为 true 时，pageNum<=0 时会查询第一页， pageNum>pages（超过总数时），会查询最后一页-->
                         <prop key="reasonable">true</prop>
@@ -43,11 +43,11 @@
     <!--接口扫描 MapperScannerConfigurer-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <!--指定Dao接口的包-->
-        <property name="basePackage" value="com.asiainfo.mapper" />
+        <property name="basePackage" value="com.auto.mapper" />
 
         <!--
             指定SqlSessionFactoryBeanName
-            在多数据源情况下，需要指定
+            在多界面源情况下，需要指定
         -->
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactoryBean" />
     </bean>

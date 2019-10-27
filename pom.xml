@@ -76,7 +76,7 @@
                 <version>${spring.version}</version>
             </dependency>
 
-            <!--用于数据库源相关操作-->
+            <!--用于界面库源相关操作-->
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-jdbc</artifactId>
@@ -110,7 +110,7 @@
                 <version>${jstl.version}</version>
             </dependency>
 
-            <!--Oracle数据库驱动-->
+            <!--Oracle界面库驱动-->
             <dependency>
                 <groupId>com.oracle</groupId>
                 <artifactId>ojdbc14</artifactId>
@@ -133,7 +133,7 @@
 
 
             <!--
-              用于JSON数据转换
+              用于JSON界面转换
               实现Json 互转 JavaBean
             -->
             <dependency>
@@ -187,7 +187,7 @@
                 <version>${mybatis-spring.version}</version>
             </dependency>
 
-            <!--数据源-->
+            <!--界面源-->
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid</artifactId>

@@ -8,9 +8,9 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>数据 - AdminLTE2定制版</title>
-<meta name="description" content="AdminLTE2定制版">
-<meta name="keywords" content="AdminLTE2定制版">
+<title>界面自动化</title>
+<meta name="description" content="界面自动化">
+<meta name="keywords" content="界面自动化">
 
 <!-- Tell the browser to be responsive to screen width -->
 <meta
@@ -103,7 +103,7 @@
 
 				<div class="box-body">
 
-					<!-- 数据表格 -->
+					<!-- 界面表格 -->
 					<div class="table-box">
 
 						<!--工具栏-->
@@ -142,7 +142,7 @@
 						</div>
 						<!--工具栏/-->
 
-						<!--数据列表-->
+						<!--界面列表-->
 						<table id="dataList"
 							class="table table-bordered table-striped table-hover dataTable">
 							<thead>
@@ -195,7 +195,7 @@
 							</tbody>
 
 						</table>
-						<!--数据列表/-->
+						<!--界面列表/-->
 
 						<!--工具栏-->
 						<div class="pull-left">
@@ -235,7 +235,7 @@
 
 
 					</div>
-					<!-- 数据表格 /-->
+					<!-- 界面表格 /-->
 
 				</div>
 				<!-- /.box-body -->
@@ -244,7 +244,7 @@
 				<div class="box-footer">
 					<div class="pull-left">
 						<div class="form-group form-inline">
-							总共${pageBean.pages}页，共${pageBean.total}条数据。 每页
+							总共${pageBean.pages}页，共${pageBean.total}条界面。 每页
 							<select class="form-control" onchange="goPage(this.value)">
 								<option <c:if test="${pageBean.pageSize==1}">selected="selected"</c:if> value="1">1</option>
 								<option <c:if test="${pageBean.pageSize==2}">selected="selected"</c:if> value="2">2</option>
@@ -288,7 +288,7 @@
 			<b>Version</b> 1.0.8
 		</div>
 		<strong>Copyright &copy; 2014-2017 <a
-			href="http://www.itcast.cn">研究院研发部</a>.
+			href="#">研究院研发部</a>.
 		</strong> All rights reserved. </footer>
 		<!-- 底部导航 /-->
 

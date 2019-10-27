@@ -12,8 +12,8 @@
 
 
     <title>界面自动化运维平台</title>
-    <meta name="description" content="AdminLTE2定制版">
-    <meta name="keywords" content="AdminLTE2定制版">
+    <meta name="description" content="界面自动化">
+    <meta name="keywords" content="界面自动化">
 
 
 
@@ -31,7 +31,7 @@
     <!-- Bootstrap time Picker -->
     <!--<link rel="stylesheet" href="${pageContext.request.contextPath}/${pageContext.request.contextPath}/${pageContext.request.contextPath}/plugins/timepicker/bootstrap-timepicker.min.css">-->
     <!-- bootstrap wysihtml5 - text editor -->
-    <!--数据表格-->
+    <!--界面表格-->
     <!-- 表格树 -->
     <!-- select2 -->
     <!-- Bootstrap Color Picker -->
@@ -128,9 +128,9 @@
             <!-- Logo -->
             <a href="all-admin-index.html" class="logo">
                 <!-- mini logo for sidebar mini 50x50 pixels -->
-                <span class="logo-mini"><b>数据</b></span>
+                <span class="logo-mini"><b>界面</b></span>
                 <!-- logo for regular state and mobile devices -->
-                <span class="logo-lg"><b>数据</b>后台管理</span>
+                <span class="logo-lg"><b>界面</b>自动化</span>
             </a>
 
 
@@ -352,7 +352,7 @@
                                     <img src="${pageContext.request.contextPath}/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                                     <p>
-                                        张猿猿 - 数据管理员
+                                        张猿猿 - 界面管理员
                                         <small>最后登录 11:20AM</small>
                                     </p>
                                 </li>
@@ -466,7 +466,7 @@
 
                             <li id="admin-datalist">
                                 <a href="all-admin-datalist.html">
-                                    <i class="fa fa-circle-o"></i> 数据列表页
+                                    <i class="fa fa-circle-o"></i> 界面列表页
                                 </a>
                             </li>
 
@@ -642,7 +642,7 @@
 
                             <li id="tables-data">
                                 <a href="all-tables-data.html">
-                                    <i class="fa fa-circle-o"></i> 数据表格
+                                    <i class="fa fa-circle-o"></i> 界面表格
                                 </a>
                             </li>
 
@@ -791,7 +791,7 @@
             <div class="pull-right hidden-xs">
                 <b>Version</b> 1.0.8
             </div>
-            <strong>Copyright &copy; 2014-2017 <a href="http://www.itcast.cn">研究院研发部</a>.</strong> All rights reserved.
+            <strong>Copyright &copy; 2014-2017 <a href="#">研究院研发部</a>.</strong> All rights reserved.
         </footer>
         <!-- 底部导航 /-->
 

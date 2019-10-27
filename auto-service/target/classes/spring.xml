@@ -6,7 +6,7 @@
 
     <!--
         声明式事务控制
-        数据源
+        界面源
         事务管理器
         事务传播特性
         AOP配置切点
@@ -34,7 +34,7 @@
     <!--配置AOP-->
     <aop:config>
         <!--指定切点-->
-        <aop:pointcut id="transpointcut" expression="execution(* com.asiainfo.service.impl.*.*(..))" />
+        <aop:pointcut id="transpointcut" expression="execution(* com.auto.service.impl.*.*(..))" />
         <!--配置通知-->
         <aop:advisor advice-ref="txAdvice" pointcut-ref="transpointcut" />
     </aop:config>

@@ -33,13 +33,13 @@
         <artifactId>mybatis-spring</artifactId>
     </dependency>
 
-    <!--数据源-->
+    <!--界面源-->
     <dependency>
         <groupId>com.alibaba</groupId>
         <artifactId>druid</artifactId>
     </dependency>
 
-    <!--Oracle数据库驱动-->
+    <!--Oracle界面库驱动-->
     <dependency>
         <groupId>com.oracle</groupId>
         <artifactId>ojdbc14</artifactId>

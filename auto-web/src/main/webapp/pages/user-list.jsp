@@ -9,8 +9,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <title>自动化管理</title>
-<meta name="description" content="AdminLTE2定制版">
-<meta name="keywords" content="AdminLTE2定制版">
+<meta name="description" content="界面自动化">
+<meta name="keywords" content="界面自动化">
 
 <!-- Tell the browser to be responsive to screen width -->
 <meta
@@ -100,7 +100,7 @@
 
 				<div class="box-body">
 
-					<!-- 数据表格 -->
+					<!-- 界面表格 -->
 					<div class="table-box">
 
 						<!--工具栏-->
@@ -126,7 +126,7 @@
 						</div>
 						<!--工具栏/-->
 
-						<!--数据列表-->
+						<!--界面列表-->
 						<table id="dataList"
 							   class="table table-bordered table-striped table-hover dataTable">
 							<thead>
@@ -173,10 +173,10 @@
                         </tr>
                         </tfoot>-->
 						</table>
-						<!--数据列表/-->
+						<!--界面列表/-->
 
 					</div>
-					<!-- 数据表格 /-->
+					<!-- 界面表格 /-->
 
 				</div>
 				<!-- /.box-body -->
@@ -185,11 +185,13 @@
 				<div class="box-footer">
 					<div class="pull-left">
 						<div class="form-group form-inline">
-							总共${pageInfo.pages}页，共${pageInfo.total}条数据。 每页
+							总共${pageInfo.pages}页，共${pageInfo.total}条界面。 每页
 							<select class="form-control" onchange="goPage(this.value)">
 								<option <c:if test="${pageInfo.pageSize==1}">selected="selected"</c:if> value="1">1</option>
 								<option <c:if test="${pageInfo.pageSize==2}">selected="selected"</c:if> value="2">2</option>
 								<option <c:if test="${pageInfo.pageSize==3}">selected="selected"</c:if> value="3">3</option>
+								<option <c:if test="${pageInfo.pageSize==4}">selected="selected"</c:if> value="4">4</option>
+								<option <c:if test="${pageInfo.pageSize==5}">selected="selected"</c:if> value="5">5</option>
 							</select> 条
 						</div>
 					</div>
@@ -229,7 +231,7 @@
 			<b>Version</b> 1.0.8
 		</div>
 		<strong>Copyright &copy; 2014-2017 <a
-				href="http://www.itcast.cn">研究院研发部</a>.
+				href="#">研究院研发部</a>.
 		</strong> All rights reserved. </footer>
 	<!-- 底部导航 /-->
 
@@ -307,7 +309,7 @@
     }
 
     $(document).ready(function() {
-        // 每次隐藏时，清除数据，确保不会和主页dom元素冲突。确保点击时，重新加载。
+        // 每次隐藏时，清除界面，确保不会和主页dom元素冲突。确保点击时，重新加载。
         $("#showModal").on("hidden.bs.modal", function() {
             // 这个#showModal是模态框的id
             $(this).removeData("bs.modal");
