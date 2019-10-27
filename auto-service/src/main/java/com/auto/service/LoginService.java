@@ -16,6 +16,7 @@ public interface LoginService {
 
      //根据用户名更新
      void updateByName(String name, WebAdmin userlogin);
+
      //根据名字查找用户
      WebAdmin getByUserName(String user_Admin);
 
@@ -26,6 +27,13 @@ public interface LoginService {
       * @param size
       */
      PageInfo<WebAdmin> list(int page, int size);
+
+     /***
+      * 增加用户-接口
+      * @param user
+      * @return
+      */
+     int insert(WebAdmin user);
 
 
 }

@@ -62,4 +62,15 @@ public class LoginServiceImpl implements LoginService {
         }
         return new PageInfo<WebAdmin>(users);
     }
+
+
+    /***
+     * 实现类
+     * @param
+     * @return
+     */
+    @Override
+    public int insert(WebAdmin webAdmin) {
+        return webAdminMapper.insert(webAdmin);
+    }
 }

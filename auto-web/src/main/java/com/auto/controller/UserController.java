@@ -40,6 +40,17 @@ public class UserController {
         model.addAttribute("pageInfo",pageInfo);
         return "user-list";
     }
+    /**
+     * 用户添加
+     * @param
+     * @return
+     */
+    @RequestMapping(value = "/add")
+    public String add(WebAdmin webAdmin){
+        //添加用户
+        int acount = loginService.insert(webAdmin);
+        return "redirect:/user/list";
+    }
 
 
 

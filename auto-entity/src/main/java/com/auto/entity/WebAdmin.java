@@ -3,8 +3,6 @@ package com.auto.entity;
 import java.math.BigDecimal;
 
 public class WebAdmin {
-
-
     private BigDecimal operatorId;
 
     private String userAdmin;

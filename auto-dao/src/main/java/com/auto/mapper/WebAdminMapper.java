@@ -2,10 +2,9 @@ package com.auto.mapper;
 
 import com.auto.entity.WebAdmin;
 import com.auto.entity.WebAdminExample;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Param;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 public interface WebAdminMapper {
@@ -13,7 +12,28 @@ public interface WebAdminMapper {
 
     int deleteByExample(WebAdminExample example);
 
-    @Insert("")
+
+    /***
+     * 增加用户
+     * @param
+     * @return
+     */
+    @SelectKey(statement = "select WEB_ADMIN_SEQUENCE.nextval from dual",resultType = BigDecimal.class,before = true,keyProperty = "operatorId")
+    @Insert("insert into web_admin(operatorId,userAdmin,userPass," +
+            "userName,userMobile,userStaff,userEmail,isUsed,ip)" +
+            "values(#{operatorId},#{userAdmin},#{userPass},#{userName},#{userMobile},#{userStaff},#{userEmail},#{isUsed},#{ip})")
+    @Results(
+            @Result(property = "operatorId",column = "OPERATOR_ID"),
+            @Result(property = "userAdmin",column = "USER_ADMIN"),
+            @Result(property = "USER_PASS",column = "userPass"),
+            @Result(property = "USER_NAME",column = "userName"),
+            @Result(property = "USER_MOBILE",column = "userMobile"),
+            @Result(property = "USER_STAFF",column = "userStaff"),
+            @Result(property = "USER_EMAIL",column = "userEmail"),
+            @Result(property = "IS_USED",column = "isUsed")
+
+    )
+
     int insert(WebAdmin record);
 
     int insertSelective(WebAdmin record);

@@ -91,7 +91,7 @@
 			</section>
 			<!-- 内容头部 /-->
 
-			<form action="${pageContext.request.contextPath}/user/save.do"
+			<form action="/user/add"
 				method="post">
 				<!-- 正文区域 -->
 				<section class="content"> <!--产品信息-->
@@ -102,28 +102,37 @@
 
 						<div class="col-md-2 title">用户名称</div>
 						<div class="col-md-4 data">
-							<input type="text" class="form-control" name="username"
+							<input type="text" class="form-control" name="userAdmin"
 								placeholder="用户名称" value="">
 						</div>
-						<div class="col-md-2 title">密码</div>
+						<div class="col-md-2 title">用户密码</div>
 						<div class="col-md-4 data">
-							<input type="password" class="form-control" name="password"
-								placeholder="密码" value="">
-						</div>
-						<div class="col-md-2 title">邮箱</div>
+							<input type="password" class="form-control" name="userPass"
+								   placeholder="用户密码" value="">
+						</div><div class="col-md-2 title">操作员</div>
 						<div class="col-md-4 data">
-							<input type="text" class="form-control" name="email"
-								placeholder="邮箱" value="">
+							<input type="text" class="form-control" name="userName"
+								   placeholder="操作员" value="">
 						</div>
 						<div class="col-md-2 title">联系电话</div>
 						<div class="col-md-4 data">
-							<input type="text" class="form-control" name="phoneNum"
+							<input type="text" class="form-control" name="userMobile"
 								placeholder="联系电话" value="">
+						</div>
+						<div class="col-md-2 title">邮箱</div>
+						<div class="col-md-4 data">
+							<input type="text" class="form-control" name="userEmail"
+								placeholder="邮箱" value="">
+						</div>
+						<div class="col-md-2 title">ip</div>
+						<div class="col-md-4 data">
+							<input type="text" class="form-control" name="ip"
+								placeholder="ip" value="">
 						</div>
 						<div class="col-md-2 title">用户状态</div>
 						<div class="col-md-4 data">
 							<select class="form-control select2" style="width: 100%"
-								name="status">
+								name="isUsed">
 								<option value="0" selected="selected">关闭</option>
 								<option value="1">开启</option>
 							</select>
