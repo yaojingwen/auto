@@ -3,6 +3,7 @@ package com.auto.mapper;
 import com.auto.entity.WebAdmin;
 import com.auto.entity.WebAdminExample;
 import org.apache.ibatis.annotations.*;
+import org.apache.ibatis.type.JdbcType;
 
 import java.math.BigDecimal;
 import java.util.List;
@@ -19,21 +20,20 @@ public interface WebAdminMapper {
      * @return
      */
     @SelectKey(statement = "select WEB_ADMIN_SEQUENCE.nextval from dual",resultType = BigDecimal.class,before = true,keyProperty = "operatorId")
-    @Insert("insert into web_admin(operatorId,userAdmin,userPass," +
-            "userName,userMobile,userStaff,userEmail,isUsed,ip)" +
+    @Insert("insert into web_admin(OPERATOR_ID ,USER_ADMIN ,USER_PASS ," +
+            "USER_NAME ,USER_MOBILE ,USER_STAFF ,USER_EMAIL ,IS_USED ,IP)" +
             "values(#{operatorId},#{userAdmin},#{userPass},#{userName},#{userMobile},#{userStaff},#{userEmail},#{isUsed},#{ip})")
-    @Results(
-            @Result(property = "operatorId",column = "OPERATOR_ID"),
+    @Results({
+            @Result(property = "operatorId",column = "OPERATOR_ID", id=true),
             @Result(property = "userAdmin",column = "USER_ADMIN"),
-            @Result(property = "USER_PASS",column = "userPass"),
-            @Result(property = "USER_NAME",column = "userName"),
-            @Result(property = "USER_MOBILE",column = "userMobile"),
-            @Result(property = "USER_STAFF",column = "userStaff"),
-            @Result(property = "USER_EMAIL",column = "userEmail"),
-            @Result(property = "IS_USED",column = "isUsed")
-
-    )
-
+            @Result(property = "userPass",column = "USER_PASS"),
+            @Result(property = "userName",column = "USER_NAME"),
+            @Result(property = "userMobile",column = "USER_MOBILE"),
+            @Result(property = "userStaff",column = "USER_STAFF"),
+            @Result(property = "userEmail",column = "USER_EMAIL"),
+            @Result(property = "isUsed",column = "IS_USED"),
+            @Result(property = "ip",column = "IP")
+    })
     int insert(WebAdmin record);
 
     int insertSelective(WebAdmin record);

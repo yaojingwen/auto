@@ -119,6 +119,11 @@
 							<input type="text" class="form-control" name="userMobile"
 								placeholder="联系电话" value="">
 						</div>
+						<div class="col-md-2 title">用户职员</div>
+						<div class="col-md-4 data">
+							<input type="text" class="form-control" name="userStaff"
+								   placeholder="用户职员" value="">
+						</div>
 						<div class="col-md-2 title">邮箱</div>
 						<div class="col-md-4 data">
 							<input type="text" class="form-control" name="userEmail"
