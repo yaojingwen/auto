@@ -19,7 +19,7 @@ public interface WebAdminMapper {
      * @param
      * @return
      */
-    @SelectKey(statement = "select WEB_ADMIN_SEQUENCE.nextval from dual",resultType = BigDecimal.class,before = true,keyProperty = "operatorId")
+    @SelectKey(statement = "select WEB_ADMIN_SEQUENCE.nextval from dual",resultType = Integer.class,before = true,keyProperty = "operatorId")
     @Insert("insert into web_admin(OPERATOR_ID ,USER_ADMIN ,USER_PASS ," +
             "USER_NAME ,USER_MOBILE ,USER_STAFF ,USER_EMAIL ,IS_USED ,IP)" +
             "values(#{operatorId},#{userAdmin},#{userPass},#{userName},#{userMobile},#{userStaff},#{userEmail},#{isUsed},#{ip})")

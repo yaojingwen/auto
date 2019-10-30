@@ -3,7 +3,7 @@ package com.auto.entity;
 import java.math.BigDecimal;
 
 public class WebAdmin {
-    private BigDecimal operatorId;
+    private Integer operatorId;
 
     private String userAdmin;
 
@@ -39,11 +39,11 @@ public class WebAdmin {
                 '}';
     }
 
-    public BigDecimal getOperatorId() {
+    public Integer getOperatorId() {
         return operatorId;
     }
 
-    public void setOperatorId(BigDecimal operatorId) {
+    public void setOperatorId(Integer operatorId) {
         this.operatorId = operatorId;
     }
 
