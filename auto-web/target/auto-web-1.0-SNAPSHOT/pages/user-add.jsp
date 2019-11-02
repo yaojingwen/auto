@@ -109,7 +109,8 @@
 						<div class="col-md-4 data">
 							<input type="password" class="form-control" name="userPass"
 								   placeholder="用户密码" value="">
-						</div><div class="col-md-2 title">操作员</div>
+						</div>
+						<div class="col-md-2 title">操作员</div>
 						<div class="col-md-4 data">
 							<input type="text" class="form-control" name="userName"
 								   placeholder="操作员" value="">
@@ -119,10 +120,10 @@
 							<input type="text" class="form-control" name="userMobile"
 								placeholder="联系电话" value="">
 						</div>
-						<div class="col-md-2 title">用户职员</div>
+						<div class="col-md-2 title">工号</div>
 						<div class="col-md-4 data">
 							<input type="text" class="form-control" name="userStaff"
-								   placeholder="用户职员" value="">
+								   placeholder="工号" value="">
 						</div>
 						<div class="col-md-2 title">邮箱</div>
 						<div class="col-md-4 data">

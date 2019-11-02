@@ -2,17 +2,15 @@ package com.auto.mapper;
 
 import com.auto.entity.WebRole;
 import com.auto.entity.WebRoleExample;
-import org.apache.ibatis.annotations.Param;
-
-import java.math.BigDecimal;
 import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface WebRoleMapper {
     int countByExample(WebRoleExample example);
 
     int deleteByExample(WebRoleExample example);
 
-    int deleteByPrimaryKey(BigDecimal roleid);
+    int deleteByPrimaryKey(Integer id);
 
     int insert(WebRole record);
 
@@ -20,7 +18,7 @@ public interface WebRoleMapper {
 
     List<WebRole> selectByExample(WebRoleExample example);
 
-    WebRole selectByPrimaryKey(BigDecimal roleid);
+    WebRole selectByPrimaryKey(Integer id);
 
     int updateByExampleSelective(@Param("record") WebRole record, @Param("example") WebRoleExample example);
 

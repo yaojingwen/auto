@@ -2,9 +2,8 @@ package com.auto.mapper;
 
 import com.auto.entity.WebConfig;
 import com.auto.entity.WebConfigExample;
-import org.apache.ibatis.annotations.Param;
-
 import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface WebConfigMapper {
     int countByExample(WebConfigExample example);

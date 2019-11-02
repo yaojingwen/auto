@@ -1,6 +1,7 @@
 package com.auto.service.impl;
 
 import com.auto.entity.WebAdmin;
+import com.auto.entity.WebAdminExample;
 import com.auto.mapper.WebAdminMapper;
 import com.auto.service.LoginService;
 import com.github.pagehelper.PageHelper;
@@ -19,29 +20,60 @@ import java.util.List;
 public class LoginServiceImpl implements LoginService {
     @Autowired
     private WebAdminMapper webAdminMapper;
+
+/*    @Override
+    public WebAdmin getByUserName(String user_Admin) {
+        return webAdminMapper.getByUserName(user_Admin);
+    }*/
+
     @Override
-    public WebAdmin findByName(String name) throws Exception {
+    public List<WebAdmin> selectByExample(WebAdminExample example) {
+        return webAdminMapper.selectByExample(null);
+    }
+
+    @Override
+    public int deleteByExample(WebAdminExample example) {
+        return 0;
+    }
+
+    @Override
+    public int deleteByPrimaryKey(Integer operatorId) {
+        return 0;
+    }
+
+    @Override
+    public int insert(WebAdmin record) {
+        return 0;
+    }
+
+    @Override
+    public int insertSelective(WebAdmin record) {
+        return 0;
+    }
+
+    @Override
+    public WebAdmin selectByPrimaryKey(Integer operatorId) {
         return null;
     }
 
     @Override
-    public void save(WebAdmin userlogin) throws Exception {
-
+    public int updateByExampleSelective(WebAdmin record, WebAdminExample example) {
+        return 0;
     }
 
     @Override
-    public void removeByName(String name) throws Exception {
-
+    public int updateByExample(WebAdmin record, WebAdminExample example) {
+        return 0;
     }
 
     @Override
-    public void updateByName(String name, WebAdmin userlogin) {
-
+    public int updateByPrimaryKeySelective(WebAdmin record) {
+        return 0;
     }
 
     @Override
-    public WebAdmin getByUserName(String user_Admin) {
-        return webAdminMapper.getByUserName(user_Admin);
+    public int updateByPrimaryKey(WebAdmin record) {
+        return 0;
     }
 
     /***
@@ -53,9 +85,9 @@ public class LoginServiceImpl implements LoginService {
     @Override
     public PageInfo<WebAdmin> list(int page, int size) {
         //分页
-        PageHelper.startPage(page,size);
+        PageHelper.startPage(page, size);
         //集合查询
-        List<WebAdmin> users = webAdminMapper.list();
+        List<WebAdmin> users = webAdminMapper.selectByExample(null);
         System.out.println(users);
         for (WebAdmin user : users) {
             System.out.println(user);
@@ -63,14 +95,5 @@ public class LoginServiceImpl implements LoginService {
         return new PageInfo<WebAdmin>(users);
     }
 
-
-    /***
-     * 实现类
-     * @param
-     * @return
-     */
-    @Override
-    public int insert(WebAdmin webAdmin) {
-        return webAdminMapper.insert(webAdmin);
-    }
 }
+

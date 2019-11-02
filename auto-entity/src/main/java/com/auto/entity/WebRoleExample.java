@@ -1,6 +1,5 @@
 package com.auto.entity;
 
-import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -105,63 +104,63 @@ public class WebRoleExample {
             criteria.add(new Criterion(condition, value1, value2));
         }
 
-        public Criteria andRoleidIsNull() {
-            addCriterion("ROLEID is null");
+        public Criteria andIdIsNull() {
+            addCriterion("ID is null");
             return (Criteria) this;
         }
 
-        public Criteria andRoleidIsNotNull() {
-            addCriterion("ROLEID is not null");
+        public Criteria andIdIsNotNull() {
+            addCriterion("ID is not null");
             return (Criteria) this;
         }
 
-        public Criteria andRoleidEqualTo(BigDecimal value) {
-            addCriterion("ROLEID =", value, "roleid");
+        public Criteria andIdEqualTo(Integer value) {
+            addCriterion("ID =", value, "id");
             return (Criteria) this;
         }
 
-        public Criteria andRoleidNotEqualTo(BigDecimal value) {
-            addCriterion("ROLEID <>", value, "roleid");
+        public Criteria andIdNotEqualTo(Integer value) {
+            addCriterion("ID <>", value, "id");
             return (Criteria) this;
         }
 
-        public Criteria andRoleidGreaterThan(BigDecimal value) {
-            addCriterion("ROLEID >", value, "roleid");
+        public Criteria andIdGreaterThan(Integer value) {
+            addCriterion("ID >", value, "id");
             return (Criteria) this;
         }
 
-        public Criteria andRoleidGreaterThanOrEqualTo(BigDecimal value) {
-            addCriterion("ROLEID >=", value, "roleid");
+        public Criteria andIdGreaterThanOrEqualTo(Integer value) {
+            addCriterion("ID >=", value, "id");
             return (Criteria) this;
         }
 
-        public Criteria andRoleidLessThan(BigDecimal value) {
-            addCriterion("ROLEID <", value, "roleid");
+        public Criteria andIdLessThan(Integer value) {
+            addCriterion("ID <", value, "id");
             return (Criteria) this;
         }
 
-        public Criteria andRoleidLessThanOrEqualTo(BigDecimal value) {
-            addCriterion("ROLEID <=", value, "roleid");
+        public Criteria andIdLessThanOrEqualTo(Integer value) {
+            addCriterion("ID <=", value, "id");
             return (Criteria) this;
         }
 
-        public Criteria andRoleidIn(List<BigDecimal> values) {
-            addCriterion("ROLEID in", values, "roleid");
+        public Criteria andIdIn(List<Integer> values) {
+            addCriterion("ID in", values, "id");
             return (Criteria) this;
         }
 
-        public Criteria andRoleidNotIn(List<BigDecimal> values) {
-            addCriterion("ROLEID not in", values, "roleid");
+        public Criteria andIdNotIn(List<Integer> values) {
+            addCriterion("ID not in", values, "id");
             return (Criteria) this;
         }
 
-        public Criteria andRoleidBetween(BigDecimal value1, BigDecimal value2) {
-            addCriterion("ROLEID between", value1, value2, "roleid");
+        public Criteria andIdBetween(Integer value1, Integer value2) {
+            addCriterion("ID between", value1, value2, "id");
             return (Criteria) this;
         }
 
-        public Criteria andRoleidNotBetween(BigDecimal value1, BigDecimal value2) {
-            addCriterion("ROLEID not between", value1, value2, "roleid");
+        public Criteria andIdNotBetween(Integer value1, Integer value2) {
+            addCriterion("ID not between", value1, value2, "id");
             return (Criteria) this;
         }
 
@@ -235,73 +234,73 @@ public class WebRoleExample {
             return (Criteria) this;
         }
 
-        public Criteria andPermissionsIsNull() {
-            addCriterion("PERMISSIONS is null");
+        public Criteria andRoledescIsNull() {
+            addCriterion("ROLEDESC is null");
             return (Criteria) this;
         }
 
-        public Criteria andPermissionsIsNotNull() {
-            addCriterion("PERMISSIONS is not null");
+        public Criteria andRoledescIsNotNull() {
+            addCriterion("ROLEDESC is not null");
             return (Criteria) this;
         }
 
-        public Criteria andPermissionsEqualTo(String value) {
-            addCriterion("PERMISSIONS =", value, "permissions");
+        public Criteria andRoledescEqualTo(String value) {
+            addCriterion("ROLEDESC =", value, "roledesc");
             return (Criteria) this;
         }
 
-        public Criteria andPermissionsNotEqualTo(String value) {
-            addCriterion("PERMISSIONS <>", value, "permissions");
+        public Criteria andRoledescNotEqualTo(String value) {
+            addCriterion("ROLEDESC <>", value, "roledesc");
             return (Criteria) this;
         }
 
-        public Criteria andPermissionsGreaterThan(String value) {
-            addCriterion("PERMISSIONS >", value, "permissions");
+        public Criteria andRoledescGreaterThan(String value) {
+            addCriterion("ROLEDESC >", value, "roledesc");
             return (Criteria) this;
         }
 
-        public Criteria andPermissionsGreaterThanOrEqualTo(String value) {
-            addCriterion("PERMISSIONS >=", value, "permissions");
+        public Criteria andRoledescGreaterThanOrEqualTo(String value) {
+            addCriterion("ROLEDESC >=", value, "roledesc");
             return (Criteria) this;
         }
 
-        public Criteria andPermissionsLessThan(String value) {
-            addCriterion("PERMISSIONS <", value, "permissions");
+        public Criteria andRoledescLessThan(String value) {
+            addCriterion("ROLEDESC <", value, "roledesc");
             return (Criteria) this;
         }
 
-        public Criteria andPermissionsLessThanOrEqualTo(String value) {
-            addCriterion("PERMISSIONS <=", value, "permissions");
+        public Criteria andRoledescLessThanOrEqualTo(String value) {
+            addCriterion("ROLEDESC <=", value, "roledesc");
             return (Criteria) this;
         }
 
-        public Criteria andPermissionsLike(String value) {
-            addCriterion("PERMISSIONS like", value, "permissions");
+        public Criteria andRoledescLike(String value) {
+            addCriterion("ROLEDESC like", value, "roledesc");
             return (Criteria) this;
         }
 
-        public Criteria andPermissionsNotLike(String value) {
-            addCriterion("PERMISSIONS not like", value, "permissions");
+        public Criteria andRoledescNotLike(String value) {
+            addCriterion("ROLEDESC not like", value, "roledesc");
             return (Criteria) this;
         }
 
-        public Criteria andPermissionsIn(List<String> values) {
-            addCriterion("PERMISSIONS in", values, "permissions");
+        public Criteria andRoledescIn(List<String> values) {
+            addCriterion("ROLEDESC in", values, "roledesc");
             return (Criteria) this;
         }
 
-        public Criteria andPermissionsNotIn(List<String> values) {
-            addCriterion("PERMISSIONS not in", values, "permissions");
+        public Criteria andRoledescNotIn(List<String> values) {
+            addCriterion("ROLEDESC not in", values, "roledesc");
             return (Criteria) this;
         }
 
-        public Criteria andPermissionsBetween(String value1, String value2) {
-            addCriterion("PERMISSIONS between", value1, value2, "permissions");
+        public Criteria andRoledescBetween(String value1, String value2) {
+            addCriterion("ROLEDESC between", value1, value2, "roledesc");
             return (Criteria) this;
         }
 
-        public Criteria andPermissionsNotBetween(String value1, String value2) {
-            addCriterion("PERMISSIONS not between", value1, value2, "permissions");
+        public Criteria andRoledescNotBetween(String value1, String value2) {
+            addCriterion("ROLEDESC not between", value1, value2, "roledesc");
             return (Criteria) this;
         }
     }

@@ -1,25 +1,34 @@
 package com.auto.service;
 
 import com.auto.entity.WebAdmin;
+import com.auto.entity.WebAdminExample;
 import com.github.pagehelper.PageInfo;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 
 public interface LoginService {
-     //根据名字查找用户
-     WebAdmin findByName(String name) throws Exception;
 
-     //保存用户登录信息
-     void save(WebAdmin userlogin) throws Exception;
+     List<WebAdmin> selectByExample(WebAdminExample example);
 
-     //根据姓名删除
-     void removeByName(String name) throws Exception;
+     int deleteByExample(WebAdminExample example);
 
-     //根据用户名更新
-     void updateByName(String name, WebAdmin userlogin);
+     int deleteByPrimaryKey(Integer operatorId);
 
-     //根据名字查找用户
-     WebAdmin getByUserName(String user_Admin);
+     int insert(WebAdmin record);
 
+     int insertSelective(WebAdmin record);
+
+     WebAdmin selectByPrimaryKey(Integer operatorId);
+
+     int updateByExampleSelective(@Param("record") WebAdmin record, @Param("example") WebAdminExample example);
+
+     int updateByExample(@Param("record") WebAdmin record, @Param("example") WebAdminExample example);
+
+     int updateByPrimaryKeySelective(WebAdmin record);
+
+     int updateByPrimaryKey(WebAdmin record);
      /**
       * 用户集合查询-接口
       * @return
@@ -33,7 +42,6 @@ public interface LoginService {
       * @param user
       * @return
       */
-     int insert(WebAdmin user);
 
 
 }

@@ -1,6 +1,5 @@
 package com.auto.entity;
 
-import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -115,52 +114,52 @@ public class WebAdminExample {
             return (Criteria) this;
         }
 
-        public Criteria andOperatorIdEqualTo(BigDecimal value) {
+        public Criteria andOperatorIdEqualTo(Integer value) {
             addCriterion("OPERATOR_ID =", value, "operatorId");
             return (Criteria) this;
         }
 
-        public Criteria andOperatorIdNotEqualTo(BigDecimal value) {
+        public Criteria andOperatorIdNotEqualTo(Integer value) {
             addCriterion("OPERATOR_ID <>", value, "operatorId");
             return (Criteria) this;
         }
 
-        public Criteria andOperatorIdGreaterThan(BigDecimal value) {
+        public Criteria andOperatorIdGreaterThan(Integer value) {
             addCriterion("OPERATOR_ID >", value, "operatorId");
             return (Criteria) this;
         }
 
-        public Criteria andOperatorIdGreaterThanOrEqualTo(BigDecimal value) {
+        public Criteria andOperatorIdGreaterThanOrEqualTo(Integer value) {
             addCriterion("OPERATOR_ID >=", value, "operatorId");
             return (Criteria) this;
         }
 
-        public Criteria andOperatorIdLessThan(BigDecimal value) {
+        public Criteria andOperatorIdLessThan(Integer value) {
             addCriterion("OPERATOR_ID <", value, "operatorId");
             return (Criteria) this;
         }
 
-        public Criteria andOperatorIdLessThanOrEqualTo(BigDecimal value) {
+        public Criteria andOperatorIdLessThanOrEqualTo(Integer value) {
             addCriterion("OPERATOR_ID <=", value, "operatorId");
             return (Criteria) this;
         }
 
-        public Criteria andOperatorIdIn(List<BigDecimal> values) {
+        public Criteria andOperatorIdIn(List<Integer> values) {
             addCriterion("OPERATOR_ID in", values, "operatorId");
             return (Criteria) this;
         }
 
-        public Criteria andOperatorIdNotIn(List<BigDecimal> values) {
+        public Criteria andOperatorIdNotIn(List<Integer> values) {
             addCriterion("OPERATOR_ID not in", values, "operatorId");
             return (Criteria) this;
         }
 
-        public Criteria andOperatorIdBetween(BigDecimal value1, BigDecimal value2) {
+        public Criteria andOperatorIdBetween(Integer value1, Integer value2) {
             addCriterion("OPERATOR_ID between", value1, value2, "operatorId");
             return (Criteria) this;
         }
 
-        public Criteria andOperatorIdNotBetween(BigDecimal value1, BigDecimal value2) {
+        public Criteria andOperatorIdNotBetween(Integer value1, Integer value2) {
             addCriterion("OPERATOR_ID not between", value1, value2, "operatorId");
             return (Criteria) this;
         }
@@ -722,66 +721,6 @@ public class WebAdminExample {
 
         public Criteria andIpNotBetween(String value1, String value2) {
             addCriterion("IP not between", value1, value2, "ip");
-            return (Criteria) this;
-        }
-
-        public Criteria andRoleidIsNull() {
-            addCriterion("ROLEID is null");
-            return (Criteria) this;
-        }
-
-        public Criteria andRoleidIsNotNull() {
-            addCriterion("ROLEID is not null");
-            return (Criteria) this;
-        }
-
-        public Criteria andRoleidEqualTo(BigDecimal value) {
-            addCriterion("ROLEID =", value, "roleid");
-            return (Criteria) this;
-        }
-
-        public Criteria andRoleidNotEqualTo(BigDecimal value) {
-            addCriterion("ROLEID <>", value, "roleid");
-            return (Criteria) this;
-        }
-
-        public Criteria andRoleidGreaterThan(BigDecimal value) {
-            addCriterion("ROLEID >", value, "roleid");
-            return (Criteria) this;
-        }
-
-        public Criteria andRoleidGreaterThanOrEqualTo(BigDecimal value) {
-            addCriterion("ROLEID >=", value, "roleid");
-            return (Criteria) this;
-        }
-
-        public Criteria andRoleidLessThan(BigDecimal value) {
-            addCriterion("ROLEID <", value, "roleid");
-            return (Criteria) this;
-        }
-
-        public Criteria andRoleidLessThanOrEqualTo(BigDecimal value) {
-            addCriterion("ROLEID <=", value, "roleid");
-            return (Criteria) this;
-        }
-
-        public Criteria andRoleidIn(List<BigDecimal> values) {
-            addCriterion("ROLEID in", values, "roleid");
-            return (Criteria) this;
-        }
-
-        public Criteria andRoleidNotIn(List<BigDecimal> values) {
-            addCriterion("ROLEID not in", values, "roleid");
-            return (Criteria) this;
-        }
-
-        public Criteria andRoleidBetween(BigDecimal value1, BigDecimal value2) {
-            addCriterion("ROLEID between", value1, value2, "roleid");
-            return (Criteria) this;
-        }
-
-        public Criteria andRoleidNotBetween(BigDecimal value1, BigDecimal value2) {
-            addCriterion("ROLEID not between", value1, value2, "roleid");
             return (Criteria) this;
         }
     }

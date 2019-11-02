@@ -1,7 +1,5 @@
 package com.auto.entity;
 
-import java.math.BigDecimal;
-
 public class WebAdmin {
     private Integer operatorId;
 
@@ -20,24 +18,6 @@ public class WebAdmin {
     private String isUsed;
 
     private String ip;
-
-    private BigDecimal roleid;
-
-    @Override
-    public String toString() {
-        return "WebAdmin{" +
-                "operatorId=" + operatorId +
-                ", userAdmin='" + userAdmin + '\'' +
-                ", userPass='" + userPass + '\'' +
-                ", userName='" + userName + '\'' +
-                ", userMobile='" + userMobile + '\'' +
-                ", userStaff='" + userStaff + '\'' +
-                ", userEmail='" + userEmail + '\'' +
-                ", isUsed='" + isUsed + '\'' +
-                ", ip='" + ip + '\'' +
-                ", roleid=" + roleid +
-                '}';
-    }
 
     public Integer getOperatorId() {
         return operatorId;
@@ -109,13 +89,5 @@ public class WebAdmin {
 
     public void setIp(String ip) {
         this.ip = ip == null ? null : ip.trim();
-    }
-
-    public BigDecimal getRoleid() {
-        return roleid;
-    }
-
-    public void setRoleid(BigDecimal roleid) {
-        this.roleid = roleid;
     }
 }

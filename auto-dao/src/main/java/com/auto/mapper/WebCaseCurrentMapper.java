@@ -2,9 +2,8 @@ package com.auto.mapper;
 
 import com.auto.entity.WebCaseCurrent;
 import com.auto.entity.WebCaseCurrentExample;
-import org.apache.ibatis.annotations.Param;
-
 import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface WebCaseCurrentMapper {
     int countByExample(WebCaseCurrentExample example);
