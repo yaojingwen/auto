@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.auto.mapper.WebComponentMapper">
+  <resultMap id="BaseResultMap" type="com.auto.entity.WebComponent">
+    <result column="COMID" jdbcType="DECIMAL" property="comid" />
+    <result column="MODULECODE" jdbcType="VARCHAR" property="modulecode" />
+    <result column="COMCODE" jdbcType="VARCHAR" property="comcode" />
+    <result column="COMNAME" jdbcType="VARCHAR" property="comname" />
+    <result column="PAGEELEMENT" jdbcType="VARCHAR" property="pageelement" />
+    <result column="OPSTEP" jdbcType="VARCHAR" property="opstep" />
+    <result column="TESTER" jdbcType="VARCHAR" property="tester" />
+    <result column="RESULT" jdbcType="VARCHAR" property="result" />
+    <result column="PARAMNAME" jdbcType="VARCHAR" property="paramname" />
+    <result column="PARAMVALUE" jdbcType="VARCHAR" property="paramvalue" />
+    <result column="OUTPARAM" jdbcType="VARCHAR" property="outparam" />
+    <result column="ISPRIVATE" jdbcType="VARCHAR" property="isprivate" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    COMID, MODULECODE, COMCODE, COMNAME, PAGEELEMENT, OPSTEP, TESTER, RESULT, PARAMNAME, 
+    PARAMVALUE, OUTPARAM, ISPRIVATE
+  </sql>
+  <select id="selectByExample" parameterType="com.auto.entity.WebComponentExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from WEB_COMPONENT
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <delete id="deleteByExample" parameterType="com.auto.entity.WebComponentExample">
+    delete from WEB_COMPONENT
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.auto.entity.WebComponent">
+    insert into WEB_COMPONENT (COMID, MODULECODE, COMCODE, 
+      COMNAME, PAGEELEMENT, OPSTEP, 
+      TESTER, RESULT, PARAMNAME, 
+      PARAMVALUE, OUTPARAM, ISPRIVATE
+      )
+    values (#{comid,jdbcType=DECIMAL}, #{modulecode,jdbcType=VARCHAR}, #{comcode,jdbcType=VARCHAR}, 
+      #{comname,jdbcType=VARCHAR}, #{pageelement,jdbcType=VARCHAR}, #{opstep,jdbcType=VARCHAR}, 
+      #{tester,jdbcType=VARCHAR}, #{result,jdbcType=VARCHAR}, #{paramname,jdbcType=VARCHAR}, 
+      #{paramvalue,jdbcType=VARCHAR}, #{outparam,jdbcType=VARCHAR}, #{isprivate,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.auto.entity.WebComponent">
+    insert into WEB_COMPONENT
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="comid != null">
+        COMID,
+      </if>
+      <if test="modulecode != null">
+        MODULECODE,
+      </if>
+      <if test="comcode != null">
+        COMCODE,
+      </if>
+      <if test="comname != null">
+        COMNAME,
+      </if>
+      <if test="pageelement != null">
+        PAGEELEMENT,
+      </if>
+      <if test="opstep != null">
+        OPSTEP,
+      </if>
+      <if test="tester != null">
+        TESTER,
+      </if>
+      <if test="result != null">
+        RESULT,
+      </if>
+      <if test="paramname != null">
+        PARAMNAME,
+      </if>
+      <if test="paramvalue != null">
+        PARAMVALUE,
+      </if>
+      <if test="outparam != null">
+        OUTPARAM,
+      </if>
+      <if test="isprivate != null">
+        ISPRIVATE,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="comid != null">
+        #{comid,jdbcType=DECIMAL},
+      </if>
+      <if test="modulecode != null">
+        #{modulecode,jdbcType=VARCHAR},
+      </if>
+      <if test="comcode != null">
+        #{comcode,jdbcType=VARCHAR},
+      </if>
+      <if test="comname != null">
+        #{comname,jdbcType=VARCHAR},
+      </if>
+      <if test="pageelement != null">
+        #{pageelement,jdbcType=VARCHAR},
+      </if>
+      <if test="opstep != null">
+        #{opstep,jdbcType=VARCHAR},
+      </if>
+      <if test="tester != null">
+        #{tester,jdbcType=VARCHAR},
+      </if>
+      <if test="result != null">
+        #{result,jdbcType=VARCHAR},
+      </if>
+      <if test="paramname != null">
+        #{paramname,jdbcType=VARCHAR},
+      </if>
+      <if test="paramvalue != null">
+        #{paramvalue,jdbcType=VARCHAR},
+      </if>
+      <if test="outparam != null">
+        #{outparam,jdbcType=VARCHAR},
+      </if>
+      <if test="isprivate != null">
+        #{isprivate,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.auto.entity.WebComponentExample" resultType="java.lang.Integer">
+    select count(*) from WEB_COMPONENT
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update WEB_COMPONENT
+    <set>
+      <if test="record.comid != null">
+        COMID = #{record.comid,jdbcType=DECIMAL},
+      </if>
+      <if test="record.modulecode != null">
+        MODULECODE = #{record.modulecode,jdbcType=VARCHAR},
+      </if>
+      <if test="record.comcode != null">
+        COMCODE = #{record.comcode,jdbcType=VARCHAR},
+      </if>
+      <if test="record.comname != null">
+        COMNAME = #{record.comname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.pageelement != null">
+        PAGEELEMENT = #{record.pageelement,jdbcType=VARCHAR},
+      </if>
+      <if test="record.opstep != null">
+        OPSTEP = #{record.opstep,jdbcType=VARCHAR},
+      </if>
+      <if test="record.tester != null">
+        TESTER = #{record.tester,jdbcType=VARCHAR},
+      </if>
+      <if test="record.result != null">
+        RESULT = #{record.result,jdbcType=VARCHAR},
+      </if>
+      <if test="record.paramname != null">
+        PARAMNAME = #{record.paramname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.paramvalue != null">
+        PARAMVALUE = #{record.paramvalue,jdbcType=VARCHAR},
+      </if>
+      <if test="record.outparam != null">
+        OUTPARAM = #{record.outparam,jdbcType=VARCHAR},
+      </if>
+      <if test="record.isprivate != null">
+        ISPRIVATE = #{record.isprivate,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update WEB_COMPONENT
+    set COMID = #{record.comid,jdbcType=DECIMAL},
+      MODULECODE = #{record.modulecode,jdbcType=VARCHAR},
+      COMCODE = #{record.comcode,jdbcType=VARCHAR},
+      COMNAME = #{record.comname,jdbcType=VARCHAR},
+      PAGEELEMENT = #{record.pageelement,jdbcType=VARCHAR},
+      OPSTEP = #{record.opstep,jdbcType=VARCHAR},
+      TESTER = #{record.tester,jdbcType=VARCHAR},
+      RESULT = #{record.result,jdbcType=VARCHAR},
+      PARAMNAME = #{record.paramname,jdbcType=VARCHAR},
+      PARAMVALUE = #{record.paramvalue,jdbcType=VARCHAR},
+      OUTPARAM = #{record.outparam,jdbcType=VARCHAR},
+      ISPRIVATE = #{record.isprivate,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+</mapper>

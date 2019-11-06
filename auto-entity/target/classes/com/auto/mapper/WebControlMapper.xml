@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.auto.mapper.WebControlMapper">
+  <resultMap id="BaseResultMap" type="com.auto.entity.WebControl">
+    <id column="CONTROLID" jdbcType="DECIMAL" property="controlid" />
+    <result column="CURRENTDIR" jdbcType="VARCHAR" property="currentdir" />
+    <result column="STOP" jdbcType="DECIMAL" property="stop" />
+    <result column="STARTDATE" jdbcType="VARCHAR" property="startdate" />
+    <result column="ENDDATE" jdbcType="VARCHAR" property="enddate" />
+    <result column="REMARKS" jdbcType="VARCHAR" property="remarks" />
+    <result column="FINISH" jdbcType="DECIMAL" property="finish" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    CONTROLID, CURRENTDIR, STOP, STARTDATE, ENDDATE, REMARKS, FINISH
+  </sql>
+  <select id="selectByExample" parameterType="com.auto.entity.WebControlExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from WEB_CONTROL
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from WEB_CONTROL
+    where CONTROLID = #{controlid,jdbcType=DECIMAL}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from WEB_CONTROL
+    where CONTROLID = #{controlid,jdbcType=DECIMAL}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.auto.entity.WebControlExample">
+    delete from WEB_CONTROL
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.auto.entity.WebControl">
+    insert into WEB_CONTROL (CONTROLID, CURRENTDIR, STOP, 
+      STARTDATE, ENDDATE, REMARKS, 
+      FINISH)
+    values (#{controlid,jdbcType=DECIMAL}, #{currentdir,jdbcType=VARCHAR}, #{stop,jdbcType=DECIMAL}, 
+      #{startdate,jdbcType=VARCHAR}, #{enddate,jdbcType=VARCHAR}, #{remarks,jdbcType=VARCHAR}, 
+      #{finish,jdbcType=DECIMAL})
+  </insert>
+  <insert id="insertSelective" parameterType="com.auto.entity.WebControl">
+    insert into WEB_CONTROL
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="controlid != null">
+        CONTROLID,
+      </if>
+      <if test="currentdir != null">
+        CURRENTDIR,
+      </if>
+      <if test="stop != null">
+        STOP,
+      </if>
+      <if test="startdate != null">
+        STARTDATE,
+      </if>
+      <if test="enddate != null">
+        ENDDATE,
+      </if>
+      <if test="remarks != null">
+        REMARKS,
+      </if>
+      <if test="finish != null">
+        FINISH,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="controlid != null">
+        #{controlid,jdbcType=DECIMAL},
+      </if>
+      <if test="currentdir != null">
+        #{currentdir,jdbcType=VARCHAR},
+      </if>
+      <if test="stop != null">
+        #{stop,jdbcType=DECIMAL},
+      </if>
+      <if test="startdate != null">
+        #{startdate,jdbcType=VARCHAR},
+      </if>
+      <if test="enddate != null">
+        #{enddate,jdbcType=VARCHAR},
+      </if>
+      <if test="remarks != null">
+        #{remarks,jdbcType=VARCHAR},
+      </if>
+      <if test="finish != null">
+        #{finish,jdbcType=DECIMAL},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.auto.entity.WebControlExample" resultType="java.lang.Integer">
+    select count(*) from WEB_CONTROL
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update WEB_CONTROL
+    <set>
+      <if test="record.controlid != null">
+        CONTROLID = #{record.controlid,jdbcType=DECIMAL},
+      </if>
+      <if test="record.currentdir != null">
+        CURRENTDIR = #{record.currentdir,jdbcType=VARCHAR},
+      </if>
+      <if test="record.stop != null">
+        STOP = #{record.stop,jdbcType=DECIMAL},
+      </if>
+      <if test="record.startdate != null">
+        STARTDATE = #{record.startdate,jdbcType=VARCHAR},
+      </if>
+      <if test="record.enddate != null">
+        ENDDATE = #{record.enddate,jdbcType=VARCHAR},
+      </if>
+      <if test="record.remarks != null">
+        REMARKS = #{record.remarks,jdbcType=VARCHAR},
+      </if>
+      <if test="record.finish != null">
+        FINISH = #{record.finish,jdbcType=DECIMAL},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update WEB_CONTROL
+    set CONTROLID = #{record.controlid,jdbcType=DECIMAL},
+      CURRENTDIR = #{record.currentdir,jdbcType=VARCHAR},
+      STOP = #{record.stop,jdbcType=DECIMAL},
+      STARTDATE = #{record.startdate,jdbcType=VARCHAR},
+      ENDDATE = #{record.enddate,jdbcType=VARCHAR},
+      REMARKS = #{record.remarks,jdbcType=VARCHAR},
+      FINISH = #{record.finish,jdbcType=DECIMAL}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.auto.entity.WebControl">
+    update WEB_CONTROL
+    <set>
+      <if test="currentdir != null">
+        CURRENTDIR = #{currentdir,jdbcType=VARCHAR},
+      </if>
+      <if test="stop != null">
+        STOP = #{stop,jdbcType=DECIMAL},
+      </if>
+      <if test="startdate != null">
+        STARTDATE = #{startdate,jdbcType=VARCHAR},
+      </if>
+      <if test="enddate != null">
+        ENDDATE = #{enddate,jdbcType=VARCHAR},
+      </if>
+      <if test="remarks != null">
+        REMARKS = #{remarks,jdbcType=VARCHAR},
+      </if>
+      <if test="finish != null">
+        FINISH = #{finish,jdbcType=DECIMAL},
+      </if>
+    </set>
+    where CONTROLID = #{controlid,jdbcType=DECIMAL}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.auto.entity.WebControl">
+    update WEB_CONTROL
+    set CURRENTDIR = #{currentdir,jdbcType=VARCHAR},
+      STOP = #{stop,jdbcType=DECIMAL},
+      STARTDATE = #{startdate,jdbcType=VARCHAR},
+      ENDDATE = #{enddate,jdbcType=VARCHAR},
+      REMARKS = #{remarks,jdbcType=VARCHAR},
+      FINISH = #{finish,jdbcType=DECIMAL}
+    where CONTROLID = #{controlid,jdbcType=DECIMAL}
+  </update>
+</mapper>

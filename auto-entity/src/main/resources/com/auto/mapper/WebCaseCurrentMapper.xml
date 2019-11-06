@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.auto.mapper.WebCaseCurrentMapper">
+  <resultMap id="BaseResultMap" type="com.auto.entity.WebCaseCurrent">
+    <result column="CASEID" jdbcType="DECIMAL" property="caseid" />
+    <result column="MODULE" jdbcType="VARCHAR" property="module" />
+    <result column="MENUNAME" jdbcType="VARCHAR" property="menuname" />
+    <result column="CASENAME" jdbcType="VARCHAR" property="casename" />
+    <result column="CASELEVEL" jdbcType="VARCHAR" property="caselevel" />
+    <result column="MENUCODE" jdbcType="VARCHAR" property="menucode" />
+    <result column="CASECODE" jdbcType="VARCHAR" property="casecode" />
+    <result column="PAGEELEMENT" jdbcType="VARCHAR" property="pageelement" />
+    <result column="OPSTEP" jdbcType="VARCHAR" property="opstep" />
+    <result column="CHECKSTEP" jdbcType="VARCHAR" property="checkstep" />
+    <result column="TESTER" jdbcType="VARCHAR" property="tester" />
+    <result column="RESULT" jdbcType="VARCHAR" property="result" />
+    <result column="SAVEDATA" jdbcType="VARCHAR" property="savedata" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="FEE" jdbcType="DECIMAL" property="fee" />
+    <result column="PARAMNAME" jdbcType="VARCHAR" property="paramname" />
+    <result column="PARAMVALUE" jdbcType="VARCHAR" property="paramvalue" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    CASEID, MODULE, MENUNAME, CASENAME, CASELEVEL, MENUCODE, CASECODE, PAGEELEMENT, OPSTEP, 
+    CHECKSTEP, TESTER, RESULT, SAVEDATA, REMARK, FEE, PARAMNAME, PARAMVALUE
+  </sql>
+  <select id="selectByExample" parameterType="com.auto.entity.WebCaseCurrentExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from WEB_CASE_CURRENT
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <delete id="deleteByExample" parameterType="com.auto.entity.WebCaseCurrentExample">
+    delete from WEB_CASE_CURRENT
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.auto.entity.WebCaseCurrent">
+    insert into WEB_CASE_CURRENT (CASEID, MODULE, MENUNAME, 
+      CASENAME, CASELEVEL, MENUCODE, 
+      CASECODE, PAGEELEMENT, OPSTEP, 
+      CHECKSTEP, TESTER, RESULT, 
+      SAVEDATA, REMARK, FEE, 
+      PARAMNAME, PARAMVALUE)
+    values (#{caseid,jdbcType=DECIMAL}, #{module,jdbcType=VARCHAR}, #{menuname,jdbcType=VARCHAR}, 
+      #{casename,jdbcType=VARCHAR}, #{caselevel,jdbcType=VARCHAR}, #{menucode,jdbcType=VARCHAR}, 
+      #{casecode,jdbcType=VARCHAR}, #{pageelement,jdbcType=VARCHAR}, #{opstep,jdbcType=VARCHAR}, 
+      #{checkstep,jdbcType=VARCHAR}, #{tester,jdbcType=VARCHAR}, #{result,jdbcType=VARCHAR}, 
+      #{savedata,jdbcType=VARCHAR}, #{remark,jdbcType=VARCHAR}, #{fee,jdbcType=DECIMAL}, 
+      #{paramname,jdbcType=VARCHAR}, #{paramvalue,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.auto.entity.WebCaseCurrent">
+    insert into WEB_CASE_CURRENT
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="caseid != null">
+        CASEID,
+      </if>
+      <if test="module != null">
+        MODULE,
+      </if>
+      <if test="menuname != null">
+        MENUNAME,
+      </if>
+      <if test="casename != null">
+        CASENAME,
+      </if>
+      <if test="caselevel != null">
+        CASELEVEL,
+      </if>
+      <if test="menucode != null">
+        MENUCODE,
+      </if>
+      <if test="casecode != null">
+        CASECODE,
+      </if>
+      <if test="pageelement != null">
+        PAGEELEMENT,
+      </if>
+      <if test="opstep != null">
+        OPSTEP,
+      </if>
+      <if test="checkstep != null">
+        CHECKSTEP,
+      </if>
+      <if test="tester != null">
+        TESTER,
+      </if>
+      <if test="result != null">
+        RESULT,
+      </if>
+      <if test="savedata != null">
+        SAVEDATA,
+      </if>
+      <if test="remark != null">
+        REMARK,
+      </if>
+      <if test="fee != null">
+        FEE,
+      </if>
+      <if test="paramname != null">
+        PARAMNAME,
+      </if>
+      <if test="paramvalue != null">
+        PARAMVALUE,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="caseid != null">
+        #{caseid,jdbcType=DECIMAL},
+      </if>
+      <if test="module != null">
+        #{module,jdbcType=VARCHAR},
+      </if>
+      <if test="menuname != null">
+        #{menuname,jdbcType=VARCHAR},
+      </if>
+      <if test="casename != null">
+        #{casename,jdbcType=VARCHAR},
+      </if>
+      <if test="caselevel != null">
+        #{caselevel,jdbcType=VARCHAR},
+      </if>
+      <if test="menucode != null">
+        #{menucode,jdbcType=VARCHAR},
+      </if>
+      <if test="casecode != null">
+        #{casecode,jdbcType=VARCHAR},
+      </if>
+      <if test="pageelement != null">
+        #{pageelement,jdbcType=VARCHAR},
+      </if>
+      <if test="opstep != null">
+        #{opstep,jdbcType=VARCHAR},
+      </if>
+      <if test="checkstep != null">
+        #{checkstep,jdbcType=VARCHAR},
+      </if>
+      <if test="tester != null">
+        #{tester,jdbcType=VARCHAR},
+      </if>
+      <if test="result != null">
+        #{result,jdbcType=VARCHAR},
+      </if>
+      <if test="savedata != null">
+        #{savedata,jdbcType=VARCHAR},
+      </if>
+      <if test="remark != null">
+        #{remark,jdbcType=VARCHAR},
+      </if>
+      <if test="fee != null">
+        #{fee,jdbcType=DECIMAL},
+      </if>
+      <if test="paramname != null">
+        #{paramname,jdbcType=VARCHAR},
+      </if>
+      <if test="paramvalue != null">
+        #{paramvalue,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.auto.entity.WebCaseCurrentExample" resultType="java.lang.Integer">
+    select count(*) from WEB_CASE_CURRENT
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update WEB_CASE_CURRENT
+    <set>
+      <if test="record.caseid != null">
+        CASEID = #{record.caseid,jdbcType=DECIMAL},
+      </if>
+      <if test="record.module != null">
+        MODULE = #{record.module,jdbcType=VARCHAR},
+      </if>
+      <if test="record.menuname != null">
+        MENUNAME = #{record.menuname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.casename != null">
+        CASENAME = #{record.casename,jdbcType=VARCHAR},
+      </if>
+      <if test="record.caselevel != null">
+        CASELEVEL = #{record.caselevel,jdbcType=VARCHAR},
+      </if>
+      <if test="record.menucode != null">
+        MENUCODE = #{record.menucode,jdbcType=VARCHAR},
+      </if>
+      <if test="record.casecode != null">
+        CASECODE = #{record.casecode,jdbcType=VARCHAR},
+      </if>
+      <if test="record.pageelement != null">
+        PAGEELEMENT = #{record.pageelement,jdbcType=VARCHAR},
+      </if>
+      <if test="record.opstep != null">
+        OPSTEP = #{record.opstep,jdbcType=VARCHAR},
+      </if>
+      <if test="record.checkstep != null">
+        CHECKSTEP = #{record.checkstep,jdbcType=VARCHAR},
+      </if>
+      <if test="record.tester != null">
+        TESTER = #{record.tester,jdbcType=VARCHAR},
+      </if>
+      <if test="record.result != null">
+        RESULT = #{record.result,jdbcType=VARCHAR},
+      </if>
+      <if test="record.savedata != null">
+        SAVEDATA = #{record.savedata,jdbcType=VARCHAR},
+      </if>
+      <if test="record.remark != null">
+        REMARK = #{record.remark,jdbcType=VARCHAR},
+      </if>
+      <if test="record.fee != null">
+        FEE = #{record.fee,jdbcType=DECIMAL},
+      </if>
+      <if test="record.paramname != null">
+        PARAMNAME = #{record.paramname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.paramvalue != null">
+        PARAMVALUE = #{record.paramvalue,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update WEB_CASE_CURRENT
+    set CASEID = #{record.caseid,jdbcType=DECIMAL},
+      MODULE = #{record.module,jdbcType=VARCHAR},
+      MENUNAME = #{record.menuname,jdbcType=VARCHAR},
+      CASENAME = #{record.casename,jdbcType=VARCHAR},
+      CASELEVEL = #{record.caselevel,jdbcType=VARCHAR},
+      MENUCODE = #{record.menucode,jdbcType=VARCHAR},
+      CASECODE = #{record.casecode,jdbcType=VARCHAR},
+      PAGEELEMENT = #{record.pageelement,jdbcType=VARCHAR},
+      OPSTEP = #{record.opstep,jdbcType=VARCHAR},
+      CHECKSTEP = #{record.checkstep,jdbcType=VARCHAR},
+      TESTER = #{record.tester,jdbcType=VARCHAR},
+      RESULT = #{record.result,jdbcType=VARCHAR},
+      SAVEDATA = #{record.savedata,jdbcType=VARCHAR},
+      REMARK = #{record.remark,jdbcType=VARCHAR},
+      FEE = #{record.fee,jdbcType=DECIMAL},
+      PARAMNAME = #{record.paramname,jdbcType=VARCHAR},
+      PARAMVALUE = #{record.paramvalue,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+</mapper>

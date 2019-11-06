@@ -23,9 +23,56 @@
 			<li id="admin-index"><a
 				href="${pageContext.request.contextPath}/pages/main.jsp"><i
 					class="fa fa-dashboard"></i> <span>首页</span></a></li>
+			<li class="treeview"><a href="#"> <i class="fa fa-cube"></i>
+				<span>运维视图</span> <span class="pull-right-container"> <i
+						class="fa fa-angle-left pull-right"></i>
+				</span>
+			</a>
+				<ul class="treeview-menu">
 
+					<li id="system-setting"><a
+							href="/product/page/list">
+						<i class="fa fa-circle-o"></i> CASE执行
+					</a></li>
+
+				</ul></li>
+
+			<li class="treeview"><a href="#"> <i class="fa fa-cube"></i>
+				<span>管理视图</span> <span class="pull-right-container"> <i
+						class="fa fa-angle-left pull-right"></i>
+				</span>
+			</a>
+				<ul class="treeview-menu">
+
+					<li id="system-setting"><a
+							href="/product/page/list">
+						<i class="fa fa-circle-o"></i> CASE管理
+					</a></li>
+					<li id="system-setting"><a
+							href="/product/page/list">
+						<i class="fa fa-circle-o"></i> 组件开发
+					</a></li>
+
+				</ul></li>
+			<li class="treeview"><a href="#"> <i class="fa fa-cube"></i>
+				<span>配置视图</span> <span class="pull-right-container"> <i
+						class="fa fa-angle-left pull-right"></i>
+				</span>
+			</a>
+				<ul class="treeview-menu">
+
+					<li id="system-setting"><a
+							href="/product/page/list">
+						<i class="fa fa-circle-o"></i> 配置管理
+					</a></li>
+					<li id="system-setting"><a
+							href="/orders/list">
+						<i class="fa fa-circle-o"></i> 数据查询
+					</a></li>
+
+				</ul></li>
 			<li class="treeview"><a href="#"> <i class="fa fa-cogs"></i>
-					<span>系统管理</span> <span class="pull-right-container"> <i
+					<span>用户视图</span> <span class="pull-right-container"> <i
 						class="fa fa-angle-left pull-right"></i>
 				</span>
 
@@ -50,23 +97,7 @@
 							class="fa fa-circle-o"></i> 访问日志
 					</a></li>
 				</ul></li>
-			<li class="treeview"><a href="#"> <i class="fa fa-cube"></i>
-					<span>基础界面</span> <span class="pull-right-container"> <i
-						class="fa fa-angle-left pull-right"></i>
-				</span>
-			</a>
-				<ul class="treeview-menu">
 
-					<li id="system-setting"><a
-						href="/product/page/list">
-							<i class="fa fa-circle-o"></i> 产品管理
-					</a></li>
-					<li id="system-setting"><a
-						href="/orders/list">
-							<i class="fa fa-circle-o"></i> 订单管理
-					</a></li>
-
-				</ul></li>
 
 		</ul>
 	</section>

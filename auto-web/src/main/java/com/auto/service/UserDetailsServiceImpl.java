@@ -39,7 +39,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
            return new User(user_Admin, "{noop}" + webAdmin.getUserPass(), authorities);
        }
    }catch (Exception e){
-       System.out.println("这里出问题了.........");
+       System.out.println("loadUserByUsername出问题了.........");
    }
        return null;
    }

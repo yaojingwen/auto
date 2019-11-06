@@ -153,7 +153,7 @@
 				<b>Version</b> 1.0.2
 			</div>
 			<strong>Copyright &copy; 2019-2029 <a
-				href="#">亚信研究院研发部</a>.
+				href="#">研究院研发部</a>.
 			</strong> All rights reserved.
 		</footer>
 		<!-- 底部导航 /-->

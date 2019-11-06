@@ -21,10 +21,6 @@ public class LoginServiceImpl implements LoginService {
     @Autowired
     private WebAdminMapper webAdminMapper;
 
-/*    @Override
-    public WebAdmin getByUserName(String user_Admin) {
-        return webAdminMapper.getByUserName(user_Admin);
-    }*/
 
     @Override
     public List<WebAdmin> selectByExample(WebAdminExample example) {

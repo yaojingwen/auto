@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.auto.mapper.WebConfigMapper">
+  <resultMap id="BaseResultMap" type="com.auto.entity.WebConfig">
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="PARATYPE" jdbcType="VARCHAR" property="paratype" />
+    <result column="PARACODE" jdbcType="VARCHAR" property="paracode" />
+    <result column="PARA1" jdbcType="VARCHAR" property="para1" />
+    <result column="PARA2" jdbcType="VARCHAR" property="para2" />
+    <result column="PARA3" jdbcType="VARCHAR" property="para3" />
+    <result column="PARA4" jdbcType="VARCHAR" property="para4" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="STATE" jdbcType="VARCHAR" property="state" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    ID, PARATYPE, PARACODE, PARA1, PARA2, PARA3, PARA4, REMARK, STATE
+  </sql>
+  <select id="selectByExample" parameterType="com.auto.entity.WebConfigExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from WEB_CONFIG
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <delete id="deleteByExample" parameterType="com.auto.entity.WebConfigExample">
+    delete from WEB_CONFIG
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.auto.entity.WebConfig">
+    insert into WEB_CONFIG (ID, PARATYPE, PARACODE, 
+      PARA1, PARA2, PARA3, 
+      PARA4, REMARK, STATE
+      )
+    values (#{id,jdbcType=DECIMAL}, #{paratype,jdbcType=VARCHAR}, #{paracode,jdbcType=VARCHAR}, 
+      #{para1,jdbcType=VARCHAR}, #{para2,jdbcType=VARCHAR}, #{para3,jdbcType=VARCHAR}, 
+      #{para4,jdbcType=VARCHAR}, #{remark,jdbcType=VARCHAR}, #{state,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.auto.entity.WebConfig">
+    insert into WEB_CONFIG
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        ID,
+      </if>
+      <if test="paratype != null">
+        PARATYPE,
+      </if>
+      <if test="paracode != null">
+        PARACODE,
+      </if>
+      <if test="para1 != null">
+        PARA1,
+      </if>
+      <if test="para2 != null">
+        PARA2,
+      </if>
+      <if test="para3 != null">
+        PARA3,
+      </if>
+      <if test="para4 != null">
+        PARA4,
+      </if>
+      <if test="remark != null">
+        REMARK,
+      </if>
+      <if test="state != null">
+        STATE,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=DECIMAL},
+      </if>
+      <if test="paratype != null">
+        #{paratype,jdbcType=VARCHAR},
+      </if>
+      <if test="paracode != null">
+        #{paracode,jdbcType=VARCHAR},
+      </if>
+      <if test="para1 != null">
+        #{para1,jdbcType=VARCHAR},
+      </if>
+      <if test="para2 != null">
+        #{para2,jdbcType=VARCHAR},
+      </if>
+      <if test="para3 != null">
+        #{para3,jdbcType=VARCHAR},
+      </if>
+      <if test="para4 != null">
+        #{para4,jdbcType=VARCHAR},
+      </if>
+      <if test="remark != null">
+        #{remark,jdbcType=VARCHAR},
+      </if>
+      <if test="state != null">
+        #{state,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.auto.entity.WebConfigExample" resultType="java.lang.Integer">
+    select count(*) from WEB_CONFIG
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update WEB_CONFIG
+    <set>
+      <if test="record.id != null">
+        ID = #{record.id,jdbcType=DECIMAL},
+      </if>
+      <if test="record.paratype != null">
+        PARATYPE = #{record.paratype,jdbcType=VARCHAR},
+      </if>
+      <if test="record.paracode != null">
+        PARACODE = #{record.paracode,jdbcType=VARCHAR},
+      </if>
+      <if test="record.para1 != null">
+        PARA1 = #{record.para1,jdbcType=VARCHAR},
+      </if>
+      <if test="record.para2 != null">
+        PARA2 = #{record.para2,jdbcType=VARCHAR},
+      </if>
+      <if test="record.para3 != null">
+        PARA3 = #{record.para3,jdbcType=VARCHAR},
+      </if>
+      <if test="record.para4 != null">
+        PARA4 = #{record.para4,jdbcType=VARCHAR},
+      </if>
+      <if test="record.remark != null">
+        REMARK = #{record.remark,jdbcType=VARCHAR},
+      </if>
+      <if test="record.state != null">
+        STATE = #{record.state,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update WEB_CONFIG
+    set ID = #{record.id,jdbcType=DECIMAL},
+      PARATYPE = #{record.paratype,jdbcType=VARCHAR},
+      PARACODE = #{record.paracode,jdbcType=VARCHAR},
+      PARA1 = #{record.para1,jdbcType=VARCHAR},
+      PARA2 = #{record.para2,jdbcType=VARCHAR},
+      PARA3 = #{record.para3,jdbcType=VARCHAR},
+      PARA4 = #{record.para4,jdbcType=VARCHAR},
+      REMARK = #{record.remark,jdbcType=VARCHAR},
+      STATE = #{record.state,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+</mapper>

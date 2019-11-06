@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.auto.mapper.WebAdminMapper">
+  <resultMap id="BaseResultMap" type="com.auto.entity.WebAdmin">
+    <id column="OPERATOR_ID" jdbcType="DECIMAL" property="operatorId" />
+    <result column="USER_ADMIN" jdbcType="VARCHAR" property="userAdmin" />
+    <result column="USER_PASS" jdbcType="VARCHAR" property="userPass" />
+    <result column="USER_NAME" jdbcType="VARCHAR" property="userName" />
+    <result column="USER_MOBILE" jdbcType="VARCHAR" property="userMobile" />
+    <result column="USER_STAFF" jdbcType="VARCHAR" property="userStaff" />
+    <result column="USER_EMAIL" jdbcType="VARCHAR" property="userEmail" />
+    <result column="IS_USED" jdbcType="VARCHAR" property="isUsed" />
+    <result column="IP" jdbcType="VARCHAR" property="ip" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    OPERATOR_ID, USER_ADMIN, USER_PASS, USER_NAME, USER_MOBILE, USER_STAFF, USER_EMAIL, 
+    IS_USED, IP
+  </sql>
+  <select id="selectByExample" parameterType="com.auto.entity.WebAdminExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from WEB_ADMIN
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from WEB_ADMIN
+    where OPERATOR_ID = #{operatorId,jdbcType=DECIMAL}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from WEB_ADMIN
+    where OPERATOR_ID = #{operatorId,jdbcType=DECIMAL}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.auto.entity.WebAdminExample">
+    delete from WEB_ADMIN
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.auto.entity.WebAdmin">
+    insert into WEB_ADMIN (OPERATOR_ID, USER_ADMIN, USER_PASS, 
+      USER_NAME, USER_MOBILE, USER_STAFF, 
+      USER_EMAIL, IS_USED, IP
+      )
+    values (#{operatorId,jdbcType=DECIMAL}, #{userAdmin,jdbcType=VARCHAR}, #{userPass,jdbcType=VARCHAR}, 
+      #{userName,jdbcType=VARCHAR}, #{userMobile,jdbcType=VARCHAR}, #{userStaff,jdbcType=VARCHAR}, 
+      #{userEmail,jdbcType=VARCHAR}, #{isUsed,jdbcType=VARCHAR}, #{ip,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.auto.entity.WebAdmin">
+    insert into WEB_ADMIN
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="operatorId != null">
+        OPERATOR_ID,
+      </if>
+      <if test="userAdmin != null">
+        USER_ADMIN,
+      </if>
+      <if test="userPass != null">
+        USER_PASS,
+      </if>
+      <if test="userName != null">
+        USER_NAME,
+      </if>
+      <if test="userMobile != null">
+        USER_MOBILE,
+      </if>
+      <if test="userStaff != null">
+        USER_STAFF,
+      </if>
+      <if test="userEmail != null">
+        USER_EMAIL,
+      </if>
+      <if test="isUsed != null">
+        IS_USED,
+      </if>
+      <if test="ip != null">
+        IP,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="operatorId != null">
+        #{operatorId,jdbcType=DECIMAL},
+      </if>
+      <if test="userAdmin != null">
+        #{userAdmin,jdbcType=VARCHAR},
+      </if>
+      <if test="userPass != null">
+        #{userPass,jdbcType=VARCHAR},
+      </if>
+      <if test="userName != null">
+        #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="userMobile != null">
+        #{userMobile,jdbcType=VARCHAR},
+      </if>
+      <if test="userStaff != null">
+        #{userStaff,jdbcType=VARCHAR},
+      </if>
+      <if test="userEmail != null">
+        #{userEmail,jdbcType=VARCHAR},
+      </if>
+      <if test="isUsed != null">
+        #{isUsed,jdbcType=VARCHAR},
+      </if>
+      <if test="ip != null">
+        #{ip,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.auto.entity.WebAdminExample" resultType="java.lang.Integer">
+    select count(*) from WEB_ADMIN
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update WEB_ADMIN
+    <set>
+      <if test="record.operatorId != null">
+        OPERATOR_ID = #{record.operatorId,jdbcType=DECIMAL},
+      </if>
+      <if test="record.userAdmin != null">
+        USER_ADMIN = #{record.userAdmin,jdbcType=VARCHAR},
+      </if>
+      <if test="record.userPass != null">
+        USER_PASS = #{record.userPass,jdbcType=VARCHAR},
+      </if>
+      <if test="record.userName != null">
+        USER_NAME = #{record.userName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.userMobile != null">
+        USER_MOBILE = #{record.userMobile,jdbcType=VARCHAR},
+      </if>
+      <if test="record.userStaff != null">
+        USER_STAFF = #{record.userStaff,jdbcType=VARCHAR},
+      </if>
+      <if test="record.userEmail != null">
+        USER_EMAIL = #{record.userEmail,jdbcType=VARCHAR},
+      </if>
+      <if test="record.isUsed != null">
+        IS_USED = #{record.isUsed,jdbcType=VARCHAR},
+      </if>
+      <if test="record.ip != null">
+        IP = #{record.ip,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update WEB_ADMIN
+    set OPERATOR_ID = #{record.operatorId,jdbcType=DECIMAL},
+      USER_ADMIN = #{record.userAdmin,jdbcType=VARCHAR},
+      USER_PASS = #{record.userPass,jdbcType=VARCHAR},
+      USER_NAME = #{record.userName,jdbcType=VARCHAR},
+      USER_MOBILE = #{record.userMobile,jdbcType=VARCHAR},
+      USER_STAFF = #{record.userStaff,jdbcType=VARCHAR},
+      USER_EMAIL = #{record.userEmail,jdbcType=VARCHAR},
+      IS_USED = #{record.isUsed,jdbcType=VARCHAR},
+      IP = #{record.ip,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.auto.entity.WebAdmin">
+    update WEB_ADMIN
+    <set>
+      <if test="userAdmin != null">
+        USER_ADMIN = #{userAdmin,jdbcType=VARCHAR},
+      </if>
+      <if test="userPass != null">
+        USER_PASS = #{userPass,jdbcType=VARCHAR},
+      </if>
+      <if test="userName != null">
+        USER_NAME = #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="userMobile != null">
+        USER_MOBILE = #{userMobile,jdbcType=VARCHAR},
+      </if>
+      <if test="userStaff != null">
+        USER_STAFF = #{userStaff,jdbcType=VARCHAR},
+      </if>
+      <if test="userEmail != null">
+        USER_EMAIL = #{userEmail,jdbcType=VARCHAR},
+      </if>
+      <if test="isUsed != null">
+        IS_USED = #{isUsed,jdbcType=VARCHAR},
+      </if>
+      <if test="ip != null">
+        IP = #{ip,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where OPERATOR_ID = #{operatorId,jdbcType=DECIMAL}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.auto.entity.WebAdmin">
+    update WEB_ADMIN
+    set USER_ADMIN = #{userAdmin,jdbcType=VARCHAR},
+      USER_PASS = #{userPass,jdbcType=VARCHAR},
+      USER_NAME = #{userName,jdbcType=VARCHAR},
+      USER_MOBILE = #{userMobile,jdbcType=VARCHAR},
+      USER_STAFF = #{userStaff,jdbcType=VARCHAR},
+      USER_EMAIL = #{userEmail,jdbcType=VARCHAR},
+      IS_USED = #{isUsed,jdbcType=VARCHAR},
+      IP = #{ip,jdbcType=VARCHAR}
+    where OPERATOR_ID = #{operatorId,jdbcType=DECIMAL}
+  </update>
+</mapper>
