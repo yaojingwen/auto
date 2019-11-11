@@ -9,6 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 /**
  * @Author: wangdawei
@@ -46,15 +47,12 @@ public class UserController {
      * @return
      */
     @RequestMapping(value = "/add")
-    public String add(WebAdmin webAdmin){
+    public String add(WebAdmin webAdmin,RedirectAttributes attr){
         //添加用户
-        int acount = loginService.insert(webAdmin);
-        return "redirect:/user/list";
+        if(0<loginService.insert(webAdmin)) {
+            return "redirect:/user/list";
+        }
+            return "404";
     }
-
-
-
-
-
 
 }
