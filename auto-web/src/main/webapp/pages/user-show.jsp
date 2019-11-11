@@ -110,7 +110,7 @@
 					<div class="table-box">
 
 						<!--工具栏-->
-						<div class="pull-left">
+						<%--<div class="pull-left">
 							<div class="form-group form-inline">
 								<div class="btn-group">
 									<button type="button" class="btn btn-default" title="新建">
@@ -122,14 +122,14 @@
 									</button>
 								</div>
 							</div>
-						</div>
-						<div class="box-tools pull-right">
+						</div>--%>
+					<%--	<div class="box-tools pull-right">
 							<div class="has-feedback">
 								<input type="text" class="form-control input-sm"
 									placeholder="搜索"> <span
 									class="glyphicon glyphicon-search form-control-feedback"></span>
 							</div>
-						</div>
+						</div>--%>
 						<!--工具栏/-->
 
 						<!--界面列表-->
@@ -142,6 +142,7 @@
 										<th>描述</th>
 									</tr>
 								</thead>
+
 
 								<tr data-tt-id="0">
 									<td colspan="2">${admin.userName}</td>
@@ -168,7 +169,7 @@
 				<!-- /.box-body -->
 
 				<!-- .box-footer-->
-				<div class="box-footer">
+			<%--	<div class="box-footer">
 					<div class="pull-left">
 						<div class="form-group form-inline">
 							总共2 页，共14 条界面。 每页 <select class="form-control">
@@ -195,7 +196,7 @@
 						</ul>
 					</div>
 
-				</div>
+				</div>--%>
 				<!-- /.box-footer-->
 
 			</div>

@@ -7,89 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="614661cf-6fbc-4c7c-b4e1-027994becbf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/auto-dao/src/main/java/com/auto/mapper/WebAdminRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-dao/src/main/java/com/auto/mapper/WebPermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-dao/src/main/java/com/auto/mapper/WebRolePermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-dao/target/classes/com/auto/mapper/WebAdminRoleMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-dao/target/classes/com/auto/mapper/WebPermissionMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-dao/target/classes/com/auto/mapper/WebRolePermissionMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebAdminRoleExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebAdminRoleKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebPermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebPermissionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebRolePermissionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebRolePermissionKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebAdminMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebAdminRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebCaseCurrentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebCaseHisMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebCaseMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebComponentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebConfigMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebControlMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebPermissionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebRolePermissionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebWebelementMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/entity/WebAdminRoleExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/entity/WebAdminRoleExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/entity/WebAdminRoleExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/entity/WebAdminRoleExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/entity/WebAdminRoleKey.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/entity/WebPermission.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/entity/WebPermissionExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/entity/WebPermissionExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/entity/WebPermissionExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/entity/WebPermissionExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/entity/WebRolePermissionExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/entity/WebRolePermissionExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/entity/WebRolePermissionExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/entity/WebRolePermissionExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/entity/WebRolePermissionKey.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/mapper/WebAdminMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/mapper/WebAdminRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/mapper/WebCaseCurrentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/mapper/WebCaseHisMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/mapper/WebCaseMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/mapper/WebComponentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/mapper/WebConfigMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/mapper/WebControlMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/mapper/WebPermissionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/mapper/WebRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/mapper/WebRolePermissionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/mapper/WebWebelementMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/case-list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/impl/LoginServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-service/target/classes/com/auto/service/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/auto-service/target/classes/com/auto/service/LoginService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-service/target/classes/com/auto/service/impl/LoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/auto-service/target/classes/com/auto/service/impl/LoginServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/java/com/auto/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/java/com/auto/service/UserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/403.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/403.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/404.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/404.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/500.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/500.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/failer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/failer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/aside.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/order-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/order-add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/order-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/order-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/order-show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/order-show.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/order-update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/order-update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/permission-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/permission-add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/permission-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/permission-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/product-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/product-add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/product-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/product-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/product-show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/product-show.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/product-update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/product-update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/role-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/role-add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/role-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/role-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/role-permission-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/role-permission-add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/syslog-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/syslog-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-role-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-role-add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-show.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/classes/com/auto/service/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/classes/com/auto/service/UserDetailsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/lib/auto-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/lib/auto-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/target/classes/com/auto/service/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/classes/com/auto/service/UserDetailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/user-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/user-list.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -202,42 +123,48 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="2" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="5" />
+          <entry key="css" value="4" />
           <entry key="dtd" value="1" />
-          <entry key="java" value="22" />
-          <entry key="jsp" value="5" />
-          <entry key="xml" value="24" />
+          <entry key="java" value="23" />
+          <entry key="jsp" value="11" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="5" />
+          <entry key="CSS" value="4" />
           <entry key="DTD" value="1" />
-          <entry key="JAVA" value="22" />
-          <entry key="JSP" value="5" />
-          <entry key="XML" value="24" />
+          <entry key="JAVA" value="23" />
+          <entry key="JSP" value="11" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="232" />
-          <entry key="jsp" value="48" />
-          <entry key="txt" value="6" />
+          <entry key="jsp" value="187" />
+          <entry key="txt" value="12" />
           <entry key="xml" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="232" />
-          <entry key="JSP" value="48" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="JSP" value="187" />
+          <entry key="PLAIN_TEXT" value="12" />
           <entry key="XML" value="78" />
         </counts>
       </usages-collector>
@@ -248,24 +175,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/impl/LoginServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+            <state relative-caret-position="323">
+              <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#813#814#0" expanded="true" />
-                <element signature="e#872#873#0" expanded="true" />
-                <element signature="e#1209#1210#0" expanded="true" />
-                <element signature="e#1233#1234#0" expanded="true" />
+                <element signature="e#984#985#0" expanded="true" />
+                <element signature="e#1008#1009#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/resources/springmvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -273,8 +189,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-service/src/main/resources/spring.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+            <state relative-caret-position="748">
+              <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -282,14 +198,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-dao/src/main/resources/spring-mybatis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-              <folding>
-                <element signature="e#1036#1049#0" expanded="true" />
-                <element signature="e#1093#1111#0" expanded="true" />
-                <element signature="e#1155#1173#0" expanded="true" />
-                <element signature="e#1224#1240#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-dao/src/main/resources/properties/xp_oracle.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -297,7 +216,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-web/src/main/resources/springsecurity.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="289">
               <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
             </state>
           </provider>
@@ -315,7 +234,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebAdminMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-835">
+            <state relative-caret-position="2312">
               <caret line="136" column="11" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
             </state>
           </provider>
@@ -324,8 +243,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-dao/src/main/java/com/auto/mapper/WebAdminMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+            <state relative-caret-position="476">
+              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -336,7 +255,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/mavenRep/MyRepository/org/springframework/security/spring-security-core/5.0.1.RELEASE/spring-security-core-5.0.1.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="1207">
               <caret line="89" selection-start-line="89" selection-end-line="89" />
             </state>
           </provider>
@@ -346,7 +265,7 @@
         <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebAdminExample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -354,8 +273,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-web/src/main/java/com/auto/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="135">
+              <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -363,11 +282,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-web/src/main/java/com/auto/service/UserDetailsServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="43" column="19" lean-forward="true" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+            <state relative-caret-position="587">
+              <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -375,7 +294,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
+            <state relative-caret-position="-145">
               <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
             </state>
           </provider>
@@ -393,8 +312,98 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="77" column="22" lean-forward="true" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+            <state relative-caret-position="-1522">
+              <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-show.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="162" column="36" lean-forward="true" selection-start-line="162" selection-start-column="36" selection-end-line="162" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/plugins/bootstrap/css/bootstrap.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="4" column="68987" selection-start-line="4" selection-start-column="68987" selection-end-line="4" selection-end-column="68987" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="165" column="74" lean-forward="true" selection-start-line="165" selection-start-column="74" selection-end-line="165" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/500.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2567">
+              <caret line="151" column="54" lean-forward="true" selection-start-line="151" selection-start-column="54" selection-end-line="151" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebRoleMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="174" column="70" lean-forward="true" selection-start-line="174" selection-start-column="70" selection-end-line="174" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebRole.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/plugins/bootstrap/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="4247" column="3" selection-start-line="4247" selection-start-column="3" selection-end-line="4247" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/plugins/adminLTE/css/AdminLTE.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="4473" column="10" selection-start-line="4473" selection-start-column="1" selection-end-line="4473" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/syslog-list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="213" column="29" lean-forward="true" selection-start-line="213" selection-start-column="29" selection-end-line="213" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -402,8 +411,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/aside.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1734">
-              <caret line="102" column="14" lean-forward="true" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
+            <state relative-caret-position="-272">
+              <caret line="50" column="46" lean-forward="true" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/order-show.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="90" column="37" selection-start-line="90" selection-start-column="37" selection-end-line="90" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -411,8 +429,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/failer.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="232" column="11" lean-forward="true" selection-start-line="232" selection-start-column="11" selection-end-line="232" selection-end-column="11" />
+            <state relative-caret-position="3944">
+              <caret line="232" column="11" selection-start-line="232" selection-start-column="11" selection-end-line="232" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -420,8 +438,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/LoginService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="127">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -441,12 +459,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>html</find>
-      <find>favicon.ico</find>
-      <find>http://www.datatables.net/favicon.ico</find>
-      <find>login-page</find>
-      <find>background: #d2d6de;</find>
-      <find>background: url(img/2019-10-13_13-09-42.png);</find>
       <find>/img/2019-10-13_13-09-42.png</find>
       <find>数据 - AdminLTE2定制版</find>
       <find>itcast</find>
@@ -464,6 +476,19 @@
       <find>研究院研发部</find>
       <find>login.jsp</find>
       <find>基础界面</find>
+      <find>&lt;a href=&quot;${pageContext.request.contextPath}/pages/user-show.jsp&quot; class=&quot;btn bg-olive btn-xs&quot;&gt;详情&lt;/a&gt;</find>
+      <find>pageContext.request.contextPath}/pages/user-show.jsp&quot; class=&quot;btn bg-olive btn-xs&quot;</find>
+      <find>syslog-list.jsp</find>
+      <find>product/page/list</find>
+      <find>运维视图</find>
+      <find>Case管理</find>
+      <find>详情</find>
+      <find>.bg-olive</find>
+      <find>user-panel</find>
+      <find>class=&quot;header&quot;</find>
+      <find>class=&quot;navbar navbar-static-top&quot;</find>
+      <find>\&lt;\%\-\-\n\	\	\	\	\	\	\	\	\	\	\&lt;a href\=\&quot;\$\{pageContext\.request\.contextPath\}\/pages\/user\-show\.jsp\&quot; class\=\&quot;btn bg\-olive btn\-xs\&quot;\&gt;详情\&lt;\/a\&gt;\n\-\-\%\&gt;</find>
+      <find>text-center</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -478,6 +503,7 @@
       <replace>INTEGER</replace>
       <replace>Integer</replace>
       <replace>2019-2020</replace>
+      <replace>功能视图</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\chromedownloads\auto\auto-dao</dir>
@@ -491,9 +517,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/auto-service/pom.xml" />
-        <option value="$PROJECT_DIR$/auto-web/src/main/resources/springmvc.xml" />
         <option value="$PROJECT_DIR$/auto-web/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/auto-web/src/main/webapp/403.jsp" />
         <option value="$PROJECT_DIR$/auto-web/src/main/webapp/404.jsp" />
@@ -501,7 +524,6 @@
         <option value="$PROJECT_DIR$/auto-web/src/main/resources/springsecurity.xml" />
         <option value="$PROJECT_DIR$/auto-web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/child-rows/column-control.html" />
         <option value="$PROJECT_DIR$/auto-web/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-without-plugins.css" />
-        <option value="$PROJECT_DIR$/auto-web/src/main/webapp/plugins/adminLTE/css/AdminLTE.css" />
         <option value="$PROJECT_DIR$/auto-web/src/main/java/com/asiainfo/service/UserDetailsServiceImpl.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/247b2e96-1ff5-4e1f-9a3e-1407f446f4e6/console.sql" />
         <option value="$PROJECT_DIR$/auto-entity/src/main/java/com/asiainfo/entity/WebAdmin.java" />
@@ -520,7 +542,6 @@
         <option value="$PROJECT_DIR$/auto-dao/src/main/java/com/asiainfo/mapper/WebAdminMapper.java" />
         <option value="$PROJECT_DIR$/auto-web/src/main/webapp/css/pages-login-manage.css" />
         <option value="$PROJECT_DIR$/auto-web/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-list.jsp" />
         <option value="$PROJECT_DIR$/auto-web/src/main/java/com/auto/controller/UserController.java" />
         <option value="$PROJECT_DIR$/auto-dao/src/main/resources/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-add.jsp" />
@@ -540,8 +561,13 @@
         <option value="$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/LoginService.java" />
         <option value="$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/impl/LoginServiceImpl.java" />
         <option value="$PROJECT_DIR$/auto-web/src/main/java/com/auto/service/UserDetailsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/auto-web/src/main/webapp/pages/aside.jsp" />
         <option value="$PROJECT_DIR$/auto-web/src/main/webapp/pages/main.jsp" />
+        <option value="$PROJECT_DIR$/auto-web/src/main/webapp/pages/aside.jsp" />
+        <option value="$PROJECT_DIR$/auto-web/src/main/webapp/plugins/adminLTE/css/AdminLTE.css" />
+        <option value="$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-list.jsp" />
+        <option value="$PROJECT_DIR$/auto-web/src/main/webapp/plugins/adminLTE/css/skins/_all-skins.min.css" />
+        <option value="$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-show.jsp" />
+        <option value="$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-list.jsp" />
       </list>
     </option>
   </component>
@@ -584,10 +610,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="75" />
-    <option name="y" value="111" />
-    <option name="width" value="1413" />
-    <option name="height" value="924" />
+    <option name="x" value="39" />
+    <option name="y" value="243" />
+    <option name="width" value="1365" />
+    <option name="height" value="747" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -604,8 +630,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -616,25 +640,25 @@
             <path>
               <item name="auto" type="b2602c69:ProjectViewProjectNode" />
               <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="auto-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="auto" type="b2602c69:ProjectViewProjectNode" />
               <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="auto-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-entity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="auto" type="b2602c69:ProjectViewProjectNode" />
               <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="auto-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-entity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="auto" type="b2602c69:ProjectViewProjectNode" />
               <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="auto-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-entity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -642,7 +666,7 @@
             <path>
               <item name="auto" type="b2602c69:ProjectViewProjectNode" />
               <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="auto-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-entity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -650,11 +674,32 @@
             <path>
               <item name="auto" type="b2602c69:ProjectViewProjectNode" />
               <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="auto-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-entity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="auto" type="b2602c69:ProjectViewProjectNode" />
@@ -756,6 +801,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -764,6 +818,8 @@
         <option name="show-excluded-files" value="false" />
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -771,7 +827,7 @@
     <property name="SearchEverywhereHistoryKey" value="spring&#9;FILE&#9;file://D:/chromedownloads/auto/auto-service/src/main/resources/spring.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572699384038" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573477841905" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaEETest-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -904,6 +960,8 @@
       <workItem from="1572438536631" duration="877000" />
       <workItem from="1572659076945" duration="10364000" />
       <workItem from="1572834086039" duration="7463000" />
+      <workItem from="1573089706619" duration="599000" />
+      <workItem from="1573265011058" duration="15244000" />
     </task>
     <task id="LOCAL-00001" summary="第一个">
       <created>1571453021810</created>
@@ -989,17 +1047,24 @@
       <option name="project" value="LOCAL" />
       <updated>1572690102873</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="前端页面调整">
+      <created>1573475175734</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1573475175735</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80017000" />
+    <option name="totallyTimeSpent" value="95860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" x="653" y="223" width="421" height="666" id="Project" order="0" visible="true" weight="0.27201146" />
+      <window_info x="653" y="223" width="421" height="666" id="Project" order="0" visible="true" weight="0.2913386" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1009,7 +1074,42 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25280198" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36363637" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3237858" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.35865504" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.46575344" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32997987" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.3501006" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.16567697" />
+      <window_info anchor="right" id="Database" order="6" weight="0.29348603" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" x="653" y="223" width="421" height="666" id="Project" order="0" visible="true" weight="0.25411597" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3113325" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3237858" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1030,41 +1130,6 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.16567697" />
       <window_info anchor="right" id="Database" order="6" weight="0.29348603" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" x="653" y="223" width="421" height="666" id="Project" order="0" visible="true" weight="0.29062277" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4570361" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32254046" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32876712" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32876712" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.4664179" />
-      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32997987" />
-      <window_info anchor="bottom" id="Database Console" order="15" weight="0.3501006" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.16567697" />
-      <window_info anchor="right" id="Database" order="6" weight="0.09976247" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout-to-restore>
@@ -1111,7 +1176,8 @@
     <MESSAGE value="登录页面调整" />
     <MESSAGE value="添加方法" />
     <MESSAGE value="初代模板完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="初代模板完成" />
+    <MESSAGE value="前端页面调整" />
+    <option name="LAST_COMMIT_MESSAGE" value="前端页面调整" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1126,77 +1192,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/mavenRep/MyRepository/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2.jar!/com/github/pagehelper/PageInfo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="187" column="15" selection-start-line="187" selection-start-column="15" selection-end-line="187" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/java/com/auto/controller/test.java" />
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2227">
-          <caret line="131" column="30" selection-start-line="131" selection-start-column="30" selection-end-line="131" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/mavenRep/MyRepository/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/annotations/Result.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/plugins/adminLTE/css/AdminLTE.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55029">
-          <caret line="3237" column="22" selection-start-line="3237" selection-start-column="1" selection-end-line="3237" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/css/pages-login-manage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="53" selection-start-column="53" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/mavenRep/MyRepository/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1887">
-          <caret line="111" column="4" lean-forward="true" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebConfigExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="121" column="56" selection-start-line="121" selection-start-column="56" selection-end-line="121" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebAdmin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebCaseCurrentExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebCaseExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1219,13 +1214,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebPermisson.java" />
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/RoleService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1289,13 +1277,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebRoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="83" column="58" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebRolePermissionMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -1345,117 +1326,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebAdminMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-835">
-          <caret line="136" column="11" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/failer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="232" column="11" lean-forward="true" selection-start-line="232" selection-start-column="11" selection-end-line="232" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/aside.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="102" column="14" lean-forward="true" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="77" column="22" lean-forward="true" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebAdminExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-dao/src/main/java/com/auto/mapper/WebAdminMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/mavenRep/MyRepository/org/springframework/security/spring-security-core/5.0.1.RELEASE/spring-security-core-5.0.1.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/LoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/java/com/auto/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/impl/LoginServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#1209#1210#0" expanded="true" />
-            <element signature="e#1233#1234#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auto-web/src/main/resources/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="561">
           <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/auto-service/src/main/resources/spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+        <state relative-caret-position="748">
+          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/resources/springsecurity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1466,30 +1354,206 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto-dao/src/main/resources/spring-mybatis.xml">
+    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebAdminMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        <state relative-caret-position="2312">
+          <caret line="136" column="11" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-dao/src/main/java/com/auto/mapper/WebAdminMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
           <folding>
-            <element signature="e#1036#1049#0" expanded="true" />
-            <element signature="e#1093#1111#0" expanded="true" />
-            <element signature="e#1155#1173#0" expanded="true" />
-            <element signature="e#1224#1240#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/resources/springsecurity.xml">
+    <entry file="jar://D:/mavenRep/MyRepository/org/springframework/security/spring-security-core/5.0.1.RELEASE/spring-security-core-5.0.1.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="1207">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebAdminExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/failer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3944">
+          <caret line="232" column="11" selection-start-line="232" selection-start-column="11" selection-end-line="232" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/auto-web/src/main/java/com/auto/service/UserDetailsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="43" column="19" lean-forward="true" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        <state relative-caret-position="587">
+          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-dao/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-dao/src/main/resources/properties/xp_oracle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/impl/LoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1522">
+          <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/syslog-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="213" column="29" lean-forward="true" selection-start-line="213" selection-start-column="29" selection-end-line="213" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/aside.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="50" column="46" lean-forward="true" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/order-show.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="90" column="37" selection-start-line="90" selection-start-column="37" selection-end-line="90" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/java/com/auto/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/plugins/adminLTE/css/AdminLTE.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="4473" column="10" selection-start-line="4473" selection-start-column="1" selection-end-line="4473" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebRoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="174" column="70" lean-forward="true" selection-start-line="174" selection-start-column="70" selection-end-line="174" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="165" column="74" lean-forward="true" selection-start-line="165" selection-start-column="74" selection-end-line="165" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/plugins/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="4247" column="3" selection-start-line="4247" selection-start-column="3" selection-end-line="4247" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/plugins/bootstrap/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="4" column="68987" selection-start-line="4" selection-start-column="68987" selection-end-line="4" selection-end-column="68987" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/plugins/adminLTE/css/skins/_all-skins.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34119" selection-start-column="34119" selection-end-column="34119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/500.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2567">
+          <caret line="151" column="54" lean-forward="true" selection-start-line="151" selection-start-column="54" selection-end-line="151" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-show.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="162" column="36" lean-forward="true" selection-start-line="162" selection-start-column="36" selection-end-line="162" selection-end-column="36" />
         </state>
       </provider>
     </entry>
