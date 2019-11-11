@@ -16,7 +16,7 @@
 <meta
 	content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
 	name="viewport">
-
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/plugins/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet"
@@ -155,8 +155,9 @@
 										<c:if test="${user.isUsed==2}">禁止登陆</c:if>
 									</td>
 									<td class="text-center">
-										<a href="${pageContext.request.contextPath}/pages/user-show.jsp" class="btn bg-olive btn-xs">详情</a>
-										<a href="${pageContext.request.contextPath}/pages/user-role-add.jsp" class="btn bg-olive btn-xs">添加角色</a>
+										<%--<a href="${pageContext.request.contextPath}/user/selectAdminByRole?id=${user.operatorId}" class="btn bg-olive btn-xs">详情</a>--%>
+											<a href="${pageContext.request.contextPath}/user/selectAdminById?id=${user.operatorId}" class="btn bg-olive btn-xs">详情</a>
+											<a href="${pageContext.request.contextPath}/pages/user-role-add.jsp" class="btn bg-olive btn-xs">添加角色</a>
 									</td>
 								</tr>
 							</c:forEach>

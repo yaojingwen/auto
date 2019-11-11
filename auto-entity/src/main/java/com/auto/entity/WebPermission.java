@@ -3,7 +3,7 @@ package com.auto.entity;
 public class WebPermission {
     private Integer id;
 
-    private String permissionname;
+    private String permissionName;
 
     private String url;
 
@@ -17,12 +17,12 @@ public class WebPermission {
         this.id = id;
     }
 
-    public String getPermissionname() {
-        return permissionname;
+    public String getPermissionName() {
+        return permissionName;
     }
 
-    public void setPermissionname(String permissionname) {
-        this.permissionname = permissionname == null ? null : permissionname.trim();
+    public void setPermissionName(String permissionName) {
+        this.permissionName = permissionName == null ? null : permissionName.trim();
     }
 
     public String getUrl() {

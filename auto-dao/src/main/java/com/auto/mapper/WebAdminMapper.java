@@ -3,6 +3,8 @@ package com.auto.mapper;
 import com.auto.entity.WebAdmin;
 import com.auto.entity.WebAdminExample;
 import java.util.List;
+
+import com.auto.param.WebAdminParam;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 
@@ -19,7 +21,11 @@ public interface WebAdminMapper {
 
     List<WebAdmin> selectByExample(WebAdminExample example);
 
+    WebAdmin selectByName( @Param("userAdmin")String userAdmin);
+
     WebAdmin selectByPrimaryKey(Integer operatorId);
+
+    WebAdminParam selectByPrimaryKey2(Integer operatorId);
 
     int updateByExampleSelective(@Param("record") WebAdmin record, @Param("example") WebAdminExample example);
 

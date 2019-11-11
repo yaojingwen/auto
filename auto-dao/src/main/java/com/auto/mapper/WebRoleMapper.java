@@ -3,6 +3,8 @@ package com.auto.mapper;
 import com.auto.entity.WebRole;
 import com.auto.entity.WebRoleExample;
 import java.util.List;
+
+import com.auto.param.WebRoleParam;
 import org.apache.ibatis.annotations.Param;
 
 public interface WebRoleMapper {
@@ -19,6 +21,8 @@ public interface WebRoleMapper {
     List<WebRole> selectByExample(WebRoleExample example);
 
     WebRole selectByPrimaryKey(Integer id);
+
+    WebRoleParam selectByPrimaryKey2(Integer id);
 
     int updateByExampleSelective(@Param("record") WebRole record, @Param("example") WebRoleExample example);
 

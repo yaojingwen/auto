@@ -3,9 +3,11 @@ package com.auto.service.impl;
 import com.auto.entity.WebAdmin;
 import com.auto.entity.WebAdminExample;
 import com.auto.mapper.WebAdminMapper;
+import com.auto.param.WebAdminParam;
 import com.auto.service.LoginService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,6 +20,8 @@ import java.util.List;
  */
 @Service
 public class LoginServiceImpl implements LoginService {
+
+
     @Autowired
     private WebAdminMapper webAdminMapper;
 
@@ -25,6 +29,16 @@ public class LoginServiceImpl implements LoginService {
     @Override
     public List<WebAdmin> selectByExample(WebAdminExample example) {
         return webAdminMapper.selectByExample(null);
+    }
+
+    @Override
+    public WebAdmin selectByName(@Param("userAdmin")String userAdmin) {
+        return webAdminMapper.selectByName(userAdmin);
+    }
+
+    @Override
+    public WebAdminParam selectByPrimaryKey2(Integer operatorId) {
+        return webAdminMapper.selectByPrimaryKey2(operatorId);
     }
 
     @Override
@@ -39,7 +53,7 @@ public class LoginServiceImpl implements LoginService {
 
     @Override
     public int insert(WebAdmin record) {
-        return 0;
+        return webAdminMapper.insertSelective(record);
     }
 
     @Override
@@ -64,12 +78,12 @@ public class LoginServiceImpl implements LoginService {
 
     @Override
     public int updateByPrimaryKeySelective(WebAdmin record) {
-        return 0;
+        return webAdminMapper.updateByPrimaryKeySelective(record);
     }
 
     @Override
     public int updateByPrimaryKey(WebAdmin record) {
-        return 0;
+        return webAdminMapper.updateByPrimaryKey(record);
     }
 
     /***

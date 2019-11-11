@@ -3,8 +3,8 @@
 <mapper namespace="com.auto.mapper.WebRoleMapper" >
   <resultMap id="BaseResultMap" type="com.auto.entity.WebRole" >
     <id column="ID" property="id" jdbcType="DECIMAL" />
-    <result column="ROLENAME" property="rolename" jdbcType="VARCHAR" />
-    <result column="ROLEDESC" property="roledesc" jdbcType="VARCHAR" />
+    <result column="ROLENAME" property="roleName" jdbcType="VARCHAR" />
+    <result column="ROLEDESC" property="roleDesc" jdbcType="VARCHAR" />
   </resultMap>
   <sql id="Example_Where_Clause" >
     <where >
@@ -67,6 +67,9 @@
   <sql id="Base_Column_List" >
     ID, ROLENAME, ROLEDESC
   </sql>
+  <sql id="Base_Column_List2" >
+    ID AS id, ROLENAME as  roleName, ROLEDESC as roleDesc
+  </sql>
   <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.auto.entity.WebRoleExample" >
     select
     <if test="distinct" >
@@ -84,6 +87,12 @@
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select 
     <include refid="Base_Column_List" />
+    from WEB_ROLE
+    where ID = #{id,jdbcType=DECIMAL}
+  </select>
+  <select id="selectByPrimaryKey2" resultType="com.auto.param.WebRoleParam" parameterType="java.lang.Integer" >
+    select
+    <include refid="Base_Column_List2" />
     from WEB_ROLE
     where ID = #{id,jdbcType=DECIMAL}
   </select>

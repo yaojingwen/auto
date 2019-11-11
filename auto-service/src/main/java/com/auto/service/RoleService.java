@@ -1,6 +1,7 @@
 package com.auto.service;
 
 import com.auto.entity.WebRole;
+import com.auto.param.WebRoleParam;
 
 import java.math.BigDecimal;
 
@@ -9,6 +10,6 @@ import java.math.BigDecimal;
  */
 public interface RoleService {
 
-    WebRole findByid(BigDecimal id) throws Exception;
+    WebRoleParam findByIdParam(int id) ;
 
 }

@@ -2,6 +2,7 @@ package com.auto.service;
 
 import com.auto.entity.WebAdmin;
 import com.auto.entity.WebAdminExample;
+import com.auto.param.WebAdminParam;
 import com.github.pagehelper.PageInfo;
 import org.apache.ibatis.annotations.Param;
 
@@ -12,6 +13,8 @@ public interface LoginService {
 
      List<WebAdmin> selectByExample(WebAdminExample example);
 
+     WebAdmin selectByName(String userAdmin);
+
      int deleteByExample(WebAdminExample example);
 
      int deleteByPrimaryKey(Integer operatorId);
@@ -21,6 +24,8 @@ public interface LoginService {
      int insertSelective(WebAdmin record);
 
      WebAdmin selectByPrimaryKey(Integer operatorId);
+
+     WebAdminParam selectByPrimaryKey2(Integer operatorId);
 
      int updateByExampleSelective(@Param("record") WebAdmin record, @Param("example") WebAdminExample example);
 
