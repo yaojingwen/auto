@@ -3,7 +3,7 @@
 <mapper namespace="com.auto.mapper.WebPermissionMapper" >
   <resultMap id="BaseResultMap" type="com.auto.entity.WebPermission" >
     <id column="ID" property="id" jdbcType="DECIMAL" />
-    <result column="PERMISSIONNAME" property="permissionname" jdbcType="VARCHAR" />
+    <result column="PERMISSIONNAME" property="permissionName" jdbcType="VARCHAR" />
     <result column="URL" property="url" jdbcType="VARCHAR" />
     <result column="PID" property="pid" jdbcType="DECIMAL" />
   </resultMap>

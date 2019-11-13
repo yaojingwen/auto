@@ -2,16 +2,17 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.auto.mapper.WebAdminMapper">
   <resultMap id="BaseResultMap" type="com.auto.entity.WebAdmin">
-    <id column="OPERATOR_ID" jdbcType="DECIMAL" property="operatorId" />
-    <result column="USER_ADMIN" jdbcType="VARCHAR" property="userAdmin" />
-    <result column="USER_PASS" jdbcType="VARCHAR" property="userPass" />
-    <result column="USER_NAME" jdbcType="VARCHAR" property="userName" />
-    <result column="USER_MOBILE" jdbcType="VARCHAR" property="userMobile" />
-    <result column="USER_STAFF" jdbcType="VARCHAR" property="userStaff" />
-    <result column="USER_EMAIL" jdbcType="VARCHAR" property="userEmail" />
-    <result column="IS_USED" jdbcType="VARCHAR" property="isUsed" />
-    <result column="IP" jdbcType="VARCHAR" property="ip" />
-  </resultMap>
+  <id column="OPERATOR_ID" jdbcType="INTEGER" property="operatorId" />
+  <result column="USER_ADMIN" jdbcType="VARCHAR" property="userAdmin" />
+  <result column="USER_PASS" jdbcType="VARCHAR" property="userPass" />
+  <result column="USER_NAME" jdbcType="VARCHAR" property="userName" />
+  <result column="USER_MOBILE" jdbcType="VARCHAR" property="userMobile" />
+  <result column="USER_STAFF" jdbcType="VARCHAR" property="userStaff" />
+  <result column="USER_EMAIL" jdbcType="VARCHAR" property="userEmail" />
+  <result column="IS_USED" jdbcType="VARCHAR" property="isUsed" />
+  <result column="IP" jdbcType="VARCHAR" property="ip" />
+</resultMap>
+
   <sql id="Example_Where_Clause">
     <where>
       <foreach collection="oredCriteria" item="criteria" separator="or">
@@ -71,8 +72,12 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    OPERATOR_ID, USER_ADMIN, USER_PASS, USER_NAME, USER_MOBILE, USER_STAFF, USER_EMAIL, 
-    IS_USED, IP
+    OPERATOR_ID,USER_ADMIN,USER_PASS, USER_NAME,USER_MOBILE,USER_STAFF, USER_EMAIL,IS_USED,IP
+  </sql>
+  <sql id="Base_Column_List2">
+    OPERATOR_ID AS operatorId, USER_ADMIN AS  userAdmin, USER_PASS AS userPass, USER_NAME AS userName,
+     USER_MOBILE AS userMobile, USER_STAFF AS userStaff, USER_EMAIL AS userEmail,
+    IS_USED AS isUsed, IP AS ip
   </sql>
   <select id="selectByExample" parameterType="com.auto.entity.WebAdminExample" resultMap="BaseResultMap">
     select
@@ -92,11 +97,17 @@
     select 
     <include refid="Base_Column_List" />
     from WEB_ADMIN
-    where OPERATOR_ID = #{operatorId,jdbcType=DECIMAL}
+    where OPERATOR_ID = #{operatorId,jdbcType=INTEGER}
+  </select>
+  <select id="selectByPrimaryKey2" parameterType="java.lang.Integer" resultType="com.auto.param.WebAdminParam">
+    select
+    <include refid="Base_Column_List2" />
+    from WEB_ADMIN
+    where OPERATOR_ID = #{operatorId,jdbcType=INTEGER}
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from WEB_ADMIN
-    where OPERATOR_ID = #{operatorId,jdbcType=DECIMAL}
+    where OPERATOR_ID = #{operatorId,jdbcType=INTEGER}
   </delete>
   <delete id="deleteByExample" parameterType="com.auto.entity.WebAdminExample">
     delete from WEB_ADMIN
@@ -109,7 +120,7 @@
       USER_NAME, USER_MOBILE, USER_STAFF, 
       USER_EMAIL, IS_USED, IP
       )
-    values (#{operatorId,jdbcType=DECIMAL}, #{userAdmin,jdbcType=VARCHAR}, #{userPass,jdbcType=VARCHAR}, 
+    values (#{operatorId,jdbcType=INTEGER}, #{userAdmin,jdbcType=VARCHAR}, #{userPass,jdbcType=VARCHAR},
       #{userName,jdbcType=VARCHAR}, #{userMobile,jdbcType=VARCHAR}, #{userStaff,jdbcType=VARCHAR}, 
       #{userEmail,jdbcType=VARCHAR}, #{isUsed,jdbcType=VARCHAR}, #{ip,jdbcType=VARCHAR}
       )
@@ -117,9 +128,7 @@
   <insert id="insertSelective" parameterType="com.auto.entity.WebAdmin">
     insert into WEB_ADMIN
     <trim prefix="(" suffix=")" suffixOverrides=",">
-      <if test="operatorId != null">
         OPERATOR_ID,
-      </if>
       <if test="userAdmin != null">
         USER_ADMIN,
       </if>
@@ -146,9 +155,7 @@
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
-      <if test="operatorId != null">
-        #{operatorId,jdbcType=DECIMAL},
-      </if>
+        WEB_ADMIN_ID.Nextval,
       <if test="userAdmin != null">
         #{userAdmin,jdbcType=VARCHAR},
       </if>
@@ -185,7 +192,7 @@
     update WEB_ADMIN
     <set>
       <if test="record.operatorId != null">
-        OPERATOR_ID = #{record.operatorId,jdbcType=DECIMAL},
+        OPERATOR_ID = #{record.operatorId,jdbcType=INTEGER},
       </if>
       <if test="record.userAdmin != null">
         USER_ADMIN = #{record.userAdmin,jdbcType=VARCHAR},
@@ -218,7 +225,7 @@
   </update>
   <update id="updateByExample" parameterType="map">
     update WEB_ADMIN
-    set OPERATOR_ID = #{record.operatorId,jdbcType=DECIMAL},
+    set OPERATOR_ID = #{record.operatorId,jdbcType=INTEGER},
       USER_ADMIN = #{record.userAdmin,jdbcType=VARCHAR},
       USER_PASS = #{record.userPass,jdbcType=VARCHAR},
       USER_NAME = #{record.userName,jdbcType=VARCHAR},
@@ -259,7 +266,7 @@
         IP = #{ip,jdbcType=VARCHAR},
       </if>
     </set>
-    where OPERATOR_ID = #{operatorId,jdbcType=DECIMAL}
+    where OPERATOR_ID = #{operatorId,jdbcType=INTEGER}
   </update>
   <update id="updateByPrimaryKey" parameterType="com.auto.entity.WebAdmin">
     update WEB_ADMIN
@@ -271,6 +278,9 @@
       USER_EMAIL = #{userEmail,jdbcType=VARCHAR},
       IS_USED = #{isUsed,jdbcType=VARCHAR},
       IP = #{ip,jdbcType=VARCHAR}
-    where OPERATOR_ID = #{operatorId,jdbcType=DECIMAL}
+    where OPERATOR_ID = #{operatorId,jdbcType=INTEGER}
   </update>
+  <select id="selectByName" parameterType="com.auto.entity.WebAdmin" resultType="com.auto.entity.WebAdmin">
+      SELECT <include refid="Base_Column_List" /> FROM WEB_ADMIN WHERE USER_ADMIN=#{userAdmin} ;
+  </select>
 </mapper>
