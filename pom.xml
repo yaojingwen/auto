@@ -34,7 +34,7 @@
         <pagehelper.version>5.1.2</pagehelper.version>
         <spring.security.version>5.0.1.RELEASE</spring.security.version>
         <!-- json -->
-        <com.alibaba.fastjson.version>1.1.38</com.alibaba.fastjson.version>
+        <com.alibaba.fastjson.version>1.2.25</com.alibaba.fastjson.version>
         <!--文件的编码格式-->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
