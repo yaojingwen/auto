@@ -1,5 +1,6 @@
 package com.auto.service.impl;
 
+import com.auto.components.exception.CustomException;
 import com.auto.entity.WebAdmin;
 import com.auto.entity.WebAdminExample;
 import com.auto.mapper.WebAdminMapper;
@@ -27,62 +28,62 @@ public class LoginServiceImpl implements LoginService {
 
 
     @Override
-    public List<WebAdmin> selectByExample(WebAdminExample example) {
+    public List<WebAdmin> selectByExample(WebAdminExample example)throws CustomException {
         return webAdminMapper.selectByExample(null);
     }
 
     @Override
-    public WebAdmin selectByName(@Param("userAdmin")String userAdmin) {
+    public WebAdmin selectByName(@Param("userAdmin")String userAdmin)throws Exception, CustomException {
         return webAdminMapper.selectByName(userAdmin);
     }
 
     @Override
-    public WebAdminParam selectByPrimaryKey2(Integer operatorId) {
+    public WebAdminParam selectByPrimaryKey2(Integer operatorId)throws Exception, CustomException {
         return webAdminMapper.selectByPrimaryKey2(operatorId);
     }
 
     @Override
-    public int deleteByExample(WebAdminExample example) {
+    public int deleteByExample(WebAdminExample example)throws Exception, CustomException {
         return 0;
     }
 
     @Override
-    public int deleteByPrimaryKey(Integer operatorId) {
-        return 0;
+    public int deleteByPrimaryKey(Integer operatorId)throws Exception, CustomException {
+        return webAdminMapper.deleteByPrimaryKey(operatorId);
     }
 
     @Override
-    public int insert(WebAdmin record) {
+    public int insert(WebAdmin record)throws Exception, CustomException {
         return webAdminMapper.insertSelective(record);
     }
 
     @Override
-    public int insertSelective(WebAdmin record) {
+    public int insertSelective(WebAdmin record)throws Exception, CustomException {
         return 0;
     }
 
     @Override
-    public WebAdmin selectByPrimaryKey(Integer operatorId) {
+    public WebAdmin selectByPrimaryKey(Integer operatorId)throws Exception, CustomException {
         return null;
     }
 
     @Override
-    public int updateByExampleSelective(WebAdmin record, WebAdminExample example) {
+    public int updateByExampleSelective(WebAdmin record, WebAdminExample example)throws Exception, CustomException {
         return 0;
     }
 
     @Override
-    public int updateByExample(WebAdmin record, WebAdminExample example) {
+    public int updateByExample(WebAdmin record, WebAdminExample example)throws Exception, CustomException {
         return 0;
     }
 
     @Override
-    public int updateByPrimaryKeySelective(WebAdmin record) {
+    public int updateByPrimaryKeySelective(WebAdmin record) throws Exception, CustomException{
         return webAdminMapper.updateByPrimaryKeySelective(record);
     }
 
     @Override
-    public int updateByPrimaryKey(WebAdmin record) {
+    public int updateByPrimaryKey(WebAdmin record)throws Exception, CustomException {
         return webAdminMapper.updateByPrimaryKey(record);
     }
 

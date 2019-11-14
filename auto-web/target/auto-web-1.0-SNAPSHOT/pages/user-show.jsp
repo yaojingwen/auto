@@ -1,5 +1,7 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ page isELIgnored="false" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -15,7 +17,7 @@
 <meta
 	content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
 	name="viewport">
-
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/plugins/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet"
@@ -58,6 +60,10 @@
 	href="${pageContext.request.contextPath}/plugins/ionslider/ion.rangeSlider.skinNice.css">
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/plugins/bootstrap-slider/slider.css">
+	<script type="text/javascript">
+        console.log("检查");
+		console.log("${admin.userName}");
+	</script>
 </head>
 
 <body class="hold-transition skin-blue sidebar-mini">
@@ -139,23 +145,18 @@
 
 
 								<tr data-tt-id="0">
-									<td colspan="2">${user.username}</td>
+									<td colspan="2">${admin.userName}</td>
 								</tr>
 
 								<tbody>
-									<c:forEach items="${user.roles}" var="role">
 										<tr data-tt-id="1" data-tt-parent-id="0">
-											<td>${role.roleName }</td>
-											<td>${role.roleDesc }</td>
+											<td>${admin.roles.roleName}</td>
+											<td>${admin.roles.roleDesc}</td>
 										</tr>
-										<c:forEach items="${role.permissions}" var="permission">
-											<tr data-tt-id="1-1" data-tt-parent-id="1">
-												<td>${permission.permissionName}</td>
-												<td>${permission.url}</td>
-											</tr>
-
-										</c:forEach>
-									</c:forEach>
+										<tr data-tt-id="1-1" data-tt-parent-id="1">
+											<td>${admin.roles.permissions.permissionName}</td>
+											<td>${admin.roles.permissions.url}</td>
+										</tr>
 								</tbody>
 							</table>
 						</div>

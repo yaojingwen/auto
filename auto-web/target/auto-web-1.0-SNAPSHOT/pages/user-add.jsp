@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -99,48 +100,59 @@
 				<div class="panel panel-default">
 					<div class="panel-heading">用户信息</div>
 					<div class="row data-type">
-
+						<input type="hidden" name="operatorId" value="${admin.operatorId}">
 						<div class="col-md-2 title">用户名称</div>
 						<div class="col-md-4 data">
 							<input type="text" class="form-control" name="userAdmin"
-								placeholder="用户名称" value="">
+								   placeholder="用户名称" value="${admin.userAdmin}">
 						</div>
 						<div class="col-md-2 title">用户密码</div>
 						<div class="col-md-4 data">
 							<input type="password" class="form-control" name="userPass"
-								   placeholder="用户密码" value="">
+								   placeholder="用户密码" value="${admin.userPass}">
 						</div>
 						<div class="col-md-2 title">操作员</div>
+						<input type="hidden" name="operatorId" value="${admin.operatorId}"/>
 						<div class="col-md-4 data">
 							<input type="text" class="form-control" name="userName"
-								   placeholder="操作员" value="">
+								   placeholder="操作员" value="${admin.userName}">
 						</div>
 						<div class="col-md-2 title">联系电话</div>
 						<div class="col-md-4 data">
 							<input type="text" class="form-control" name="userMobile"
-								placeholder="联系电话" value="">
+								   placeholder="联系电话" value="${admin.userMobile}">
 						</div>
 						<div class="col-md-2 title">工号</div>
 						<div class="col-md-4 data">
 							<input type="text" class="form-control" name="userStaff"
-								   placeholder="工号" value="">
+								   placeholder="工号" value="${admin.userStaff}">
 						</div>
 						<div class="col-md-2 title">邮箱</div>
 						<div class="col-md-4 data">
 							<input type="text" class="form-control" name="userEmail"
-								placeholder="邮箱" value="">
+								   placeholder="邮箱" value="${admin.userEmail}">
 						</div>
 						<div class="col-md-2 title">ip</div>
 						<div class="col-md-4 data">
 							<input type="text" class="form-control" name="ip"
-								placeholder="ip" value="">
+								   placeholder="ip" value="${admin.ip}">
 						</div>
 						<div class="col-md-2 title">用户状态</div>
 						<div class="col-md-4 data">
 							<select class="form-control select2" style="width: 100%"
-								name="isUsed">
-								<option value="0" selected="selected">关闭</option>
-								<option value="1">开启</option>
+									name="isUsed">
+								<c:if test="${admin.isUsed==0}">
+									<option value="0" selected="selected">关闭</option>
+									<option value="1">开启</option>
+								</c:if>
+								<c:if test="${admin.isUsed==1}">
+									<option value="0" >关闭</option>
+									<option value="1" selected="selected">开启</option>
+								</c:if>
+								<c:if test="${admin.isUsed==null}">
+									<option value="0" >关闭</option>
+									<option value="1" selected="selected">开启</option>
+								</c:if>
 							</select>
 						</div>
 
@@ -148,7 +160,12 @@
 				</div>
 				<!--订单信息/--> <!--工具栏-->
 				<div class="box-tools text-center">
-					<button type="submit" class="btn bg-maroon">保存</button>
+					<c:if test="${admin.operatorId==null}">
+						<button type="submit" class="btn bg-maroon">保存</button>
+					</c:if>
+					<c:if test="${admin.operatorId!=null}">
+						<button type="submit" class="btn bg-maroon">修改</button>
+					</c:if>
 					<button type="button" class="btn bg-default"
 						onclick="history.back(-1);">返回</button>
 				</div>

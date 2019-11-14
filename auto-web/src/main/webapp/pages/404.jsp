@@ -760,7 +760,7 @@
                     <h2 class="headline text-yellow"> 404</h2>
 
                     <div class="error-content">
-                        <h3><i class="fa fa-warning text-yellow"></i> Oops! 页面没有找到.</h3>
+                        <h3><i class="fa fa-warning text-yellow"></i> 系统异常: ${msg}</h3>
 
                         <p>
                             没有找到你请求的页面, 你可以 <a href="all-admin-index.html">返回到后台首页</a> 或者通过搜索查询

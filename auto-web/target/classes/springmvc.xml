@@ -11,6 +11,8 @@
        http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!-- 全局异常处理器 ， 接口就是全局异常处理器 全局异常处理器只能有一个 -->
+    <bean class="com.auto.components.exception.CustomExceptionResolver" />
     <!--包扫描-->
     <context:component-scan base-package="com.auto" />
     <!--引入SpringSecurity配置-->

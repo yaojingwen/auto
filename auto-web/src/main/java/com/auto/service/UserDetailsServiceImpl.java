@@ -1,5 +1,6 @@
 package com.auto.service;
 
+import com.auto.components.exception.CustomException;
 import com.auto.entity.WebAdmin;
 import com.auto.entity.WebAdminExample;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,8 +31,13 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     WebAdminExample.Criteria criteria = example.createCriteria();
     criteria.andUserAdminEqualTo(user_Admin);
     //执行查询
-    List<WebAdmin> webAdminList = loginService.selectByExample(example);
-   try {
+    List<WebAdmin> webAdminList = null;
+    try {
+        webAdminList = loginService.selectByExample(example);
+    } catch (CustomException e) {
+        e.printStackTrace();
+    }
+    try {
        for (WebAdmin webAdmin : webAdminList) {
            List<GrantedAuthority> authorities = new ArrayList<GrantedAuthority>();
            authorities.add(new SimpleGrantedAuthority("ROLE_USER"));
