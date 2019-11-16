@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+	<!-- 控制台 ConsoleAppender -->
+	<appender name="console" class="org.apache.log4j.ConsoleAppender">
+		<param name="Threshold" value="info"></param>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %t %c{2}:%L - %m%n"></param>
+		</layout>
+	</appender>
+	<!-- 常规日志记录到文件(info) -->
+	<appender name="log4j" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="/logs/info/log4j.log" />
+		<param name="DatePattern" value="'log4j_'yyyy-MM-dd'.log'" />
+		<param name="Threshold" value="info"></param>
+		<param name="encoding" value="UTF-8" />
+		<param name="Append" value="true"></param>
+		<param name="MaxFileSize" value="20MB"></param>
+		<param name="MaxBackupIndex" value="10"></param>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %5p %t %c:%L - %m%n"></param>
+		</layout>
+		<!--限制输出级别 -->
+		<filter class="org.apache.log4j.varia.LevelRangeFilter">
+			<param name="LevelMin" value="INFO" />
+			<param name="LevelMax" value="INFO" />
+		</filter>
+	</appender>
+	<!-- #错误日志统一单独记录到文件 -->
+	<appender name="Error" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="Threshold" value="Error"></param>
+		<param name="File" value="/logs/error/error.log"></param>
+		<param name="DatePattern" value="'error_'yyyy-MM-dd'.log'" />
+		<param name="encoding" value="UTF-8" />
+		<param name="Append" value="true"></param>
+		<param name="MaxFileSize" value="20MB"></param>
+		<param name="MaxBackupIndex" value="10"></param>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %5p %t %c:%L - %m%n"></param>
+		</layout>
+		<!--限制输出级别 -->
+		<filter class="org.apache.log4j.varia.LevelRangeFilter">
+			<param name="LevelMin" value="ERROR" />
+			<param name="LevelMax" value="ERROR" />
+		</filter>
+	</appender>
+
+	<root>
+		<level value="info" />
+		<appender-ref ref="console" />
+		<appender-ref ref="log4j" />
+		<appender-ref ref="Error" />
+	</root>
+
+</log4j:configuration> 
