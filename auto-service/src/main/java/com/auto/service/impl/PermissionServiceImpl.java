@@ -7,6 +7,8 @@ import com.auto.service.PermissionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * @Author: wangdawei
  * @Description:
@@ -21,6 +23,20 @@ public class PermissionServiceImpl implements PermissionService {
     @Override
     public WebPermission findById(int id)throws Exception, CustomException {
         return webPermissionMapper.selectByPrimaryKey(id);
+    }
+
+    @Override
+    public List<WebPermission> list() {
+        return webPermissionMapper.selectByExample(null);
+    }
+    @Override
+    public int insert(WebPermission record){
+        return webPermissionMapper.insertSelective(record);
+    }
+
+    @Override
+    public List<WebPermission> rolePermission(Integer id) {
+        return webPermissionMapper.rolePermissionList(id);
     }
 }
 

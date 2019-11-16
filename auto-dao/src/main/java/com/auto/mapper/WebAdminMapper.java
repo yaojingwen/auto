@@ -4,9 +4,10 @@ import com.auto.entity.WebAdmin;
 import com.auto.entity.WebAdminExample;
 import java.util.List;
 
+import com.auto.entity.WebRole;
 import com.auto.param.WebAdminParam;
-import org.apache.ibatis.annotations.Param;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
+import org.apache.ibatis.mapping.FetchType;
 
 public interface WebAdminMapper {
     int countByExample(WebAdminExample example);
@@ -42,4 +43,48 @@ public interface WebAdminMapper {
      *//*
     @Select("select user_Admin as useradmin,user_pass as userpass from WEB_ADMIN where user_Admin=#{user_Admin}")
     WebAdmin getByUserName(String user_admin);*/
+
+    /***
+     * 根据用户ID查询用户角色信息
+     * @param id
+     * @return
+     */
+    @Select(" select * from web_role wr,web_admin_role war where wr.id=war.roleid and war.userid=#{userId}")
+    @Results({
+            @Result(property = "id",column = "id")
+    })
+    List<WebRole> userRoleList(Integer id);
+
+
+    /***
+     * 删除用户对应的角色记录
+     * @param userId
+     * @return
+     */
+    @Delete(" delete from web_admin_role where userId=#{userId}")
+    int deleteUserRole(Integer userId);
+
+    /***
+     * 增加用户角色
+     * @param id
+     * @param userId
+     * @return
+     */
+    @Insert("   insert into web_admin_role(userId,roleId)values(#{userId},#{roleId})")
+    int addUserRole(@Param("userId")Integer id, @Param("roleId")Integer userId);
+
+    /***
+     * 查询用户信息
+     * @param id
+     * @return
+     */
+    @Select(value = "select * from web_admin where operator_Id=#{operatorId}")
+    @Results(
+            //根据用户信息查询角色信息
+            @Result(property ="roles",column = "id",
+                    many = @Many(select = "com.auto.mapper.WebRoleMapper.selectByPrimaryKey2",
+                            fetchType = FetchType.LAZY))
+    )
+    WebAdmin findById(Integer id);
+//TODO
 }

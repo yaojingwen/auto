@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -107,7 +108,7 @@
 							<div class="pull-left">
 								<div class="form-group form-inline">
 									<div class="btn-group">
-										<button type="button" class="btn btn-default" title="新建" onclick='location.href="${pageContext.request.contextPath}/pages/permission-add.jsp"'>
+										<button type="button" class="btn btn-default" title="新建" onclick='location.href="/permission/insert"'>
 											<i class="fa fa-file-o"></i> 新建
 										</button>
 										
@@ -117,13 +118,13 @@
 									</div>
 								</div>
 							</div>
-							<div class="box-tools pull-right">
+						<%--	<div class="box-tools pull-right">
 								<div class="has-feedback">
 									<input type="text" class="form-control input-sm"
 										placeholder="搜索"> <span
 										class="glyphicon glyphicon-search form-control-feedback"></span>
 								</div>
-							</div>
+							</div>--%>
 							<!--工具栏/-->
 
 							<!--界面列表-->
@@ -142,7 +143,7 @@
 								</thead>
 								<tbody>
 
-									<c:forEach items="${permissionList}" var="permission">
+									<c:forEach items="${permissions}" var="permission">
 										<tr>
 											<td><input name="ids" type="checkbox"></td>
 											<td>${permission.id }</td>

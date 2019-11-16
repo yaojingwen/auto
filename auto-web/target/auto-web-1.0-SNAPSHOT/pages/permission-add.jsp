@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -90,36 +91,45 @@
 			</section>
 			<!-- 内容头部 /-->
 
-			<form action="${pageContext.request.contextPath}/permission/save.do"
-				method="post">
+			<form action="/permission/insert"
+				  method="post">
 				<!-- 正文区域 -->
 				<section class="content"> <!--产品信息-->
 
-				<div class="panel panel-default">
-					<div class="panel-heading">权限资源信息</div>
-					<div class="row data-type">
+					<div class="panel panel-default">
+						<div class="panel-heading">权限资源信息</div>
+						<div class="row data-type">
 
-						<div class="col-md-2 title">权限资源名称</div>
-						<div class="col-md-4 data">
-							<input type="text" class="form-control" name="permissionName"
-								placeholder="权限资源名称" value="">
-						</div>
-						<div class="col-md-2 title">权限资源URL</div>
-						<div class="col-md-4 data">
-							<input type="text" class="form-control" name="url"
-								placeholder="url" value="">
-						</div>
-										
+							<div class="col-md-2 title">权限资源名称</div>
+							<div class="col-md-4 data">
+								<input type="text" class="form-control" name="permissionName"
+									   placeholder="权限资源名称" value="">
+							</div>
+							<div class="col-md-2 title">权限资源URL</div>
+							<div class="col-md-4 data">
+								<input type="text" class="form-control" name="url"
+									   placeholder="url" value="">
+							</div>
 
+
+							<div class="col-md-2 title">一级菜单</div>
+							<div class="col-md-10 data">
+								<select class="form-control select2" style="width: 100%" name="pid">
+									<option value="0" selected="selected">顶级菜单</option>
+									<c:forEach items="${permissions}" var="per">
+										<option value="${per.id}">${per.permissionName}</option>
+									</c:forEach>
+								</select>
+							</div>
+						</div>
 					</div>
-				</div>
-				<!--订单信息/--> <!--工具栏-->
-				<div class="box-tools text-center">
-					<button type="submit" class="btn bg-maroon">保存</button>
-					<button type="button" class="btn bg-default"
-						onclick="history.back(-1);">返回</button>
-				</div>
-				<!--工具栏/--> </section>
+					<!--订单信息/--> <!--工具栏-->
+					<div class="box-tools text-center">
+						<button type="submit" class="btn bg-maroon">保存</button>
+						<button type="button" class="btn bg-default"
+								onclick="history.back(-1);">返回</button>
+					</div>
+					<!--工具栏/--> </section>
 				<!-- 正文区域 /-->
 			</form>
 		</div>

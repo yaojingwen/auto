@@ -4,6 +4,7 @@ package com.auto.controller;
 import com.auto.components.exception.CustomException;
 import com.auto.entity.WebAdmin;
 import com.auto.entity.WebPermission;
+import com.auto.entity.WebRole;
 import com.auto.param.WebAdminParam;
 import com.auto.param.WebRoleParam;
 import com.auto.service.LoginService;
@@ -17,8 +18,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import java.util.List;
 
 /**
  * @Author: wangdawei
@@ -38,6 +43,54 @@ public class UserController {
     @Autowired
     private BCryptPasswordEncoder bCryptPasswordEncoder;
 
+
+
+
+    /***
+     * 查询用户信息
+     * @param id
+     * @param model
+     * @return
+     */
+    @RequestMapping(value = "/one")
+    public String findOne(Integer id,Model model){
+        //根据ID查询用户信息
+        WebAdmin webAdmin = loginService.findById(id);
+
+        //将信息存入Model
+        model.addAttribute("webAdmin",webAdmin);
+        return "user-show";
+    }
+
+    /***
+     * 给用户添加角色页面跳转
+     * @param id    用户ID
+     * @return
+     */
+    @RequestMapping(value = "/role/add",method = RequestMethod.GET)
+    public String add(Integer id,Model model){
+        //查询所有角色
+        List<WebRole> roles = roleService.list();
+
+        //查询用户所有的角色记录
+        List<WebRole> WebRoles = roleService.userRoleList(id);
+        if(WebRoles!=null && WebRoles.size()>0){
+            //定义一个StringBuffer，拼接用户角色ID :[1][2][4]
+            StringBuffer buffer = new StringBuffer();
+            for (WebRole webRole : WebRoles) {
+                buffer.append("["+webRole.getId()+"]");
+            }
+            //存储用户的角色信息
+            model.addAttribute("userRoles",buffer.toString());
+        }
+
+        //将角色信息存入到Model中,页面回显
+        model.addAttribute("roles",roles);
+
+        //将用户ID存入到Model中用于添加用户角色
+        model.addAttribute("id",id);
+        return "user-role-add";
+    }
     /***
      * 集合查询
      * 映射地址  /user/list

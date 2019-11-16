@@ -46,10 +46,21 @@ public interface LoginService {
      PageInfo<WebAdmin> list(int page, int size)throws Exception, CustomException;
 
      /***
-      * 增加用户-接口
-      * @param user
+      * 接口
+      * 给用户添加角色
+      * @param ids
+      * @param userId
       * @return
       */
+     int addUserRole(List<Integer> ids, Integer userId);
+
+     /***
+      * 接口
+      * 查询用户信息
+      * @param id
+      * @return
+      */
+     WebAdmin findById(Integer id);
 
 
 }

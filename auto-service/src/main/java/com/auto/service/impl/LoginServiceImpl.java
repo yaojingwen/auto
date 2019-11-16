@@ -106,5 +106,34 @@ public class LoginServiceImpl implements LoginService {
         return new PageInfo<WebAdmin>(users);
     }
 
+
+    /***
+     * 实现类
+     * 添加用户角色
+     * @param ids
+     * @param userId
+     * @return
+     */
+    @Override
+    public int addUserRole(List<Integer> ids, Integer userId) {
+        //删除用户角色
+        int dcount = webAdminMapper.deleteUserRole(userId);
+        //新增用户角色
+        int acount = 0; //记录受影响行数
+        for (Integer id : ids) {
+            acount+=webAdminMapper.addUserRole(userId,id);
+        }
+        return acount;
+    }
+
+    /***
+     * 查询用户信息
+     * @param id
+     * @return
+     */
+    @Override
+    public WebAdmin findById(Integer id) {
+        return webAdminMapper.findById(id);
+    }
 }
 

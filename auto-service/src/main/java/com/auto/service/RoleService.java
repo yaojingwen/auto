@@ -21,4 +21,12 @@ public interface RoleService {
 
     WebRoleParam findByIdParam(int id) throws Exception, CustomException;
 
+    int addRolePermission(List<Integer> ids, Integer roleId);
+    /***
+     * 接口
+     * 查询用户角色信息
+     * @param id
+     * @return
+     */
+    List<WebRole> userRoleList(Integer id);
 }

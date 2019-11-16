@@ -149,7 +149,7 @@
 											<td>${role.roleName }</td>
 											<td>${role.roleDesc }</td>
 											<td class="text-center">
-												<a href="${pageContext.request.contextPath}/pages/role-permission-add.jsp" class="btn bg-olive btn-xs">添加权限</a>
+												<a href="javascript:openPermission(${role.id})" class="btn bg-olive btn-xs">添加权限</a>
 											</td>
 										</tr>
 									</c:forEach>
@@ -225,6 +225,16 @@
 
 		</div>
 
+	<!-- 弹出模态窗口-->
+	<div class="modal fade" style="top:13%;"  tabindex="-1" role="dialog" id="showModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content"  style="width: 800px;">
+				<!-- 内容会加载到这里 -->
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+
+
 		<script src="../plugins/jQuery/jquery-2.2.3.min.js"></script>
 		<script src="../plugins/jQueryUI/jquery-ui.min.js"></script>
 		<script>
@@ -274,7 +284,24 @@
 		<script src="../plugins/ionslider/ion.rangeSlider.min.js"></script>
 		<script src="../plugins/bootstrap-slider/bootstrap-slider.js"></script>
 		<script>
+            //展开模态框
+            openPermission=function (id) {
+                // 打开模态框
+                $("#showModal").modal({
+                    backdrop: 'static',     // 点击空白不关闭
+                    keyboard: false,        // 按键盘esc也不会关闭
+                    remote: '/role/permission/add?id='+id   // 从远程加载内容的地址
+                });
+            }
+
+
 			$(document).ready(function() {
+                // 每次隐藏时，清除数据，确保不会和主页dom元素冲突。确保点击时，重新加载。
+                $("#showModal").on("hidden.bs.modal", function() {
+                    // 这个#showModal是模态框的id
+                    $(this).removeData("bs.modal");
+                    $(this).find(".modal-content").children().remove();
+                });
 				// 选择框
 				$(".select2").select2();
 

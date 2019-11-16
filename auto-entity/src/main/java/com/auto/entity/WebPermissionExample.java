@@ -164,73 +164,73 @@ public class WebPermissionExample {
             return (Criteria) this;
         }
 
-        public Criteria andPermissionnameIsNull() {
+        public Criteria andpermissionNameIsNull() {
             addCriterion("PERMISSIONNAME is null");
             return (Criteria) this;
         }
 
-        public Criteria andPermissionnameIsNotNull() {
+        public Criteria andpermissionNameIsNotNull() {
             addCriterion("PERMISSIONNAME is not null");
             return (Criteria) this;
         }
 
-        public Criteria andPermissionnameEqualTo(String value) {
-            addCriterion("PERMISSIONNAME =", value, "permissionname");
+        public Criteria andpermissionNameEqualTo(String value) {
+            addCriterion("PERMISSIONNAME =", value, "permissionName");
             return (Criteria) this;
         }
 
-        public Criteria andPermissionnameNotEqualTo(String value) {
-            addCriterion("PERMISSIONNAME <>", value, "permissionname");
+        public Criteria andpermissionNameNotEqualTo(String value) {
+            addCriterion("PERMISSIONNAME <>", value, "permissionName");
             return (Criteria) this;
         }
 
         public Criteria andPermissionnameGreaterThan(String value) {
-            addCriterion("PERMISSIONNAME >", value, "permissionname");
+            addCriterion("PERMISSIONNAME >", value, "permissionName");
             return (Criteria) this;
         }
 
         public Criteria andPermissionnameGreaterThanOrEqualTo(String value) {
-            addCriterion("PERMISSIONNAME >=", value, "permissionname");
+            addCriterion("PERMISSIONNAME >=", value, "permissionName");
             return (Criteria) this;
         }
 
         public Criteria andPermissionnameLessThan(String value) {
-            addCriterion("PERMISSIONNAME <", value, "permissionname");
+            addCriterion("PERMISSIONNAME <", value, "permissionName");
             return (Criteria) this;
         }
 
         public Criteria andPermissionnameLessThanOrEqualTo(String value) {
-            addCriterion("PERMISSIONNAME <=", value, "permissionname");
+            addCriterion("PERMISSIONNAME <=", value, "permissionName");
             return (Criteria) this;
         }
 
         public Criteria andPermissionnameLike(String value) {
-            addCriterion("PERMISSIONNAME like", value, "permissionname");
+            addCriterion("PERMISSIONNAME like", value, "permissionName");
             return (Criteria) this;
         }
 
         public Criteria andPermissionnameNotLike(String value) {
-            addCriterion("PERMISSIONNAME not like", value, "permissionname");
+            addCriterion("PERMISSIONNAME not like", value, "permissionName");
             return (Criteria) this;
         }
 
         public Criteria andPermissionnameIn(List<String> values) {
-            addCriterion("PERMISSIONNAME in", values, "permissionname");
+            addCriterion("PERMISSIONNAME in", values, "permissionName");
             return (Criteria) this;
         }
 
         public Criteria andPermissionnameNotIn(List<String> values) {
-            addCriterion("PERMISSIONNAME not in", values, "permissionname");
+            addCriterion("PERMISSIONNAME not in", values, "permissionName");
             return (Criteria) this;
         }
 
         public Criteria andPermissionnameBetween(String value1, String value2) {
-            addCriterion("PERMISSIONNAME between", value1, value2, "permissionname");
+            addCriterion("PERMISSIONNAME between", value1, value2, "permissionName");
             return (Criteria) this;
         }
 
         public Criteria andPermissionnameNotBetween(String value1, String value2) {
-            addCriterion("PERMISSIONNAME not between", value1, value2, "permissionname");
+            addCriterion("PERMISSIONNAME not between", value1, value2, "permissionName");
             return (Criteria) this;
         }
 

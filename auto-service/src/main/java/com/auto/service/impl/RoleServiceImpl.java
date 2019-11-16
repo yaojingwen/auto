@@ -34,5 +34,29 @@ public class RoleServiceImpl implements RoleService {
         return webRoleMapper.selectByPrimaryKey2(id);
     }
 
+    @Override
+    public int addRolePermission(List<Integer> ids, Integer roleId) {
+        //删除之前角色所拥有的所有权限
+        int dcount = webRoleMapper.deleteRolePermission(roleId);
+
+        //增加新的角色权限
+        int acount =0;  //受影响行数
+        for (Integer id : ids) {
+            acount+=webRoleMapper.addRolePermission(id,roleId);
+        }
+        return acount;
+    }
+
+    /***
+     * 实现类
+     * 查询用户角色信息
+     * @param id
+     * @return
+     */
+    @Override
+    public List<WebRole> userRoleList(Integer id) {
+        return webRoleMapper.userRoleList(id);
+    }
+
 }
 
