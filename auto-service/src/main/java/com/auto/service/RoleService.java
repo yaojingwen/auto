@@ -25,8 +25,8 @@ public interface RoleService {
     /***
      * 接口
      * 查询用户角色信息
-     * @param id
+     * @param operatorId
      * @return
      */
-    List<WebRole> userRoleList(Integer id);
+    List<WebRole> userRoleList(Integer operatorId);
 }

@@ -50,12 +50,12 @@ public class RoleServiceImpl implements RoleService {
     /***
      * 实现类
      * 查询用户角色信息
-     * @param id
+     * @param operatorId
      * @return
      */
     @Override
-    public List<WebRole> userRoleList(Integer id) {
-        return webRoleMapper.userRoleList(id);
+    public List<WebRole> userRoleList(Integer operatorId) {
+        return webRoleMapper.userRoleList(operatorId);
     }
 
 }

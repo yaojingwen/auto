@@ -59,7 +59,7 @@ public interface WebRoleMapper {
     /***
      * 查询用户的角色信息
      */
-    @Select(" select wr.* from web_admin_role war , web_role wr where war.roleid=wr.id and war.userid=#{userId}")
-    List<WebRole> userRoleList(Integer userId);
+    @Select(" select wr.* from web_admin_role war , web_role wr where war.roleid=wr.id and war.operator_Id=#{operatorId}")
+    List<WebRole> userRoleList(Integer operatorId);
 
 }

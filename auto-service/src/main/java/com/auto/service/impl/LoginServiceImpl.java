@@ -111,29 +111,29 @@ public class LoginServiceImpl implements LoginService {
      * 实现类
      * 添加用户角色
      * @param ids
-     * @param userId
+     * @param operatorId
      * @return
      */
     @Override
-    public int addUserRole(List<Integer> ids, Integer userId) {
+    public int addUserRole(List<Integer> ids, Integer operatorId) {
         //删除用户角色
-        int dcount = webAdminMapper.deleteUserRole(userId);
+        int dcount = webAdminMapper.deleteUserRole(operatorId);
         //新增用户角色
         int acount = 0; //记录受影响行数
         for (Integer id : ids) {
-            acount+=webAdminMapper.addUserRole(userId,id);
+            acount+=webAdminMapper.addUserRole(operatorId,id);
         }
         return acount;
     }
 
     /***
      * 查询用户信息
-     * @param id
+     * @param operatorId
      * @return
      */
     @Override
-    public WebAdmin findById(Integer id) {
-        return webAdminMapper.findById(id);
+    public WebAdmin findById(Integer operatorId) {
+        return webAdminMapper.findById(operatorId);
     }
 }
 

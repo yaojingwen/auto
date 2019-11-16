@@ -23,7 +23,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @Author: wangdawei
@@ -61,19 +63,33 @@ public class UserController {
         model.addAttribute("webAdmin",webAdmin);
         return "user-show";
     }
+    /***
+     * 添加用户角色
+     * /user/role/add--->Method.POST
+     */
+    @ResponseBody
+    @RequestMapping(value = "/role/add",method = RequestMethod.POST)
+    public Map<String,Object> add(@RequestParam List<Integer> ids,Integer operatorId){
+        //添加用户角色
+        loginService.addUserRole(ids,operatorId);
 
+        Map<String,Object> resultMap = new HashMap<String,Object>();
+        resultMap.put("success",true);
+        resultMap.put("message","添加角色成功");
+        return resultMap;
+    }
     /***
      * 给用户添加角色页面跳转
-     * @param id    用户ID
+     * @param operatorId    用户ID
      * @return
      */
     @RequestMapping(value = "/role/add",method = RequestMethod.GET)
-    public String add(Integer id,Model model){
+    public String add(Integer operatorId,Model model){
         //查询所有角色
         List<WebRole> roles = roleService.list();
 
         //查询用户所有的角色记录
-        List<WebRole> WebRoles = roleService.userRoleList(id);
+        List<WebRole> WebRoles = roleService.userRoleList(operatorId);
         if(WebRoles!=null && WebRoles.size()>0){
             //定义一个StringBuffer，拼接用户角色ID :[1][2][4]
             StringBuffer buffer = new StringBuffer();
@@ -88,7 +104,7 @@ public class UserController {
         model.addAttribute("roles",roles);
 
         //将用户ID存入到Model中用于添加用户角色
-        model.addAttribute("id",id);
+        model.addAttribute("operatorId",operatorId);
         return "user-role-add";
     }
     /***

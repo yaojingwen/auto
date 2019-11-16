@@ -49,10 +49,10 @@ public interface LoginService {
       * 接口
       * 给用户添加角色
       * @param ids
-      * @param userId
+      * @param operatorId
       * @return
       */
-     int addUserRole(List<Integer> ids, Integer userId);
+     int addUserRole(List<Integer> ids, Integer operatorId);
 
      /***
       * 接口

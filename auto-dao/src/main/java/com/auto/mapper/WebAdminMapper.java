@@ -58,20 +58,21 @@ public interface WebAdminMapper {
 
     /***
      * 删除用户对应的角色记录
-     * @param userId
+     * @param operatorId
      * @return
      */
-    @Delete(" delete from web_admin_role where userId=#{userId}")
-    int deleteUserRole(Integer userId);
+    @Delete(" delete from web_admin_role where operatorId=#{operatorId}")
+    int deleteUserRole(Integer operatorId);
 
     /***
      * 增加用户角色
-     * @param id
-     * @param userId
+     * @param operatorId
+     * @param roleId
      * @return
      */
-    @Insert("   insert into web_admin_role(userId,roleId)values(#{userId},#{roleId})")
-    int addUserRole(@Param("userId")Integer id, @Param("roleId")Integer userId);
+    /////////////////       这块有问题    ///////////////TODO
+    @Insert("insert into web_admin_role(operator_Id,roleId)values(#{operatorId},#{roleId})")
+    int addUserRole(@Param("operatorId")Integer operatorId, @Param("roleId")Integer roleId);
 
     /***
      * 查询用户信息
