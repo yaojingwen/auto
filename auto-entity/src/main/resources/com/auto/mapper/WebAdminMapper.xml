@@ -155,7 +155,7 @@
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
-        WEB_ADMIN_ID.Nextval,
+      WEB_ADMIN_SEQUENCE.Nextval,
       <if test="userAdmin != null">
         #{userAdmin,jdbcType=VARCHAR},
       </if>

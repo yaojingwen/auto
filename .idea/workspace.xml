@@ -7,7 +7,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="614661cf-6fbc-4c7c-b4e1-027994becbf9" name="Default Changelist" comment="前端页面调整">
+      <change afterPath="$PROJECT_DIR$/auto-util/src/main/java/com/auto/util/ResultPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-web/src/main/java/com/auto/controller/RoleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-dao/src/main/java/com/auto/mapper/WebRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-dao/src/main/java/com/auto/mapper/WebRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-dao/target/auto-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/auto-dao/target/auto-dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/auto-dao/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/auto-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/auto-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebPermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebPermission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebAdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebAdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-entity/target/auto-entity-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/auto-entity/target/auto-entity-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/entity/WebAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/entity/WebAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/entity/WebPermission.class" beforeDir="false" afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/entity/WebPermission.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/entity/WebRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/entity/WebRole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/mapper/WebAdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auto-entity/target/classes/com/auto/mapper/WebAdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-entity/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/auto-entity/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/auto-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/auto-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-service/target/auto-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/auto-service/target/auto-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-service/target/classes/com/auto/service/RoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/auto-service/target/classes/com/auto/service/RoleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/auto-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/auto-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/auto-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auto-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-util/target/auto-util-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/auto-util/target/auto-util-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/auto-util/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/auto-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/auto-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-web/src/main/java/com/auto/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/java/com/auto/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-web/src/main/resources/springsecurity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/resources/springsecurity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/aside.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/role-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/role-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/404.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/classes/com/auto/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/classes/com/auto/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/classes/com/auto/service/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/classes/com/auto/service/UserDetailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/classes/springsecurity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/classes/springsecurity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/lib/auto-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/lib/auto-dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/lib/auto-entity-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/lib/auto-entity-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/lib/auto-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/lib/auto-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/lib/auto-util-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/lib/auto-util-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/role-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/role-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-web/target/classes/com/auto/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/classes/com/auto/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-web/target/classes/springsecurity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/classes/springsecurity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -119,51 +173,57 @@
     <session id="460129819">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="5" />
+          <entry key="0-SNAPSHOT" value="3" />
+          <entry key="class" value="6" />
           <entry key="css" value="4" />
-          <entry key="dtd" value="1" />
-          <entry key="java" value="23" />
-          <entry key="jsp" value="11" />
+          <entry key="dtd" value="2" />
+          <entry key="java" value="48" />
+          <entry key="jsp" value="17" />
+          <entry key="pom" value="2" />
           <entry key="properties" value="1" />
-          <entry key="xml" value="25" />
+          <entry key="xml" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="5" />
+          <entry key="CLASS" value="6" />
           <entry key="CSS" value="4" />
-          <entry key="DTD" value="1" />
-          <entry key="JAVA" value="23" />
-          <entry key="JSP" value="11" />
+          <entry key="DTD" value="2" />
+          <entry key="JAVA" value="48" />
+          <entry key="JSP" value="17" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="25" />
+          <entry key="UML" value="3" />
+          <entry key="XML" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="232" />
-          <entry key="jsp" value="187" />
+          <entry key="java" value="1116" />
+          <entry key="jsp" value="210" />
           <entry key="txt" value="12" />
-          <entry key="xml" value="78" />
+          <entry key="xml" value="92" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="232" />
-          <entry key="JSP" value="187" />
+          <entry key="JAVA" value="1116" />
+          <entry key="JSP" value="210" />
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="XML" value="78" />
+          <entry key="SQL" value="2" />
+          <entry key="XML" value="90" />
         </counts>
       </usages-collector>
     </session>
@@ -171,110 +231,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/impl/LoginServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#736#737#0" expanded="true" />
-                <element signature="e#984#985#0" expanded="true" />
-                <element signature="e#1008#1009#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-service/src/main/resources/spring.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-dao/src/main/resources/spring-mybatis.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-dao/src/main/resources/properties/xp_oracle.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/resources/springsecurity.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebAdminMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2312">
-              <caret line="136" column="11" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-dao/src/main/java/com/auto/mapper/WebAdminMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/mavenRep/MyRepository/org/springframework/security/spring-security-core/5.0.1.RELEASE/spring-security-core-5.0.1.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1207">
-              <caret line="89" selection-start-line="89" selection-end-line="89" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebAdminExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-web/src/main/java/com/auto/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+            <state relative-caret-position="301">
+              <caret line="84" column="63" selection-start-line="84" selection-start-column="63" selection-end-line="84" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-web/src/main/java/com/auto/controller/RoleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -283,46 +255,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/java/com/auto/service/UserDetailsServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/role-list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="35" column="82" lean-forward="true" selection-start-line="35" selection-start-column="82" selection-end-line="35" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/main.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1411">
-              <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-show.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
+            <state relative-caret-position="-68">
+              <caret line="149" column="70" lean-forward="true" selection-start-line="149" selection-start-column="70" selection-end-line="149" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -330,17 +266,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2754">
-              <caret line="162" column="36" selection-start-line="162" selection-start-column="36" selection-end-line="162" selection-end-column="36" />
+            <state relative-caret-position="77">
+              <caret line="194" column="76" selection-start-line="194" selection-start-column="76" selection-end-line="194" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/plugins/bootstrap/css/bootstrap.min.css">
+        <entry file="file://$PROJECT_DIR$/auto-entity/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-util/src/main/java/com/auto/components/exception/CustomExceptionResolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="4" column="68987" selection-start-line="4" selection-start-column="68987" selection-end-line="4" selection-end-column="68987" />
+            <state relative-caret-position="221">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -348,26 +292,75 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2805">
-              <caret line="165" column="74" selection-start-line="165" selection-start-column="74" selection-end-line="165" selection-end-column="74" />
+            <state relative-caret-position="321">
+              <caret line="143" column="24" selection-start-line="143" selection-start-column="24" selection-end-line="143" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/500.jsp">
+        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2567">
-              <caret line="151" column="54" selection-start-line="151" selection-start-column="54" selection-end-line="151" selection-end-column="54" />
+            <state relative-caret-position="193">
+              <caret line="73" column="21" lean-forward="true" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebRoleMapper.xml">
+        <entry file="file://$PROJECT_DIR$/auto-web/src/main/resources/springmvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2958">
-              <caret line="174" column="70" selection-start-line="174" selection-start-column="70" selection-end-line="174" selection-end-column="70" />
+            <state relative-caret-position="46">
+              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-web/src/main/resources/springsecurity.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-util/src/main/java/com/auto/util/ResultBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/404.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-dao/src/main/resources/spring-mybatis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/impl/RoleServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#744#745#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -375,26 +368,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebRole.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#614#615#0" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
+                <element signature="e#746#747#0" expanded="true" />
+                <element signature="e#778#779#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
+                <element signature="e#878#879#0" expanded="true" />
+                <element signature="e#932#933#0" expanded="true" />
+                <element signature="e#969#970#0" expanded="true" />
+                <element signature="e#1042#1043#0" expanded="true" />
+                <element signature="e#1094#1095#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/plugins/bootstrap/css/bootstrap.css">
+        <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebRoleExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72199">
-              <caret line="4247" column="3" selection-start-line="4247" selection-start-column="3" selection-end-line="4247" selection-end-column="3" />
+            <state relative-caret-position="-1003">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/plugins/adminLTE/css/AdminLTE.css">
+        <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebPermission.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76041">
-              <caret line="4473" column="10" selection-start-line="4473" selection-start-column="1" selection-end-line="4473" selection-end-column="10" />
+            <state relative-caret-position="238">
+              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+              <folding>
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -402,8 +431,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/syslog-list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3621">
-              <caret line="213" column="29" selection-start-line="213" selection-start-column="29" selection-end-line="213" selection-end-column="29" />
+            <state relative-caret-position="391">
+              <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -411,8 +440,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/aside.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+            <state relative-caret-position="131">
+              <caret line="87" column="35" lean-forward="true" selection-start-line="87" selection-start-column="35" selection-end-line="87" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -438,11 +467,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/LoginService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="18" column="43" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-dao/src/main/java/com/auto/mapper/WebAdminMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-dao/src/main/java/com/auto/mapper/WebRoleMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-12">
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/RoleService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -459,11 +512,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>/img/2019-10-13_13-09-42.png</find>
-      <find>数据 - AdminLTE2定制版</find>
-      <find>itcast</find>
-      <find>AdminLTE2定制版</find>
-      <find>&quot;http://www.itcast.cn&quot;</find>
       <find>url(&quot;/img/2019-10-13_13-09-42.png&quot;)</find>
       <find>后台管理</find>
       <find>数据</find>
@@ -489,6 +537,11 @@
       <find>class=&quot;navbar navbar-static-top&quot;</find>
       <find>\&lt;\%\-\-\n\	\	\	\	\	\	\	\	\	\	\&lt;a href\=\&quot;\$\{pageContext\.request\.contextPath\}\/pages\/user\-show\.jsp\&quot; class\=\&quot;btn bg\-olive btn\-xs\&quot;\&gt;详情\&lt;\/a\&gt;\n\-\-\%\&gt;</find>
       <find>text-center</find>
+      <find>insert</find>
+      <find>logging/Log</find>
+      <find>Lorg</find>
+      <find>log4j</find>
+      <find>ROLE_USER</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -517,24 +570,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/auto-web/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/auto-web/src/main/webapp/403.jsp" />
-        <option value="$PROJECT_DIR$/auto-web/src/main/webapp/404.jsp" />
-        <option value="$PROJECT_DIR$/auto-web/src/main/webapp/500.jsp" />
-        <option value="$PROJECT_DIR$/auto-web/src/main/resources/springsecurity.xml" />
-        <option value="$PROJECT_DIR$/auto-web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/child-rows/column-control.html" />
-        <option value="$PROJECT_DIR$/auto-web/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-without-plugins.css" />
-        <option value="$PROJECT_DIR$/auto-web/src/main/java/com/asiainfo/service/UserDetailsServiceImpl.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/247b2e96-1ff5-4e1f-9a3e-1407f446f4e6/console.sql" />
-        <option value="$PROJECT_DIR$/auto-entity/src/main/java/com/asiainfo/entity/WebAdmin.java" />
-        <option value="$PROJECT_DIR$/auto-web/src/main/webapp/failer.jsp" />
-        <option value="$PROJECT_DIR$/auto-web/src/main/webapp/pages/header.jsp" />
-        <option value="$PROJECT_DIR$/auto-util/pom.xml" />
-        <option value="$PROJECT_DIR$/auto-dao/src/main/resources/properties/db.properties" />
-        <option value="$PROJECT_DIR$/auto-dao/src/main/resources/properties/xp_oracle.properties" />
-        <option value="$PROJECT_DIR$/auto-entity/src/main/java/com/asiainfo/entity/WebPermisson.java" />
-        <option value="$PROJECT_DIR$/auto-entity/src/main/java/com/asiainfo/entity/WebRole.java" />
-        <option value="$PROJECT_DIR$/auto-service/src/main/java/com/asiainfo/service/LoginService.java" />
         <option value="$PROJECT_DIR$/auto-service/src/main/java/com/asiainfo/service/UserService.java" />
         <option value="$PROJECT_DIR$/auto-service/src/main/java/com/asiainfo/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/auto-web/src/main/java/com/asiainfo/controller/UserController.java" />
@@ -542,12 +577,10 @@
         <option value="$PROJECT_DIR$/auto-dao/src/main/java/com/asiainfo/mapper/WebAdminMapper.java" />
         <option value="$PROJECT_DIR$/auto-web/src/main/webapp/css/pages-login-manage.css" />
         <option value="$PROJECT_DIR$/auto-web/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/auto-web/src/main/java/com/auto/controller/UserController.java" />
         <option value="$PROJECT_DIR$/auto-dao/src/main/resources/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-add.jsp" />
         <option value="$PROJECT_DIR$/auto-web/src/main/java/com/auto/controller/test.java" />
         <option value="$PROJECT_DIR$/auto-web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebAdmin.java" />
         <option value="$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebCase.java" />
         <option value="$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebCaseCurrentMapper.xml" />
         <option value="$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebCaseHisMapper.xml" />
@@ -556,18 +589,38 @@
         <option value="$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebConfigMapper.xml" />
         <option value="$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebControlMapper.xml" />
         <option value="$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebWebelementMapper.xml" />
-        <option value="$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebAdminMapper.xml" />
         <option value="$PROJECT_DIR$/auto-dao/src/main/java/com/auto/mapper/WebAdminMapper.java" />
-        <option value="$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/LoginService.java" />
-        <option value="$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/impl/LoginServiceImpl.java" />
-        <option value="$PROJECT_DIR$/auto-web/src/main/java/com/auto/service/UserDetailsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/auto-web/src/main/webapp/pages/main.jsp" />
-        <option value="$PROJECT_DIR$/auto-web/src/main/webapp/pages/aside.jsp" />
         <option value="$PROJECT_DIR$/auto-web/src/main/webapp/plugins/adminLTE/css/AdminLTE.css" />
         <option value="$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-list.jsp" />
         <option value="$PROJECT_DIR$/auto-web/src/main/webapp/plugins/adminLTE/css/skins/_all-skins.min.css" />
         <option value="$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-show.jsp" />
         <option value="$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-list.jsp" />
+        <option value="$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebAdminMapper.xml" />
+        <option value="$PROJECT_DIR$/auto-util/src/main/java/com/auto/util/Result.java" />
+        <option value="$PROJECT_DIR$/auto-util/src/main/java/com/auto/util/StatusCode.java" />
+        <option value="$PROJECT_DIR$/auto-util/src/main/java/com/auto/util/BaseExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/auto-util/src/main/java/com/auto/util/ResultPage.java" />
+        <option value="$PROJECT_DIR$/auto-util/src/main/java/com/auto/util/MyException.java" />
+        <option value="$PROJECT_DIR$/auto-web/src/main/webapp/pages/404.jsp" />
+        <option value="$PROJECT_DIR$/auto-util/src/main/java/com/auto/components/exception/CustomExceptionResolver.java" />
+        <option value="$PROJECT_DIR$/auto-web/src/main/resources/log4j.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/auto-web/src/main/webapp/pages/main.jsp" />
+        <option value="$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebPermission.java" />
+        <option value="$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebAdmin.java" />
+        <option value="$PROJECT_DIR$/auto-dao/src/main/java/com/auto/mapper/WebRoleMapper.java" />
+        <option value="$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/LoginService.java" />
+        <option value="$PROJECT_DIR$/auto-web/src/main/java/com/auto/service/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/impl/LoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/auto-web/src/main/java/com/auto/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/auto-web/src/main/resources/springsecurity.xml" />
+        <option value="$PROJECT_DIR$/auto-web/src/main/webapp/pages/aside.jsp" />
+        <option value="$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/auto-web/src/main/java/com/auto/controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebRoleMapper.xml" />
+        <option value="$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebRole.java" />
+        <option value="$PROJECT_DIR$/auto-web/src/main/webapp/pages/role-list.jsp" />
       </list>
     </option>
   </component>
@@ -600,7 +653,12 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="auto-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -610,10 +668,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="39" />
-    <option name="y" value="243" />
-    <option name="width" value="1365" />
-    <option name="height" value="747" />
+    <option name="x" value="837" />
+    <option name="y" value="78" />
+    <option name="width" value="648" />
+    <option name="height" value="690" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -630,8 +688,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -664,6 +720,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="auto" type="b2602c69:ProjectViewProjectNode" />
@@ -706,20 +781,70 @@
             <path>
               <item name="auto" type="b2602c69:ProjectViewProjectNode" />
               <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="auto-util" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="auto" type="b2602c69:ProjectViewProjectNode" />
               <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="auto-util" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="auto" type="b2602c69:ProjectViewProjectNode" />
               <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="auto-util" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="auto" type="b2602c69:ProjectViewProjectNode" />
@@ -783,10 +908,7 @@
               <item name="auto-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="auto" type="b2602c69:ProjectViewProjectNode" />
@@ -805,37 +927,33 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="auto-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="spring&#9;FILE&#9;file://D:/chromedownloads/auto/auto-service/src/main/resources/spring.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573479199267" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573894401411" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaEETest-master" />
+    <property name="last_opened_file_path" value="D:/TGA/autotest/adminlte2-itheima-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.3976261" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="project.structure.side.proportion" value="0.5505747" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -963,6 +1081,9 @@
       <workItem from="1573089706619" duration="599000" />
       <workItem from="1573265011058" duration="16125000" />
       <workItem from="1573522188110" duration="342000" />
+      <workItem from="1573571591009" duration="628000" />
+      <workItem from="1573722479279" duration="9055000" />
+      <workItem from="1573870062555" duration="9403000" />
     </task>
     <task id="LOCAL-00001" summary="第一个">
       <created>1571453021810</created>
@@ -1059,12 +1180,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97083000" />
+    <option name="totallyTimeSpent" value="125028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" x="653" y="223" width="421" height="666" id="Project" order="0" visible="true" weight="0.2956335" />
+      <window_info active="true" x="653" y="223" width="421" height="666" id="Project" order="0" visible="true" weight="0.26127416" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1074,7 +1196,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36363637" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29140723" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3237858" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1093,7 +1215,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.16567697" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.41660702" />
       <window_info anchor="right" id="Database" order="6" weight="0.29348603" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -1179,289 +1301,11 @@
     <MESSAGE value="前端页面调整" />
     <option name="LAST_COMMIT_MESSAGE" value="前端页面调整" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/auto-dao/src/main/java/com/auto/mapper/WebAdminMapper.java</url>
-          <line>19</line>
-          <properties class="com.auto.mapper.WebAdminMapper" method="selectByExample" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebCaseExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="161" selection-start-line="161" selection-end-line="161" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebRoleExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebPermisson.java" />
-    <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/RoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebAdminRoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebCaseCurrentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="315" column="9" lean-forward="true" selection-start-line="315" selection-start-column="9" selection-end-line="315" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebCaseHisMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="314" column="11" selection-start-line="314" selection-start-column="11" selection-end-line="314" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebCaseMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="314" column="11" selection-start-line="314" selection-start-column="11" selection-end-line="314" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebComponentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="257" column="11" selection-start-line="257" selection-start-column="11" selection-end-line="257" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebConfigMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="221" column="11" selection-start-line="221" selection-start-column="11" selection-end-line="221" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebControlMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="241" column="11" selection-start-line="241" selection-start-column="11" selection-end-line="241" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebPermissionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebRolePermissionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="68" column="55" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebWebelementMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="136" column="30" selection-start-line="136" selection-start-column="30" selection-end-line="136" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/mavenRep/MyRepository/org/springframework/spring-aop/4.3.10.RELEASE/spring-aop-4.3.10.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="180" selection-start-line="180" selection-end-line="180" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/mavenRep/MyRepository/org/springframework/spring-tx/4.3.10.RELEASE/spring-tx-4.3.10.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="153" selection-start-line="153" selection-end-line="153" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/mavenRep/MyRepository/org/springframework/spring-aop/4.3.10.RELEASE/spring-aop-4.3.10.RELEASE.jar!/org/springframework/aop/interceptor/ExposeInvocationInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/mavenRep/MyRepository/org/springframework/spring-aop/4.3.10.RELEASE/spring-aop-4.3.10.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="138" selection-start-line="138" selection-end-line="138" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="747" selection-start-line="747" selection-end-line="747" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/plugins/adminLTE/css/skins/_all-skins.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34119" selection-start-column="34119" selection-end-column="34119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/impl/LoginServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-service/src/main/resources/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-dao/src/main/resources/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-dao/src/main/resources/properties/xp_oracle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/resources/springsecurity.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebAdminMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2312">
-          <caret line="136" column="11" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-dao/src/main/java/com/auto/mapper/WebAdminMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/mavenRep/MyRepository/org/springframework/security/spring-security-core/5.0.1.RELEASE/spring-security-core-5.0.1.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebAdminExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/java/com/auto/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-show.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2754">
-          <caret line="162" column="36" selection-start-line="162" selection-start-column="36" selection-end-line="162" selection-end-column="36" />
+        <state relative-caret-position="1598">
+          <caret line="94" column="44" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1472,13 +1316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2805">
-          <caret line="165" column="74" selection-start-line="165" selection-start-column="74" selection-end-line="165" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/500.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2567">
@@ -1486,17 +1323,911 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebRoleMapper.xml">
+    <entry file="file://D:/mavenRep/MyRepository/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/mavenRep/MyRepository/org/springframework/spring-webmvc/5.0.10.RELEASE/spring-webmvc-5.0.10.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2958">
-          <caret line="174" column="70" selection-start-line="174" selection-start-column="70" selection-end-line="174" selection-end-column="70" />
+        <state relative-caret-position="34">
+          <caret line="245" column="18" selection-start-line="245" selection-start-column="18" selection-end-line="245" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebRole.java">
+    <entry file="file://$PROJECT_DIR$/auto-util/src/main/java/com/auto/components/exception/CustomException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-util/src/main/java/com/auto/util/StatusCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-util/src/main/java/com/auto/util/ResultPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-util/src/main/java/com/auto/util/PageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-util/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2754">
+          <caret line="162" column="24" selection-start-line="162" selection-start-column="24" selection-end-line="162" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-util/src/main/java/com/auto/components/exception/CustomExceptionResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.asiainfo:auto:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.asiainfo:auto:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">com.asiainfo:auto:1.0-SNAPSHOT</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="29.0" y="15.5" />
+          <SelectedNodes>
+            <node>com.asiainfo:auto:1.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.asiainfo:auto-util:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.asiainfo:auto-util:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="818.1666666666667" y="354.0">com.asiainfo:auto-util:1.0-SNAPSHOT</node>
+            <node x="1100.375" y="263.0">org.testng:testng:jar:6.8</node>
+            <node x="1054.875" y="172.0">org.testng:testng:jar:6.8/junit:junit:jar:4.12</node>
+            <node x="1026.875" y="81.0">org.testng:testng:jar:6.8/junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="1256.875" y="172.0">org.testng:testng:jar:6.8/org.beanshell:bsh:jar:2.0b4</node>
+            <node x="1132.875" y="172.0">org.testng:testng:jar:6.8/com.beust:jcommander:jar:1.27</node>
+            <node x="942.875" y="172.0">org.testng:testng:jar:6.8/org.yaml:snakeyaml:jar:1.6</node>
+            <node x="96.0" y="263.0">org.springframework:spring-web:jar:5.0.10.RELEASE</node>
+            <node x="166.0" y="172.0">org.springframework:spring-web:jar:5.0.10.RELEASE/org.springframework:spring-beans:jar:5.0.10.RELEASE</node>
+            <node x="48.0" y="172.0">org.springframework:spring-web:jar:5.0.10.RELEASE/org.springframework:spring-core:jar:5.0.10.RELEASE</node>
+            <node x="54.0" y="81.0">org.springframework:spring-web:jar:5.0.10.RELEASE/org.springframework:spring-core:jar:5.0.10.RELEASE/org.springframework:spring-jcl:jar:5.0.10.RELEASE</node>
+            <node x="466.25" y="263.0">org.springframework:spring-webmvc:jar:5.0.10.RELEASE</node>
+            <node x="860.375" y="81.0">org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE</node>
+            <node x="915.875" y="0.0">org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE</node>
+            <node x="797.875" y="0.0">org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE</node>
+            <node x="655.8910256410257" y="172.0">org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-context:jar:4.3.10.RELEASE</node>
+            <node x="732.375" y="81.0">org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-beans:jar:5.0.10.RELEASE</node>
+            <node x="407.76602564102575" y="81.0">org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:5.0.10.RELEASE</node>
+            <node x="578.375" y="81.0">org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE</node>
+            <node x="294.0" y="172.0">org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-expression:jar:5.0.10.RELEASE</node>
+            <node x="448.0" y="172.0">org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-web:jar:4.3.10.RELEASE</node>
+            <node x="1332.375" y="263.0">log4j:log4j:jar:1.2.12</node>
+            <node x="1188.375" y="263.0">javax.servlet:javax.servlet-api:jar:3.1.0</node>
+            <node x="0.0" y="263.0">com.alibaba:fastjson:jar:1.2.48</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-context:jar:4.3.10.RELEASE" target="org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE">
+              <point x="43.5" y="-15.5" />
+              <point x="757.3910256410257" y="152.0" />
+              <point x="884.375" y="152.0" />
+              <point x="-24.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-util:1.0-SNAPSHOT" target="org.testng:testng:jar:6.8">
+              <point x="6.833333333333314" y="-15.5" />
+              <point x="866.0" y="314.0" />
+              <point x="1134.375" y="314.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:5.0.10.RELEASE" target="org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-web:jar:4.3.10.RELEASE">
+              <point x="-10.083333333333371" y="-15.5" />
+              <point x="516.6666666666666" y="223.0" />
+              <point x="497.0" y="223.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-context:jar:4.3.10.RELEASE" target="org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-beans:jar:5.0.10.RELEASE">
+              <point x="14.5" y="-15.5" />
+              <point x="728.3910256410257" y="142.0" />
+              <point x="786.375" y="142.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-util:1.0-SNAPSHOT" target="log4j:log4j:jar:1.2.12">
+              <point x="34.166666666666686" y="-15.5" />
+              <point x="893.3333333333334" y="334.0" />
+              <point x="1362.875" y="334.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:5.0.10.RELEASE" target="org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE">
+              <point x="50.41666666666663" y="-15.5" />
+              <point x="577.1666666666666" y="243.0" />
+              <point x="932.375" y="243.0" />
+              <point x="24.0" y="15.5" />
+            </edge>
+            <edge source="org.testng:testng:jar:6.8/junit:junit:jar:4.12" target="org.testng:testng:jar:6.8/junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:5.0.10.RELEASE/org.springframework:spring-beans:jar:5.0.10.RELEASE" target="org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:5.0.10.RELEASE">
+              <point x="-5.6843418860808015E-14" y="-15.5" />
+              <point x="219.99999999999994" y="142.0" />
+              <point x="420.01602564102575" y="142.0" />
+              <point x="-36.75" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:5.0.10.RELEASE" target="org.springframework:spring-web:jar:5.0.10.RELEASE/org.springframework:spring-beans:jar:5.0.10.RELEASE">
+              <point x="-50.41666666666663" y="-15.5" />
+              <point x="476.33333333333337" y="243.0" />
+              <point x="247.0" y="243.0" />
+              <point x="27.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:5.0.10.RELEASE" target="org.springframework:spring-web:jar:5.0.10.RELEASE/org.springframework:spring-core:jar:5.0.10.RELEASE">
+              <point x="-24.5" y="-15.5" />
+              <point x="120.5" y="243.0" />
+              <point x="97.0" y="243.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.testng:testng:jar:6.8" target="org.testng:testng:jar:6.8/com.beust:jcommander:jar:1.27">
+              <point x="8.5" y="-15.5" />
+              <point x="1142.875" y="233.0" />
+              <point x="1184.875" y="233.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:5.0.10.RELEASE" target="org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-expression:jar:5.0.10.RELEASE">
+              <point x="-30.25" y="-15.5" />
+              <point x="496.5" y="233.0" />
+              <point x="361.0" y="233.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.testng:testng:jar:6.8" target="org.testng:testng:jar:6.8/org.beanshell:bsh:jar:2.0b4">
+              <point x="25.5" y="-15.5" />
+              <point x="1159.875" y="243.0" />
+              <point x="1282.875" y="243.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-util:1.0-SNAPSHOT" target="javax.servlet:javax.servlet-api:jar:3.1.0">
+              <point x="20.5" y="-15.5" />
+              <point x="879.6666666666667" y="324.0" />
+              <point x="1250.375" y="324.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:5.0.10.RELEASE" target="org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-context:jar:4.3.10.RELEASE">
+              <point x="30.25" y="-15.5" />
+              <point x="557.0" y="233.0" />
+              <point x="713.8910256410257" y="233.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.testng:testng:jar:6.8" target="org.testng:testng:jar:6.8/junit:junit:jar:4.12">
+              <point x="-8.5" y="-15.5" />
+              <point x="1125.875" y="233.0" />
+              <point x="1083.875" y="233.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-expression:jar:5.0.10.RELEASE" target="org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:5.0.10.RELEASE">
+              <point x="0.0" y="-15.5" />
+              <point x="361.0" y="152.0" />
+              <point x="444.51602564102575" y="152.0" />
+              <point x="-12.25" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE" target="org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="24.0" y="-15.5" />
+              <point x="932.375" y="56.0" />
+              <point x="969.875" y="56.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:5.0.10.RELEASE" target="org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:5.0.10.RELEASE">
+              <point x="10.083333333333371" y="-15.5" />
+              <point x="536.8333333333334" y="223.0" />
+              <point x="556.5" y="223.0" />
+              <point x="556.5" y="152.0" />
+              <point x="469.01602564102575" y="152.0" />
+              <point x="12.25" y="15.5" />
+            </edge>
+            <edge source="org.testng:testng:jar:6.8" target="org.testng:testng:jar:6.8/org.yaml:snakeyaml:jar:1.6">
+              <point x="-25.5" y="-15.5" />
+              <point x="1108.875" y="243.0" />
+              <point x="988.875" y="243.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-context:jar:4.3.10.RELEASE" target="org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:5.0.10.RELEASE">
+              <point x="-43.5" y="-15.5" />
+              <point x="670.3910256410257" y="142.0" />
+              <point x="493.51602564102575" y="142.0" />
+              <point x="36.75" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-util:1.0-SNAPSHOT" target="com.alibaba:fastjson:jar:1.2.48">
+              <point x="-34.16666666666663" y="-15.5" />
+              <point x="825.0" y="334.0" />
+              <point x="38.0" y="334.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE" target="org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="-24.0" y="-15.5" />
+              <point x="884.375" y="56.0" />
+              <point x="846.875" y="56.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:5.0.10.RELEASE" target="org.springframework:spring-web:jar:5.0.10.RELEASE/org.springframework:spring-beans:jar:5.0.10.RELEASE">
+              <point x="24.5" y="-15.5" />
+              <point x="169.5" y="243.0" />
+              <point x="193.0" y="243.0" />
+              <point x="-27.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-context:jar:4.3.10.RELEASE" target="org.springframework:spring-webmvc:jar:5.0.10.RELEASE/org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE">
+              <point x="-14.5" y="-15.5" />
+              <point x="699.3910256410257" y="132.0" />
+              <point x="645.375" y="132.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-util:1.0-SNAPSHOT" target="org.springframework:spring-webmvc:jar:5.0.10.RELEASE">
+              <point x="-6.833333333333314" y="-15.5" />
+              <point x="852.3333333333334" y="314.0" />
+              <point x="526.75" y="314.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:5.0.10.RELEASE/org.springframework:spring-core:jar:5.0.10.RELEASE" target="org.springframework:spring-web:jar:5.0.10.RELEASE/org.springframework:spring-core:jar:5.0.10.RELEASE/org.springframework:spring-jcl:jar:5.0.10.RELEASE">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-util:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:5.0.10.RELEASE">
+              <point x="-20.5" y="-15.5" />
+              <point x="838.6666666666667" y="324.0" />
+              <point x="145.0" y="324.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.39800995024875624" x="593.0" y="192.5" />
+          <SelectedNodes>
+            <node>com.asiainfo:auto-util:1.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.asiainfo:auto-web:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.asiainfo:auto-web:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="636.6755208333336" y="1030.0">com.asiainfo:auto-web:1.0-SNAPSHOT</node>
+            <node x="1070.3630208333336" y="929.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT</node>
+            <node x="1616.6130208333336" y="828.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT</node>
+            <node x="1483.8482656926403" y="707.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.asiainfo:auto-entity:jar:1.0-SNAPSHOT</node>
+            <node x="1466.8482656926403" y="606.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.asiainfo:auto-entity:jar:1.0-SNAPSHOT/com.asiainfo:auto-util:jar:1.0-SNAPSHOT</node>
+            <node x="1427.6677820616892" y="515.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.asiainfo:auto-entity:jar:1.0-SNAPSHOT/com.asiainfo:auto-util:jar:1.0-SNAPSHOT/javax.servlet:javax.servlet-api:jar:3.1.0</node>
+            <node x="1287.7629694264078" y="515.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.asiainfo:auto-entity:jar:1.0-SNAPSHOT/com.asiainfo:auto-util:jar:1.0-SNAPSHOT/com.alibaba:fastjson:jar:1.1.38</node>
+            <node x="1568.8482656926403" y="606.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/org.mybatis:mybatis:jar:3.4.5</node>
+            <node x="1343.8482656926403" y="707.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/org.mybatis:mybatis-spring:jar:1.3.0</node>
+            <node x="1260.8482656926403" y="707.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.alibaba:druid:jar:1.0.9</node>
+            <node x="1237.5982656926403" y="606.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.alibaba:druid:jar:1.0.9/com.alibaba:jconsole:jar:1.8.0</node>
+            <node x="1335.5982656926403" y="606.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.alibaba:druid:jar:1.0.9/com.alibaba:tools:jar:1.8.0</node>
+            <node x="1637.8482656926403" y="707.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.oracle:ojdbc14:jar:10.2.0.4.0</node>
+            <node x="1785.3482656926403" y="515.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/log4j:log4j:jar:1.2.12</node>
+            <node x="1707.8482656926403" y="606.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/org.slf4j:slf4j-api:jar:1.6.6</node>
+            <node x="1737.8482656926403" y="707.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.6</node>
+            <node x="1861.8482656926403" y="707.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.github.pagehelper:pagehelper:jar:5.1.2</node>
+            <node x="1866.8482656926403" y="606.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.github.pagehelper:pagehelper:jar:5.1.2/com.github.jsqlparser:jsqlparser:jar:1.0</node>
+            <node x="1032.1130208333336" y="828.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.aspectj:aspectjweaver:jar:1.6.8</node>
+            <node x="884.0982656926403" y="202.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-aop:jar:4.3.10.RELEASE</node>
+            <node x="1042.632067775975" y="303.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.3.10.RELEASE</node>
+            <node x="2141.931599025974" y="202.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-tx:jar:4.3.10.RELEASE</node>
+            <node x="2088.681599025974" y="303.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-jdbc:jar:4.3.10.RELEASE</node>
+            <node x="863.6130208333336" y="828.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE</node>
+            <node x="628.4375" y="707.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE/org.springframework.security:spring-security-core:jar:5.0.1.RELEASE</node>
+            <node x="650.607067775975" y="606.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE/org.springframework.security:spring-security-core:jar:5.0.1.RELEASE/org.springframework:spring-beans:jar:5.0.3.RELEASE</node>
+            <node x="588.3732142857144" y="666.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE/org.springframework.security:spring-security-core:jar:5.0.1.RELEASE/org.springframework:spring-core:jar:5.0.3.RELEASE</node>
+            <node x="496.607067775975" y="606.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE/org.springframework.security:spring-security-core:jar:5.0.1.RELEASE/org.springframework:spring-expression:jar:5.0.3.RELEASE</node>
+            <node x="1058.3375" y="707.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE</node>
+            <node x="1018.5232142857144" y="757.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE</node>
+            <node x="903.3375000000001" y="707.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE</node>
+            <node x="408.3482656926403" y="828.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-config:jar:5.0.1.RELEASE</node>
+            <node x="356.607067775975" y="707.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-config:jar:5.0.1.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE</node>
+            <node x="846.5417948081999" y="0.0">com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-config:jar:5.0.1.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE</node>
+            <node x="953.2380208333336" y="404.0">org.springframework:spring-web:jar:4.3.10.RELEASE</node>
+            <node x="1297.709448728356" y="111.0">org.springframework:spring-web:jar:4.3.10.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE</node>
+            <node x="1044.5041666666666" y="0.0">org.springframework:spring-web:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE</node>
+            <node x="1854.467261904762" y="0.0">org.springframework:spring-web:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="1866.3482656926403" y="515.0">org.springframework:spring-webmvc:jar:4.3.10.RELEASE</node>
+            <node x="1933.6815990259736" y="202.0">org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE</node>
+            <node x="86.5" y="929.0">com.fasterxml.jackson.core:jackson-databind:jar:2.9.6</node>
+            <node x="168.0" y="828.0">com.fasterxml.jackson.core:jackson-core:jar:2.9.6</node>
+            <node x="0.0" y="828.0">com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6</node>
+            <node x="634.1755208333336" y="929.0">javax.servlet:servlet-api:jar:2.5</node>
+            <node x="2294.431599025974" y="929.0">javax.servlet.jsp:jsp-api:jar:2.0</node>
+            <node x="2226.431599025974" y="929.0">jstl:jstl:jar:1.2</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework:spring-web:jar:4.3.10.RELEASE" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.3.10.RELEASE">
+              <point x="36.75" y="-15.5" />
+              <point x="1038.9880208333336" y="374.0" />
+              <point x="1071.632067775975" y="374.0" />
+              <point x="-29.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE" target="org.springframework:spring-web:jar:4.3.10.RELEASE">
+              <point x="-50.41666666666663" y="-15.5" />
+              <point x="1876.4315990259738" y="465.0" />
+              <point x="1038.9880208333336" y="465.0" />
+              <point x="36.75" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-web:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:4.3.10.RELEASE">
+              <point x="-9.666666666666629" y="-15.5" />
+              <point x="670.508854166667" y="980.0" />
+              <point x="282.5" y="980.0" />
+              <point x="282.5" y="485.0" />
+              <point x="965.4880208333336" y="485.0" />
+              <point x="-36.75" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.3.10.RELEASE" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-aop:jar:4.3.10.RELEASE">
+              <point x="-43.5" y="-15.5" />
+              <point x="1057.132067775975" y="273.0" />
+              <point x="959.5268371212117" y="273.0" />
+              <point x="27.42857142857133" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.alibaba:druid:jar:1.0.9" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.alibaba:druid:jar:1.0.9/com.alibaba:tools:jar:1.8.0">
+              <point x="15.75" y="-15.5" />
+              <point x="1308.0982656926403" y="687.0" />
+              <point x="1365.5982656926403" y="687.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-jdbc:jar:4.3.10.RELEASE">
+              <point x="38.25" y="-15.5" />
+              <point x="1697.3630208333336" y="808.0" />
+              <point x="2113.431599025974" y="808.0" />
+              <point x="-24.75" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/org.mybatis:mybatis-spring:jar:1.3.0">
+              <point x="-29.75" y="-15.5" />
+              <point x="1629.3630208333336" y="798.0" />
+              <point x="1403.8482656926403" y="798.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-aop:jar:4.3.10.RELEASE">
+              <point x="-21.14285714285711" y="-15.5" />
+              <point x="916.4701636904765" y="788.0" />
+              <point x="892.8375000000001" y="788.0" />
+              <point x="892.8375000000001" y="283.0" />
+              <point x="932.0982656926403" y="283.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/org.slf4j:slf4j-api:jar:1.6.6">
+              <point x="4.25" y="-15.5" />
+              <point x="1663.3630208333336" y="768.0" />
+              <point x="1727.3482656926403" y="768.0" />
+              <point x="-19.5" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-aop:jar:4.3.10.RELEASE" target="org.springframework:spring-web:jar:4.3.10.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="24.0" y="-15.5" />
+              <point x="956.0982656926403" y="162.0" />
+              <point x="1306.709448728356" y="162.0" />
+              <point x="-45.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.oracle:ojdbc14:jar:10.2.0.4.0">
+              <point x="-4.25" y="-15.5" />
+              <point x="1654.8630208333336" y="758.0" />
+              <point x="1677.3482656926403" y="758.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.3.10.RELEASE">
+              <point x="6.375" y="-15.5" />
+              <point x="1127.7380208333336" y="879.0" />
+              <point x="1227.0982656926403" y="879.0" />
+              <point x="1227.0982656926403" y="374.0" />
+              <point x="1129.632067775975" y="374.0" />
+              <point x="29.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.asiainfo:auto-entity:jar:1.0-SNAPSHOT/com.asiainfo:auto-util:jar:1.0-SNAPSHOT" target="org.springframework:spring-webmvc:jar:4.3.10.RELEASE">
+              <point x="32.799999999999955" y="-15.5" />
+              <point x="1540.6482656926403" y="586.0" />
+              <point x="1896.5982656926403" y="586.0" />
+              <point x="-30.25" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-jdbc:jar:4.3.10.RELEASE" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-tx:jar:4.3.10.RELEASE">
+              <point x="33.0" y="-15.5" />
+              <point x="2171.181599025974" y="283.0" />
+              <point x="2162.931599025974" y="283.0" />
+              <point x="-21.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE">
+              <point x="0.0" y="-15.5" />
+              <point x="937.6130208333336" y="778.0" />
+              <point x="970.3375000000001" y="778.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-web:1.0-SNAPSHOT" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT">
+              <point x="9.666666666666686" y="-15.5" />
+              <point x="689.8421875000004" y="980.0" />
+              <point x="1121.3630208333336" y="980.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-web:1.0-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6">
+              <point x="-38.66666666666663" y="-15.5" />
+              <point x="641.508854166667" y="1010.0" />
+              <point x="54.702255140693524" y="1010.0" />
+              <point x="54.702255140693524" y="909.0" />
+              <point x="37.0" y="909.0" />
+              <point x="-37.0" y="15.5" />
+            </edge>
+            <edge source="com.fasterxml.jackson.core:jackson-databind:jar:2.9.6" target="com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6">
+              <point x="-33.0" y="-15.5" />
+              <point x="119.5" y="909.0" />
+              <point x="111.0" y="909.0" />
+              <point x="37.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.asiainfo:auto-entity:jar:1.0-SNAPSHOT/com.asiainfo:auto-util:jar:1.0-SNAPSHOT" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/log4j:log4j:jar:1.2.12">
+              <point x="16.40000000000009" y="-15.5" />
+              <point x="1524.2482656926404" y="576.0" />
+              <point x="1795.5149323593068" y="576.0" />
+              <point x="-20.33333333333337" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE/org.springframework.security:spring-security-core:jar:5.0.1.RELEASE">
+              <point x="-63.42857142857133" y="-15.5" />
+              <point x="874.1844494047623" y="808.0" />
+              <point x="739.4375" y="808.0" />
+              <point x="37.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE" target="org.springframework:spring-web:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="0.0" y="-15.5" />
+              <point x="2000.6815990259736" y="81.0" />
+              <point x="1111.3223484848484" y="81.0" />
+              <point x="17.818181818181756" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="42.28571428571422" y="-15.5" />
+              <point x="979.8987351190478" y="798.0" />
+              <point x="1112.3375" y="798.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE/org.springframework.security:spring-security-core:jar:5.0.1.RELEASE" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE/org.springframework.security:spring-security-core:jar:5.0.1.RELEASE/org.springframework:spring-expression:jar:5.0.3.RELEASE">
+              <point x="-59.200000000000045" y="-15.5" />
+              <point x="643.2375" y="687.0" />
+              <point x="563.607067775975" y="687.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-config:jar:5.0.1.RELEASE" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE/org.springframework.security:spring-security-core:jar:5.0.1.RELEASE">
+              <point x="64.0" y="-15.5" />
+              <point x="552.3482656926403" y="808.0" />
+              <point x="665.4375" y="808.0" />
+              <point x="-37.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-web:1.0-SNAPSHOT" target="org.springframework:spring-webmvc:jar:4.3.10.RELEASE">
+              <point x="19.333333333333258" y="-15.5" />
+              <point x="699.5088541666669" y="990.0" />
+              <point x="2215.931599025974" y="990.0" />
+              <point x="2215.931599025974" y="566.0" />
+              <point x="1957.0982656926403" y="566.0" />
+              <point x="30.25" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.3.10.RELEASE">
+              <point x="-30.25" y="-15.5" />
+              <point x="1896.5982656926403" y="455.0" />
+              <point x="1731.8315476190478" y="455.0" />
+              <point x="1731.8315476190478" y="364.0" />
+              <point x="1148.9654011093082" y="364.0" />
+              <point x="48.33333333333326" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-tx:jar:4.3.10.RELEASE" target="org.springframework:spring-web:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="21.0" y="-15.5" />
+              <point x="2204.931599025974" y="51.0" />
+              <point x="1138.049621212121" y="51.0" />
+              <point x="44.545454545454504" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/log4j:log4j:jar:1.2.12">
+              <point x="29.75" y="-15.5" />
+              <point x="1688.8630208333336" y="798.0" />
+              <point x="1970.3482656926403" y="798.0" />
+              <point x="1970.3482656926403" y="576.0" />
+              <point x="1836.1815990259738" y="576.0" />
+              <point x="20.33333333333337" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.6" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/org.slf4j:slf4j-api:jar:1.6.6">
+              <point x="-26.0" y="-15.5" />
+              <point x="1763.8482656926403" y="687.0" />
+              <point x="1766.3482656926403" y="687.0" />
+              <point x="19.5" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-config:jar:5.0.1.RELEASE" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-config:jar:5.0.1.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="-64.0" y="-15.5" />
+              <point x="138.60512566137527" y="848.0" />
+              <point x="115.1875" y="848.0" />
+              <point x="115.1875" y="56.0" />
+              <point x="871.0417948081999" y="56.0" />
+              <point x="-24.5" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-web:1.0-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-databind:jar:2.9.6">
+              <point x="-29.0" y="-15.5" />
+              <point x="651.1755208333336" y="1000.0" />
+              <point x="152.5" y="1000.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/org.mybatis:mybatis:jar:3.4.5">
+              <point x="-12.75" y="-15.5" />
+              <point x="1646.3630208333336" y="778.0" />
+              <point x="1627.3482656926403" y="778.0" />
+              <point x="19.5" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE" target="org.springframework:spring-web:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE/commons-logging:commons-logging:jar:1.2">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE/org.springframework.security:spring-security-core:jar:5.0.1.RELEASE" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-aop:jar:4.3.10.RELEASE">
+              <point x="29.59999999999991" y="-15.5" />
+              <point x="732.0374999999999" y="677.0" />
+              <point x="780.107067775975" y="677.0" />
+              <point x="780.107067775975" y="273.0" />
+              <point x="918.3839799783545" y="273.0" />
+              <point x="-13.71428571428578" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE">
+              <point x="-19.125" y="-15.5" />
+              <point x="1102.2380208333336" y="889.0" />
+              <point x="937.6130208333336" y="889.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-config:jar:5.0.1.RELEASE" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-config:jar:5.0.1.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="-32.0" y="-15.5" />
+              <point x="456.3482656926403" y="798.0" />
+              <point x="410.607067775975" y="798.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-web:1.0-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-core:jar:2.9.6">
+              <point x="-19.333333333333258" y="-15.5" />
+              <point x="660.8421875000004" y="990.0" />
+              <point x="241.75" y="990.0" />
+              <point x="241.75" y="909.0" />
+              <point x="246.0" y="909.0" />
+              <point x="26.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-aop:jar:4.3.10.RELEASE">
+              <point x="-44.625" y="-15.5" />
+              <point x="1076.7380208333336" y="909.0" />
+              <point x="335.107067775975" y="909.0" />
+              <point x="335.107067775975" y="253.0" />
+              <point x="890.9554085497832" y="253.0" />
+              <point x="-41.14285714285711" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.10.RELEASE" target="org.springframework:spring-web:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="-12.25" y="-15.5" />
+              <point x="989.9880208333336" y="354.0" />
+              <point x="996.7380208333336" y="354.0" />
+              <point x="996.7380208333336" y="91.0" />
+              <point x="1084.5950757575756" y="91.0" />
+              <point x="-8.909090909090992" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-web:1.0-SNAPSHOT" target="jstl:jstl:jar:1.2">
+              <point x="29.0" y="-15.5" />
+              <point x="709.1755208333336" y="1000.0" />
+              <point x="2250.431599025974" y="1000.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-jdbc:jar:4.3.10.RELEASE" target="org.springframework:spring-web:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="0.0" y="-15.5" />
+              <point x="2138.181599025974" y="283.0" />
+              <point x="2127.181599025974" y="283.0" />
+              <point x="2127.181599025974" y="61.0" />
+              <point x="1129.1405303030301" y="61.0" />
+              <point x="35.63636363636351" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.3.10.RELEASE" target="org.springframework:spring-web:jar:4.3.10.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="14.5" y="-15.5" />
+              <point x="1115.132067775975" y="283.0" />
+              <point x="1128.382067775975" y="283.0" />
+              <point x="1128.382067775975" y="182.0" />
+              <point x="1342.709448728356" y="182.0" />
+              <point x="-9.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE" target="org.springframework:spring-web:jar:4.3.10.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="10.083333333333371" y="-15.5" />
+              <point x="1936.9315990259738" y="495.0" />
+              <point x="1923.1815990259736" y="495.0" />
+              <point x="1923.1815990259736" y="182.0" />
+              <point x="1360.709448728356" y="182.0" />
+              <point x="9.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.asiainfo:auto-entity:jar:1.0-SNAPSHOT/com.asiainfo:auto-util:jar:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:4.3.10.RELEASE">
+              <point x="-32.799999999999955" y="-15.5" />
+              <point x="1475.0482656926404" y="586.0" />
+              <point x="1277.2629694264078" y="586.0" />
+              <point x="1277.2629694264078" y="475.0" />
+              <point x="1014.4880208333336" y="475.0" />
+              <point x="12.25" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.github.pagehelper:pagehelper:jar:5.1.2">
+              <point x="21.25" y="-15.5" />
+              <point x="1680.3630208333336" y="788.0" />
+              <point x="1910.8482656926403" y="788.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE">
+              <point x="30.25" y="-15.5" />
+              <point x="1957.0982656926403" y="485.0" />
+              <point x="2034.1815990259736" y="485.0" />
+              <point x="33.5" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE/org.springframework.security:spring-security-core:jar:5.0.1.RELEASE" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.3.10.RELEASE">
+              <point x="59.200000000000045" y="-15.5" />
+              <point x="761.6375" y="687.0" />
+              <point x="791.107067775975" y="687.0" />
+              <point x="791.107067775975" y="495.0" />
+              <point x="1061.7380208333336" y="495.0" />
+              <point x="1061.7380208333336" y="384.0" />
+              <point x="1090.9654011093082" y="384.0" />
+              <point x="-9.666666666666742" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.asiainfo:auto-entity:jar:1.0-SNAPSHOT/com.asiainfo:auto-util:jar:1.0-SNAPSHOT" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.asiainfo:auto-entity:jar:1.0-SNAPSHOT/com.asiainfo:auto-util:jar:1.0-SNAPSHOT/com.alibaba:fastjson:jar:1.1.38">
+              <point x="-16.40000000000009" y="-15.5" />
+              <point x="1491.4482656926402" y="576.0" />
+              <point x="1325.7629694264078" y="576.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.10.RELEASE" target="org.springframework:spring-web:jar:4.3.10.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="12.25" y="-15.5" />
+              <point x="1014.4880208333336" y="354.0" />
+              <point x="1007.7380208333336" y="354.0" />
+              <point x="1007.7380208333336" y="172.0" />
+              <point x="1324.709448728356" y="172.0" />
+              <point x="-27.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.6" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/log4j:log4j:jar:1.2.12">
+              <point x="26.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-jdbc:jar:4.3.10.RELEASE">
+              <point x="31.875" y="-15.5" />
+              <point x="1153.2380208333336" y="899.0" />
+              <point x="2124.431599025974" y="899.0" />
+              <point x="2124.431599025974" y="384.0" />
+              <point x="2162.931599025974" y="384.0" />
+              <point x="24.75" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.3.10.RELEASE">
+              <point x="63.42857142857133" y="-15.5" />
+              <point x="1001.041592261905" y="808.0" />
+              <point x="1176.8375" y="808.0" />
+              <point x="1176.8375" y="384.0" />
+              <point x="1110.2987344426417" y="384.0" />
+              <point x="9.666666666666742" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE" target="org.springframework:spring-web:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="50.41666666666663" y="-15.5" />
+              <point x="1977.2649323593068" y="495.0" />
+              <point x="2078.181599025974" y="495.0" />
+              <point x="2078.181599025974" y="71.0" />
+              <point x="1120.2314393939394" y="71.0" />
+              <point x="26.727272727272748" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-tx:jar:4.3.10.RELEASE" target="org.springframework:spring-web:jar:4.3.10.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="-21.0" y="-15.5" />
+              <point x="2162.931599025974" y="162.0" />
+              <point x="1396.709448728356" y="162.0" />
+              <point x="45.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-web:1.0-SNAPSHOT" target="javax.servlet.jsp:jsp-api:jar:2.0">
+              <point x="38.666666666666686" y="-15.5" />
+              <point x="718.8421875000004" y="1010.0" />
+              <point x="2330.431599025974" y="1010.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE/org.springframework.security:spring-security-core:jar:5.0.1.RELEASE" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE/org.springframework.security:spring-security-core:jar:5.0.1.RELEASE/org.springframework:spring-core:jar:5.0.3.RELEASE">
+              <point x="29.600000000000023" y="-15.5" />
+              <point x="517.7248635912688" y="727.0" />
+              <point x="637.3732142857144" y="727.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.asiainfo:auto-entity:jar:1.0-SNAPSHOT" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.asiainfo:auto-entity:jar:1.0-SNAPSHOT/com.asiainfo:auto-util:jar:1.0-SNAPSHOT">
+              <point x="-24.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.10.RELEASE" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-aop:jar:4.3.10.RELEASE">
+              <point x="-36.75" y="-15.5" />
+              <point x="965.4880208333336" y="354.0" />
+              <point x="955.8005959145016" y="354.0" />
+              <point x="955.8005959145016" y="283.0" />
+              <point x="945.8125514069261" y="283.0" />
+              <point x="13.71428571428578" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-config:jar:5.0.1.RELEASE" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-aop:jar:4.3.10.RELEASE">
+              <point x="0.0" y="-15.5" />
+              <point x="488.3482656926403" y="808.0" />
+              <point x="475.107067775975" y="808.0" />
+              <point x="475.107067775975" y="263.0" />
+              <point x="904.669694264069" y="263.0" />
+              <point x="-27.42857142857133" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.asiainfo:auto-entity:jar:1.0-SNAPSHOT" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/org.mybatis:mybatis:jar:3.4.5">
+              <point x="24.0" y="-15.5" />
+              <point x="1555.8482656926403" y="687.0" />
+              <point x="1588.3482656926403" y="687.0" />
+              <point x="-19.5" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE/org.springframework.security:spring-security-core:jar:5.0.1.RELEASE" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE/org.springframework.security:spring-security-core:jar:5.0.1.RELEASE/org.springframework:spring-beans:jar:5.0.3.RELEASE">
+              <point x="-29.59999999999991" y="-15.5" />
+              <point x="672.8375000000001" y="657.0" />
+              <point x="704.607067775975" y="657.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-aop:jar:4.3.10.RELEASE" target="org.springframework:spring-web:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="-24.0" y="-15.5" />
+              <point x="908.0982656926403" y="81.0" />
+              <point x="1075.6859848484848" y="81.0" />
+              <point x="-17.818181818181756" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.6">
+              <point x="12.75" y="-15.5" />
+              <point x="1671.8630208333336" y="778.0" />
+              <point x="1789.8482656926403" y="778.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-web:1.0-SNAPSHOT" target="javax.servlet:servlet-api:jar:2.5">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.10.RELEASE" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-aop:jar:4.3.10.RELEASE">
+              <point x="-10.083333333333371" y="-15.5" />
+              <point x="1916.7649323593068" y="495.0" />
+              <point x="1912.1815990259736" y="495.0" />
+              <point x="1912.1815990259736" y="263.0" />
+              <point x="973.2411228354974" y="263.0" />
+              <point x="41.14285714285711" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.alibaba:druid:jar:1.0.9" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.alibaba:druid:jar:1.0.9/com.alibaba:jconsole:jar:1.8.0">
+              <point x="-15.75" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.alibaba:druid:jar:1.0.9">
+              <point x="-38.25" y="-15.5" />
+              <point x="1620.8630208333336" y="808.0" />
+              <point x="1292.3482656926403" y="808.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT">
+              <point x="19.125" y="-15.5" />
+              <point x="1140.4880208333336" y="889.0" />
+              <point x="1659.1130208333336" y="889.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.3.10.RELEASE" target="org.springframework:spring-web:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="-14.5" y="-15.5" />
+              <point x="1086.132067775975" y="283.0" />
+              <point x="1095.132067775975" y="283.0" />
+              <point x="1095.132067775975" y="91.0" />
+              <point x="1093.5041666666666" y="91.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE" target="org.springframework:spring-web:jar:4.3.10.RELEASE">
+              <point x="21.14285714285711" y="-15.5" />
+              <point x="958.7558779761907" y="788.0" />
+              <point x="1047.8375" y="788.0" />
+              <point x="1047.8375" y="485.0" />
+              <point x="989.9880208333336" y="485.0" />
+              <point x="-12.25" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.github.pagehelper:pagehelper:jar:5.1.2" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.github.pagehelper:pagehelper:jar:5.1.2/com.github.jsqlparser:jsqlparser:jar:1.0">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-tx:jar:4.3.10.RELEASE">
+              <point x="44.625" y="-15.5" />
+              <point x="1165.9880208333336" y="909.0" />
+              <point x="2204.931599025974" y="909.0" />
+              <point x="21.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.aspectj:aspectjweaver:jar:1.6.8">
+              <point x="-6.375" y="-15.5" />
+              <point x="1114.9880208333336" y="879.0" />
+              <point x="1088.1130208333336" y="879.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.asiainfo:auto-entity:jar:1.0-SNAPSHOT">
+              <point x="-21.25" y="-15.5" />
+              <point x="1637.8630208333336" y="788.0" />
+              <point x="1531.8482656926403" y="788.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.3.10.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE">
+              <point x="43.5" y="-15.5" />
+              <point x="1144.132067775975" y="283.0" />
+              <point x="1967.1815990259736" y="283.0" />
+              <point x="-33.5" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-jdbc:jar:4.3.10.RELEASE" target="org.springframework:spring-web:jar:4.3.10.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="-33.0" y="-15.5" />
+              <point x="2105.181599025974" y="283.0" />
+              <point x="2097.181599025974" y="283.0" />
+              <point x="2097.181599025974" y="172.0" />
+              <point x="1378.709448728356" y="172.0" />
+              <point x="27.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.asiainfo:auto-entity:jar:1.0-SNAPSHOT/com.asiainfo:auto-util:jar:1.0-SNAPSHOT" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/com.asiainfo:auto-dao:jar:1.0-SNAPSHOT/com.asiainfo:auto-entity:jar:1.0-SNAPSHOT/com.asiainfo:auto-util:jar:1.0-SNAPSHOT/javax.servlet:javax.servlet-api:jar:3.1.0">
+              <point x="0.0" y="-15.5" />
+              <point x="1507.8482656926403" y="566.0" />
+              <point x="1489.6677820616892" y="566.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.fasterxml.jackson.core:jackson-databind:jar:2.9.6" target="com.fasterxml.jackson.core:jackson-core:jar:2.9.6">
+              <point x="33.0" y="-15.5" />
+              <point x="185.5" y="909.0" />
+              <point x="194.0" y="909.0" />
+              <point x="-26.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.10.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-config:jar:5.0.1.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="0.0" y="-15.5" />
+              <point x="1231.0005952380952" y="56.0" />
+              <point x="920.0417948081999" y="56.0" />
+              <point x="24.5" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-web:jar:5.0.1.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="42.285714285714334" y="-15.5" />
+              <point x="812.4105778769831" y="838.0" />
+              <point x="1067.5232142857144" y="838.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-config:jar:5.0.1.RELEASE">
+              <point x="-31.875" y="-15.5" />
+              <point x="1089.4880208333336" y="899.0" />
+              <point x="488.3482656926403" y="899.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-config:jar:5.0.1.RELEASE" target="com.asiainfo:auto-service:jar:1.0-SNAPSHOT/org.springframework:spring-context:jar:4.3.10.RELEASE">
+              <point x="32.0" y="-15.5" />
+              <point x="520.3482656926403" y="798.0" />
+              <point x="486.107067775975" y="798.0" />
+              <point x="486.107067775975" y="475.0" />
+              <point x="863.5875000000001" y="475.0" />
+              <point x="863.5875000000001" y="364.0" />
+              <point x="1052.2987344426417" y="364.0" />
+              <point x="-48.33333333333326" y="15.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.20108923334729786" x="1183.5" y="530.5" />
+          <SelectedNodes>
+            <node>com.asiainfo:auto-web:1.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-util/src/main/java/com/auto/util/ResultBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/404.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1516,15 +2247,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/syslog-list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3621">
-          <caret line="213" column="29" selection-start-line="213" selection-start-column="29" selection-end-line="213" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/aside.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+        <state relative-caret-position="391">
+          <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
         </state>
       </provider>
     </entry>
@@ -1542,10 +2266,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/LoginService.java">
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/resources/log4j.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3474" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/resources/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="143" column="24" selection-start-line="143" selection-start-column="24" selection-end-line="143" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="73" column="21" lean-forward="true" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebPermission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="194" column="76" selection-start-line="194" selection-start-column="76" selection-end-line="194" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-util/src/main/java/com/auto/util/MyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-entity/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/PermissionService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/impl/LoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-dao/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/resources/springsecurity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/java/com/auto/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="84" column="63" selection-start-line="84" selection-start-column="63" selection-end-line="84" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1554,8 +2394,111 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/auto-web/src/main/java/com/auto/service/UserDetailsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="35" column="82" lean-forward="true" selection-start-line="35" selection-start-column="82" selection-end-line="35" selection-end-column="82" />
+        <state relative-caret-position="148">
+          <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1542#1560#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-dao/src/main/java/com/auto/mapper/WebRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-dao/src/main/java/com/auto/mapper/WebAdminMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebRoleExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1003">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/resources/com/auto/mapper/WebRoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="71" lean-forward="true" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/aside.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="87" column="35" lean-forward="true" selection-start-line="87" selection-start-column="35" selection-end-line="87" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/java/com/auto/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/role-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="149" column="70" lean-forward="true" selection-start-line="149" selection-start-column="70" selection-end-line="149" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -1569,7 +2512,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.3976261" />
+                <option value="0.5505747" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1582,7 +2525,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.3976261" />
+                <option value="0.5505747" />
               </list>
             </option>
           </splitter-proportions>
@@ -1593,7 +2536,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.3976261" />
+                <option value="0.5505747" />
               </list>
             </option>
           </splitter-proportions>
@@ -1605,7 +2548,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.3976261" />
+                <option value="0.5505747" />
               </list>
             </option>
           </splitter-proportions>
@@ -1613,11 +2556,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>auto-service</last-edited>
+          <last-edited>auto-entity</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.3976261" />
+                <option value="0.5505747" />
                 <option value="0.6" />
               </list>
             </option>
@@ -1642,7 +2585,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.3976261" />
+                <option value="0.5505747" />
               </list>
             </option>
           </splitter-proportions>

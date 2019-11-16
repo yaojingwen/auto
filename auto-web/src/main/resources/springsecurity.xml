@@ -63,7 +63,11 @@
     <security:authentication-manager>
         <!--使用自定义认证器-->
         <security:authentication-provider user-service-ref="userDetailsService">
+           <!-- &lt;!&ndash;指定加密方式&ndash;&gt;
+            <security:password-encoder ref="bCryptPasswordEncoder" />-->
         </security:authentication-provider>
     </security:authentication-manager>
+    <!--加密对象-->
+    <bean id="bCryptPasswordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder" />
 
 </beans>

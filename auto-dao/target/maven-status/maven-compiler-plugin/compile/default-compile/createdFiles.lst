@@ -1,0 +1,12 @@
+com\auto\mapper\WebWebelementMapper.class
+com\auto\mapper\WebCaseHisMapper.class
+com\auto\mapper\WebControlMapper.class
+com\auto\mapper\WebRoleMapper.class
+com\auto\mapper\WebCaseMapper.class
+com\auto\mapper\WebAdminRoleMapper.class
+com\auto\mapper\WebCaseCurrentMapper.class
+com\auto\mapper\WebComponentMapper.class
+com\auto\mapper\WebPermissionMapper.class
+com\auto\mapper\WebAdminMapper.class
+com\auto\mapper\WebRolePermissionMapper.class
+com\auto\mapper\WebConfigMapper.class

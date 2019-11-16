@@ -12,8 +12,10 @@ import com.auto.service.RoleService;
 import com.auto.util.StatusCode;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
@@ -33,6 +35,8 @@ public class UserController {
     private RoleService roleService;
     @Autowired
     private PermissionService permissionService;
+    @Autowired
+    private BCryptPasswordEncoder bCryptPasswordEncoder;
 
     /***
      * 集合查询
@@ -56,6 +60,13 @@ public class UserController {
      */
     @RequestMapping(value = "/add")
     public String add(WebAdmin webAdmin,RedirectAttributes attr) throws Exception, CustomException {
+       /* //用户密码加密
+        String password = bCryptPasswordEncoder.encode(webAdmin.getUserPass());
+        if (StringUtils.isEmpty(password)) {
+            throw new CustomException(StatusCode.FAIL, "操作失败");
+        }
+        webAdmin.setUserPass(password);
+*/
         //添加用户
         if (webAdmin.getOperatorId()!=null){
             if(0<loginService.updateByPrimaryKey(webAdmin)) {

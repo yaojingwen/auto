@@ -1,5 +1,7 @@
 package com.auto.entity;
 
+import java.util.List;
+
 public class WebPermission {
     private Integer id;
 
@@ -8,6 +10,17 @@ public class WebPermission {
     private String url;
 
     private Integer pid;
+
+    //角色与权限属于一对多
+    private List<WebRole> webRoles;
+
+    public List<WebRole> getWebRoles() {
+        return webRoles;
+    }
+
+    public void setWebRoles(List<WebRole> webRoles) {
+        this.webRoles = webRoles;
+    }
 
     public Integer getId() {
         return id;

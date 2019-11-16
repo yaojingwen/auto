@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -117,13 +117,13 @@
 									</div>
 								</div>
 							</div>
-							<div class="box-tools pull-right">
+						<%--	<div class="box-tools pull-right">
 								<div class="has-feedback">
 									<input type="text" class="form-control input-sm"
 										placeholder="搜索"> <span
 										class="glyphicon glyphicon-search form-control-feedback"></span>
 								</div>
-							</div>
+							</div>--%>
 							<!--工具栏/-->
 
 							<!--界面列表-->
@@ -142,12 +142,12 @@
 								</thead>
 								<tbody>
 
-									<c:forEach items="${roleList}" var="role">
+									<c:forEach items="${roles}" var="role">
 										<tr>
 											<td><input name="ids" type="checkbox"></td>
 											<td>${role.id }</td>
 											<td>${role.roleName }</td>
-											<td>${role.roleDesc }</td>																				
+											<td>${role.roleDesc }</td>
 											<td class="text-center">
 												<a href="${pageContext.request.contextPath}/pages/role-permission-add.jsp" class="btn bg-olive btn-xs">添加权限</a>
 											</td>
@@ -174,7 +174,7 @@
 					<!-- /.box-body -->
 
 					<!-- .box-footer-->
-					<div class="box-footer">
+					<%--<div class="box-footer">
 						<div class="pull-left">
 							<div class="form-group form-inline">
 								总共2 页，共14 条界面。 每页 <select class="form-control">
@@ -201,7 +201,7 @@
 							</ul>
 						</div>
 
-					</div>
+					</div>--%>
 					<!-- /.box-footer-->
 
 				</div>

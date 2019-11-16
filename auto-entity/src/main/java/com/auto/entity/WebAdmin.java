@@ -1,5 +1,7 @@
 package com.auto.entity;
 
+import java.util.List;
+
 public class WebAdmin {
     private Integer operatorId;
 
@@ -18,6 +20,17 @@ public class WebAdmin {
     private String isUsed;
 
     private String ip;
+
+    //用户与角色属于一对多
+    private List<WebRole> webRoles;
+
+    public List<WebRole> getWebRoles() {
+        return webRoles;
+    }
+
+    public void setWebRoles(List<WebRole> webRoles) {
+        this.webRoles = webRoles;
+    }
 
     public Integer getOperatorId() {
         return operatorId;

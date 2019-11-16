@@ -12,6 +12,8 @@ import java.util.List;
 
 public interface LoginService {
 
+     //List<WebAdmin> selectByExample(WebAdminExample example)throws CustomException;
+
      List<WebAdmin> selectByExample(WebAdminExample example)throws CustomException;
 
      WebAdmin selectByName(String userAdmin)throws Exception, CustomException;

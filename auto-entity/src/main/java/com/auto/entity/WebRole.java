@@ -1,11 +1,17 @@
 package com.auto.entity;
 
+import java.util.List;
+
 public class WebRole {
     private Integer id;
 
-    private String rolename;
+    private String roleName;
 
-    private String roledesc;
+    private String roleDesc;
+    //角色与用户之间属于一对多
+    private List<WebAdmin> webAdmins;
+    //角色与权限之间属于一对多
+    private List<WebPermission> webPermissions;
 
     public Integer getId() {
         return id;
@@ -15,19 +21,35 @@ public class WebRole {
         this.id = id;
     }
 
-    public String getRolename() {
-        return rolename;
+    public String getRoleName() {
+        return roleName;
     }
 
-    public void setRolename(String rolename) {
-        this.rolename = rolename == null ? null : rolename.trim();
+    public void setRoleName(String roleName) {
+        this.roleName = roleName;
     }
 
-    public String getRoledesc() {
-        return roledesc;
+    public String getRoleDesc() {
+        return roleDesc;
     }
 
-    public void setRoledesc(String roledesc) {
-        this.roledesc = roledesc == null ? null : roledesc.trim();
+    public void setRoleDesc(String roleDesc) {
+        this.roleDesc = roleDesc;
+    }
+
+    public List<WebAdmin> getWebAdmins() {
+        return webAdmins;
+    }
+
+    public void setWebAdmins(List<WebAdmin> webAdmins) {
+        this.webAdmins = webAdmins;
+    }
+
+    public List<WebPermission> getWebPermissions() {
+        return webPermissions;
+    }
+
+    public void setWebPermissions(List<WebPermission> webPermissions) {
+        this.webPermissions = webPermissions;
     }
 }

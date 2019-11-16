@@ -1,0 +1,6 @@
+com\auto\service\PermissionService.class
+com\auto\service\LoginService.class
+com\auto\service\impl\LoginServiceImpl.class
+com\auto\service\impl\RoleServiceImpl.class
+com\auto\service\RoleService.class
+com\auto\service\impl\PermissionServiceImpl.class

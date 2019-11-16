@@ -18,6 +18,10 @@ public interface WebRoleMapper {
 
     int insertSelective(WebRole record);
 
+    /**
+     * 集合查询
+     * @return
+     */
     List<WebRole> selectByExample(WebRoleExample example);
 
     WebRole selectByPrimaryKey(Integer id);
