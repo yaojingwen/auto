@@ -226,14 +226,14 @@
 
 		</div>
 
-		<script src="../plugins/jQuery/jquery-2.2.3.min.js"></script>
-		<script src="../plugins/jQueryUI/jquery-ui.min.js"></script>
+		<script src="/plugins/jQuery/jquery-2.2.3.min.js"></script>
+		<script src="/plugins/jQueryUI/jquery-ui.min.js"></script>
 		<script>
 			$.widget.bridge('uibutton', $.ui.button);
 		</script>
-		<script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
-		<script src="../plugins/raphael/raphael-min.js"></script>
-		<script src="../plugins/morris/morris.min.js"></script>
+		<script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
+		<script src="/plugins/raphael/raphael-min.js"></script>
+		<script src="/plugins/morris/morris.min.js"></script>
 		<script src="../plugins/sparkline/jquery.sparkline.min.js"></script>
 		<script src="../plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
 		<script src="../plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>

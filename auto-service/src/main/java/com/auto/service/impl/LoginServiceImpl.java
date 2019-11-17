@@ -3,7 +3,11 @@ package com.auto.service.impl;
 import com.auto.components.exception.CustomException;
 import com.auto.entity.WebAdmin;
 import com.auto.entity.WebAdminExample;
+import com.auto.entity.WebPermission;
+import com.auto.entity.WebRole;
 import com.auto.mapper.WebAdminMapper;
+import com.auto.mapper.WebPermissionMapper;
+import com.auto.mapper.WebRoleMapper;
 import com.auto.param.WebAdminParam;
 import com.auto.service.LoginService;
 import com.github.pagehelper.PageHelper;
@@ -25,6 +29,10 @@ public class LoginServiceImpl implements LoginService {
 
     @Autowired
     private WebAdminMapper webAdminMapper;
+    @Autowired
+    private WebRoleMapper webRoleMapper;
+    @Autowired
+    private WebPermissionMapper webPermissionMapper;
 
 
     @Override
@@ -62,9 +70,23 @@ public class LoginServiceImpl implements LoginService {
         return 0;
     }
 
+    /***
+     * 根据operatorId查询用户信息
+     * @param operatorId
+     * @param
+     * @return
+     */
     @Override
     public WebAdmin selectByPrimaryKey(Integer operatorId)throws Exception, CustomException {
-        return null;
+        WebAdmin webAdmin = webAdminMapper.selectByPrimaryKey(operatorId);
+        //然后根据webadmin查角色
+        List<WebRole> webRoleList = webRoleMapper.userRoleList(operatorId);
+        for (WebRole webRole : webRoleList) {
+            List<WebPermission> webPermissions = webPermissionMapper.rolePermissionList(webRole.getId());
+            webRole.setWebPermissions(webPermissions);
+        }
+        webAdmin.setWebRoles(webRoleList);
+        return webAdmin;
     }
 
     @Override
@@ -126,14 +148,6 @@ public class LoginServiceImpl implements LoginService {
         return acount;
     }
 
-    /***
-     * 查询用户信息
-     * @param operatorId
-     * @return
-     */
-    @Override
-    public WebAdmin findById(Integer operatorId) {
-        return webAdminMapper.findById(operatorId);
-    }
+
 }
 

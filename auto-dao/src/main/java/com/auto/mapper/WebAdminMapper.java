@@ -24,6 +24,16 @@ public interface WebAdminMapper {
 
     WebAdmin selectByName( @Param("userAdmin")String userAdmin);
 
+    /***
+     * 查询用户信息
+     * @param operatorId
+     * @return
+     */
+  /*  @Select("select * from web_admin where operator_Id=#{operatorId}")
+    @Results(value = {
+            @Result(property = "operatorId",column = "operatorId",id = true),
+            @Result(property = "webRoles",column = "operatorId",many = @Many(select = "com.auto.mapper.WebRoleMapper.userRoleList"))
+    })*/
     WebAdmin selectByPrimaryKey(Integer operatorId);
 
     WebAdminParam selectByPrimaryKey2(Integer operatorId);
@@ -63,18 +73,4 @@ public interface WebAdminMapper {
     @Insert("insert into web_admin_role(operator_Id,roleId)values(#{operatorId},#{roleId})")
     int addUserRole(@Param("operatorId")Integer operatorId, @Param("roleId")Integer roleId);
 
-    /***
-     * 查询用户信息
-     * @param id
-     * @return
-     */
-    @Select(value = "select * from web_admin where operator_Id=#{operatorId}")
-    @Results(
-            //根据用户信息查询角色信息
-            @Result(property ="roles",column = "id",
-                    many = @Many(select = "com.auto.mapper.WebRoleMapper.selectByPrimaryKey2",
-                            fetchType = FetchType.LAZY))
-    )
-    WebAdmin findById(Integer id);
-//TODO
 }

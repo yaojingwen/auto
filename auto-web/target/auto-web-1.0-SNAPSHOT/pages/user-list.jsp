@@ -155,7 +155,7 @@
 										<c:if test="${user.isUsed==2}">禁止登陆</c:if>
 									</td>
 									<td class="text-center">
-										<a href="${pageContext.request.contextPath}/pages/user-show.jsp" class="btn bg-olive btn-xs">详情</a>
+										<a href="/user/one/${user.operatorId}" class="btn bg-olive btn-xs">详情</a>
 										<a href="javascript:openPermission(${user.operatorId})" class="btn bg-olive btn-xs">添加角色</a>
 										<a href="${pageContext.request.contextPath}/user/delAdmin?operatorId=${user.operatorId}" class="btn bg-olive btn-xs">删除</a>
 									</td>
@@ -249,54 +249,54 @@
 </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
-<script src="../plugins/jQuery/jquery-2.2.3.min.js"></script>
-<script src="../plugins/jQueryUI/jquery-ui.min.js"></script>
+<script src="/plugins/jQuery/jquery-2.2.3.min.js"></script>
+<script src="/plugins/jQueryUI/jquery-ui.min.js"></script>
 <script>
     $.widget.bridge('uibutton', $.ui.button);
 </script>
-<script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="../plugins/raphael/raphael-min.js"></script>
-<script src="../plugins/morris/morris.min.js"></script>
-<script src="../plugins/sparkline/jquery.sparkline.min.js"></script>
-<script src="../plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-<script src="../plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
-<script src="../plugins/knob/jquery.knob.js"></script>
-<script src="../plugins/daterangepicker/moment.min.js"></script>
-<script src="../plugins/daterangepicker/daterangepicker.js"></script>
-<script src="../plugins/daterangepicker/daterangepicker.zh-CN.js"></script>
-<script src="../plugins/datepicker/bootstrap-datepicker.js"></script>
+<script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="/plugins/raphael/raphael-min.js"></script>
+<script src="/plugins/morris/morris.min.js"></script>
+<script src="/plugins/sparkline/jquery.sparkline.min.js"></script>
+<script src="/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+<script src="/plugins/knob/jquery.knob.js"></script>
+<script src="/plugins/daterangepicker/moment.min.js"></script>
+<script src="/plugins/daterangepicker/daterangepicker.js"></script>
+<script src="/plugins/daterangepicker/daterangepicker.zh-CN.js"></script>
+<script src="/plugins/datepicker/bootstrap-datepicker.js"></script>
 <script
-		src="../plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js"></script>
+		src="/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js"></script>
 <script
-		src="../plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
-<script src="../plugins/slimScroll/jquery.slimscroll.min.js"></script>
-<script src="../plugins/fastclick/fastclick.js"></script>
-<script src="../plugins/iCheck/icheck.min.js"></script>
-<script src="../plugins/adminLTE/js/app.min.js"></script>
-<script src="../plugins/treeTable/jquery.treetable.js"></script>
-<script src="../plugins/select2/select2.full.min.js"></script>
-<script src="../plugins/colorpicker/bootstrap-colorpicker.min.js"></script>
+		src="/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+<script src="/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<script src="/plugins/fastclick/fastclick.js"></script>
+<script src="/plugins/iCheck/icheck.min.js"></script>
+<script src="/plugins/adminLTE/js/app.min.js"></script>
+<script src="/plugins/treeTable/jquery.treetable.js"></script>
+<script src="/plugins/select2/select2.full.min.js"></script>
+<script src="/plugins/colorpicker/bootstrap-colorpicker.min.js"></script>
 <script
-		src="../plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.zh-CN.js"></script>
-<script src="../plugins/bootstrap-markdown/js/bootstrap-markdown.js"></script>
+		src="/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.zh-CN.js"></script>
+<script src="/plugins/bootstrap-markdown/js/bootstrap-markdown.js"></script>
 <script
-		src="../plugins/bootstrap-markdown/locale/bootstrap-markdown.zh.js"></script>
-<script src="../plugins/bootstrap-markdown/js/markdown.js"></script>
-<script src="../plugins/bootstrap-markdown/js/to-markdown.js"></script>
-<script src="../plugins/ckeditor/ckeditor.js"></script>
-<script src="../plugins/input-mask/jquery.inputmask.js"></script>
+		src="/plugins/bootstrap-markdown/locale/bootstrap-markdown.zh.js"></script>
+<script src="/plugins/bootstrap-markdown/js/markdown.js"></script>
+<script src="/plugins/bootstrap-markdown/js/to-markdown.js"></script>
+<script src="/plugins/ckeditor/ckeditor.js"></script>
+<script src="/plugins/input-mask/jquery.inputmask.js"></script>
 <script
-		src="../plugins/input-mask/jquery.inputmask.date.extensions.js"></script>
-<script src="../plugins/input-mask/jquery.inputmask.extensions.js"></script>
-<script src="../plugins/datatables/jquery.dataTables.min.js"></script>
-<script src="../plugins/datatables/dataTables.bootstrap.min.js"></script>
-<script src="../plugins/chartjs/Chart.min.js"></script>
-<script src="../plugins/flot/jquery.flot.min.js"></script>
-<script src="../plugins/flot/jquery.flot.resize.min.js"></script>
-<script src="../plugins/flot/jquery.flot.pie.min.js"></script>
-<script src="../plugins/flot/jquery.flot.categories.min.js"></script>
-<script src="../plugins/ionslider/ion.rangeSlider.min.js"></script>
-<script src="../plugins/bootstrap-slider/bootstrap-slider.js"></script>
+		src="/plugins/input-mask/jquery.inputmask.date.extensions.js"></script>
+<script src="/plugins/input-mask/jquery.inputmask.extensions.js"></script>
+<script src="/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="/plugins/datatables/dataTables.bootstrap.min.js"></script>
+<script src="/plugins/chartjs/Chart.min.js"></script>
+<script src="/plugins/flot/jquery.flot.min.js"></script>
+<script src="/plugins/flot/jquery.flot.resize.min.js"></script>
+<script src="/plugins/flot/jquery.flot.pie.min.js"></script>
+<script src="/plugins/flot/jquery.flot.categories.min.js"></script>
+<script src="/plugins/ionslider/ion.rangeSlider.min.js"></script>
+<script src="/plugins/bootstrap-slider/bootstrap-slider.js"></script>
 <script>
 
     //展开模态框

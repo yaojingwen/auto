@@ -54,13 +54,7 @@ public interface LoginService {
       */
      int addUserRole(List<Integer> ids, Integer operatorId);
 
-     /***
-      * 接口
-      * 查询用户信息
-      * @param id
-      * @return
-      */
-     WebAdmin findById(Integer id);
+
 
 
 }

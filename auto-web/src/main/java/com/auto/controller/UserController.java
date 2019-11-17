@@ -17,10 +17,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.util.StringUtils;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.util.HashMap;
@@ -50,14 +47,14 @@ public class UserController {
 
     /***
      * 查询用户信息
-     * @param id
+     * @param operatorId
      * @param model
      * @return
      */
-    @RequestMapping(value = "/one")
-    public String findOne(Integer id,Model model){
+    @RequestMapping(value = "/one/{operatorId}")
+    public String selectByPrimaryKey(@PathVariable(value = "operatorId") Integer operatorId, Model model) throws Exception, CustomException{
         //根据ID查询用户信息
-        WebAdmin webAdmin = loginService.findById(id);
+        WebAdmin webAdmin = loginService.selectByPrimaryKey(operatorId);
 
         //将信息存入Model
         model.addAttribute("webAdmin",webAdmin);
