@@ -44,16 +44,6 @@ public interface WebAdminMapper {
     @Select("select user_Admin as useradmin,user_pass as userpass from WEB_ADMIN where user_Admin=#{user_Admin}")
     WebAdmin getByUserName(String user_admin);*/
 
-    /***
-     * 根据用户ID查询用户角色信息
-     * @param id
-     * @return
-     */
-    @Select(" select * from web_role wr,web_admin_role war where wr.id=war.roleid and war.userid=#{userId}")
-    @Results({
-            @Result(property = "id",column = "id")
-    })
-    List<WebRole> userRoleList(Integer id);
 
 
     /***
@@ -61,7 +51,7 @@ public interface WebAdminMapper {
      * @param operatorId
      * @return
      */
-    @Delete(" delete from web_admin_role where operatorId=#{operatorId}")
+    @Delete(" delete from web_admin_role where operator_Id=#{operatorId}")
     int deleteUserRole(Integer operatorId);
 
     /***
@@ -70,7 +60,6 @@ public interface WebAdminMapper {
      * @param roleId
      * @return
      */
-    /////////////////       这块有问题    ///////////////TODO
     @Insert("insert into web_admin_role(operator_Id,roleId)values(#{operatorId},#{roleId})")
     int addUserRole(@Param("operatorId")Integer operatorId, @Param("roleId")Integer roleId);
 

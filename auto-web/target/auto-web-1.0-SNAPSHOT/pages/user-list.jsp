@@ -155,9 +155,9 @@
 										<c:if test="${user.isUsed==2}">禁止登陆</c:if>
 									</td>
 									<td class="text-center">
-										<a href="${pageContext.request.contextPath}/user/selectAdminById?id=${user.operatorId}" class="btn bg-olive btn-xs">详情</a>
-										<a href="${pageContext.request.contextPath}/pages/user-role-add.jsp" class="btn bg-olive btn-xs">添加角色</a>
-										<a href="${pageContext.request.contextPath}/user/delAdmin?id=${user.operatorId}" class="btn bg-olive btn-xs">删除</a>
+										<a href="${pageContext.request.contextPath}/pages/user-show.jsp" class="btn bg-olive btn-xs">详情</a>
+										<a href="javascript:openPermission(${user.operatorId})" class="btn bg-olive btn-xs">添加角色</a>
+										<a href="${pageContext.request.contextPath}/user/delAdmin?operatorId=${user.operatorId}" class="btn bg-olive btn-xs">删除</a>
 									</td>
 								</tr>
 							</c:forEach>
@@ -300,12 +300,12 @@
 <script>
 
     //展开模态框
-    openPermission=function (id) {
+    openPermission=function (operatorId) {
         // 打开模态框
         $("#showModal").modal({
             backdrop: 'static',     // 点击空白不关闭
             keyboard: false,        // 按键盘esc也不会关闭
-            remote: '/user/role/add?id='+id    // 从远程加载内容的地址
+            remote: '/user/role/add?operatorId='+operatorId    // 从远程加载内容的地址
         });
     }
 
