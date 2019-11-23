@@ -49,7 +49,7 @@
 						<i class="fa fa-circle-o"></i> CASE管理
 					</a></li>
 					<li id="system-setting"><a
-							href="${pageContext.request.contextPath}/pages/syslog-list.jsp">
+							href="${pageContext.request.contextPath}/pages/zj-add.jsp">
 						<i class="fa fa-circle-o"></i> 组件开发
 					</a></li>
 

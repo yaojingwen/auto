@@ -113,7 +113,7 @@
 										onclick="window.location.reload();">
 										<i class="fa fa-refresh"></i> 刷新
 									</button>
-									<button type="button" class="btn btn-default" title="新建" onclick="location.href='${pageContext.request.contextPath}/pages/user-add.jsp'">
+									<button type="button" class="btn btn-default" title="新建" onclick="location.href='${pageContext.request.contextPath}/pages/case-add.jsp'">
 										<i class="fa fa-file-o"></i> 新建
 									</button>
 
@@ -162,10 +162,10 @@
 										<td>${syslog.method}</td>
 										<td>${syslog.method}</td>
 										<td class="text-center">
-                                            <a href="${pageContext.request.contextPath}/pages/user-show.jsp" class="btn bg-olive btn-xs">发布</a>
-                                            <a href="${pageContext.request.contextPath}/pages/user-show.jsp" class="btn bg-olive btn-xs">修改</a>
-											<a href="${pageContext.request.contextPath}/pages/user-role-add.jsp" class="btn bg-olive btn-xs">复制</a>
-											<a href="${pageContext.request.contextPath}/pages/user-role-add.jsp" class="btn bg-maroon btn-xs">删除</a>
+                                            <a href="${pageContext.request.contextPath}/发布" class="btn bg-olive btn-xs">发布</a>
+                                            <a href="${pageContext.request.contextPath}/pages/case-add.jsp" class="btn bg-olive btn-xs">修改</a>
+											<a href="${pageContext.request.contextPath}/pages/复制" class="btn bg-olive btn-xs">复制</a>
+											<a href="${pageContext.request.contextPath}/pages/删除" class="btn bg-maroon btn-xs">删除</a>
 										</td>
 									</tr>
 								</c:forEach>
