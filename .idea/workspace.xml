@@ -7,16 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="614661cf-6fbc-4c7c-b4e1-027994becbf9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/zj-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/case-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/zj-add.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/aside.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/lib/auto-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/lib/auto-dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/lib/auto-entity-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/lib/auto-entity-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/lib/auto-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/lib/auto-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/lib/auto-util-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/WEB-INF/lib/auto-util-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/aside.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/case-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/case-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/user-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/user-add.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -128,7 +123,7 @@
     <session id="460129819">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="2" />
@@ -138,17 +133,18 @@
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.4" value="2" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="0-SNAPSHOT" value="3" />
           <entry key="class" value="7" />
-          <entry key="css" value="4" />
+          <entry key="css" value="5" />
           <entry key="dtd" value="2" />
           <entry key="java" value="74" />
+          <entry key="js" value="1" />
           <entry key="jsp" value="33" />
           <entry key="pom" value="2" />
           <entry key="properties" value="1" />
@@ -158,10 +154,11 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="7" />
-          <entry key="CSS" value="4" />
+          <entry key="CSS" value="5" />
           <entry key="DTD" value="2" />
           <entry key="JAVA" value="74" />
           <entry key="JSP" value="33" />
+          <entry key="JavaScript" value="1" />
           <entry key="Properties" value="1" />
           <entry key="UML" value="3" />
           <entry key="XML" value="39" />
@@ -170,16 +167,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="1848" />
-          <entry key="jsp" value="715" />
-          <entry key="txt" value="70" />
+          <entry key="jsp" value="808" />
+          <entry key="txt" value="93" />
           <entry key="xml" value="291" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1848" />
-          <entry key="JSP" value="715" />
-          <entry key="PLAIN_TEXT" value="70" />
+          <entry key="JSP" value="808" />
+          <entry key="PLAIN_TEXT" value="93" />
           <entry key="SQL" value="3" />
           <entry key="XML" value="288" />
         </counts>
@@ -189,18 +186,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="109" column="163" lean-forward="true" selection-start-line="109" selection-start-column="163" selection-end-line="109" selection-end-column="163" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-add.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
+            <state relative-caret-position="2601">
               <caret line="153" column="77" selection-start-line="153" selection-start-column="77" selection-end-line="153" selection-end-column="77" />
             </state>
           </provider>
@@ -209,15 +197,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-add.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="184" lean-forward="true" selection-start-line="184" selection-end-line="184" />
+            <state relative-caret-position="196">
+              <caret line="173" lean-forward="true" selection-start-line="173" selection-end-line="173" />
               <folding>
-                <element signature="e#6553#6575#0#HTML" expanded="true" />
-                <element signature="n#STYLE#0;n#div#19;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#STYLE#0;n#textarea#0;n#div#19;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#STYLE#0;n#div#20;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#STYLE#0;n#div#21;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#STYLE#0;n#textarea#0;n#div#21;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#STYLE#0;n#div#0;n#div#22;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#STYLE#0;n#div#1;n#div#22;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#STYLE#0;n#textarea#0;n#div#1;n#div#22;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#STYLE#0;n#div#2;n#div#22;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#STYLE#0;n#div#3;n#div#22;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#STYLE#0;n#textarea#0;n#div#3;n#div#22;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#STYLE#0;n#div#22;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#STYLE#0;n#div#23;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#STYLE#0;n#textarea#0;n#div#23;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -229,12 +217,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/zj-add.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="149" column="65" lean-forward="true" selection-start-line="149" selection-start-column="65" selection-end-line="149" selection-end-column="65" />
-              <folding>
-                <element signature="n#style#0;n#select#0;n#div#15;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#STYLE#0;n#div#18;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="2737">
+              <caret line="161" column="115" selection-start-line="161" selection-start-column="87" selection-end-line="161" selection-end-column="115" />
             </state>
           </provider>
         </entry>
@@ -242,8 +226,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="172" lean-forward="true" selection-start-line="172" selection-end-line="172" />
+            <state relative-caret-position="2924">
+              <caret line="172" selection-start-line="172" selection-end-line="172" />
             </state>
           </provider>
         </entry>
@@ -252,7 +236,7 @@
         <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-show.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="5440">
-              <caret line="320" column="30" lean-forward="true" selection-start-line="320" selection-start-column="30" selection-end-line="320" selection-end-column="30" />
+              <caret line="320" column="30" selection-start-line="320" selection-start-column="30" selection-end-line="320" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -686,8 +670,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="837" />
-    <option name="y" value="78" />
+    <option name="x" value="372" />
+    <option name="y" value="33" />
     <option name="width" value="648" />
     <option name="height" value="690" />
   </component>
@@ -707,8 +691,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -765,7 +749,38 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="jQuery" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -782,7 +797,7 @@
     <property name="SearchEverywhereHistoryKey" value="spring&#9;FILE&#9;file://D:/chromedownloads/auto/auto-service/src/main/resources/spring.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574529613060" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574529976989" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../apache-tomcat-9.0.4" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -793,15 +808,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.asiainfo.entity" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\chromedownloads\auto\auto-web\src\main\webapp" />
       <recent name="D:\chromedownloads\auto\auto-dao\src\main\resources" />
       <recent name="D:\chromedownloads\auto\auto-web\src\main\webapp\img" />
       <recent name="D:\chromedownloads\auto\auto-web\src\main\webapp\css" />
       <recent name="D:\chromedownloads\auto\auto-util\src\main\java\com\asiainfo\util" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.asiainfo.entity" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -927,7 +942,8 @@
       <workItem from="1574047733066" duration="1224000" />
       <workItem from="1574129458224" duration="1478000" />
       <workItem from="1574146469353" duration="598000" />
-      <workItem from="1574477113719" duration="11200000" />
+      <workItem from="1574477113719" duration="11617000" />
+      <workItem from="1574574466696" duration="5030000" />
     </task>
     <task id="LOCAL-00001" summary="第一个">
       <created>1571453021810</created>
@@ -1055,17 +1071,24 @@
       <option name="project" value="LOCAL" />
       <updated>1573964271491</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="增加页面(组件开发+case管理)">
+      <created>1574529746610</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1574529746611</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167678000" />
+    <option name="totallyTimeSpent" value="173125000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info x="653" y="223" width="421" height="666" id="Project" order="0" visible="true" weight="0.22834645" />
+      <window_info x="653" y="223" width="421" height="666" id="Project" order="0" visible="true" weight="0.23192556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1073,10 +1096,9 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18555418" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.369863" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.25155666" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1090,7 +1112,7 @@
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.20547946" />
       <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32997987" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.3501006" />
-      <window_info anchor="right" id="Word Book" side_tool="true" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1100,6 +1122,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.29277024" />
+      <window_info anchor="right" id="Word Book" order="9" side_tool="true" />
     </layout>
     <layout-to-restore>
       <window_info active="true" x="653" y="223" width="421" height="666" id="Project" order="0" visible="true" weight="0.26127416" />
@@ -1185,14 +1208,15 @@
     <MESSAGE value="用户添加角色" />
     <MESSAGE value="用户添加角色成功" />
     <MESSAGE value="添加用户查看角色详情" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加用户查看角色详情" />
+    <MESSAGE value="增加页面(组件开发+case管理)" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加页面(组件开发+case管理)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-add.jsp</url>
-          <line>223</line>
+          <line>212</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -1200,20 +1224,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/order-show.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="90" column="37" selection-start-line="90" selection-start-column="37" selection-end-line="90" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/failer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3944">
-          <caret line="232" column="11" selection-start-line="232" selection-start-column="11" selection-end-line="232" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auto-web/src/main/resources/log4j.dtd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3474" />
@@ -1328,6 +1338,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/zj-add .jsp" />
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="109" column="163" selection-start-line="109" selection-start-column="163" selection-end-line="109" selection-end-column="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2601">
+          <caret line="153" column="77" selection-start-line="153" selection-start-column="77" selection-end-line="153" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/zj-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2737">
+          <caret line="161" column="115" selection-start-line="161" selection-start-column="87" selection-end-line="161" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2924">
+          <caret line="172" selection-start-line="172" selection-end-line="172" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-show.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5440">
+          <caret line="320" column="30" selection-start-line="320" selection-start-column="30" selection-end-line="320" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebRolePermissionExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1532,70 +1585,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-show.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5440">
-          <caret line="320" column="30" lean-forward="true" selection-start-line="320" selection-start-column="30" selection-end-line="320" selection-end-column="30" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/plugins/jQuery/jquery-2.2.3.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-list.jsp">
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/plugins/bootstrap/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="172" lean-forward="true" selection-start-line="172" selection-end-line="172" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebRolePermissionExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/zj-add .jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="109" column="163" lean-forward="true" selection-start-line="109" selection-start-column="163" selection-end-line="109" selection-end-column="163" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/user-add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="153" column="77" selection-start-line="153" selection-start-column="77" selection-end-line="153" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/zj-add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="149" column="65" lean-forward="true" selection-start-line="149" selection-start-column="65" selection-end-line="149" selection-end-column="65" />
-          <folding>
-            <element signature="n#style#0;n#select#0;n#div#15;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#STYLE#0;n#div#18;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="-696">
+          <caret line="4" column="36865" selection-start-line="4" selection-start-column="36865" selection-end-line="4" selection-end-column="36865" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-add.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="184" lean-forward="true" selection-start-line="184" selection-end-line="184" />
+        <state relative-caret-position="196">
+          <caret line="173" lean-forward="true" selection-start-line="173" selection-end-line="173" />
           <folding>
-            <element signature="e#6553#6575#0#HTML" expanded="true" />
-            <element signature="n#STYLE#0;n#div#19;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#STYLE#0;n#textarea#0;n#div#19;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#STYLE#0;n#div#20;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#STYLE#0;n#div#21;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#STYLE#0;n#textarea#0;n#div#21;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#STYLE#0;n#div#0;n#div#22;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#STYLE#0;n#div#1;n#div#22;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#STYLE#0;n#textarea#0;n#div#1;n#div#22;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#STYLE#0;n#div#2;n#div#22;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#STYLE#0;n#div#3;n#div#22;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#STYLE#0;n#textarea#0;n#div#3;n#div#22;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#STYLE#0;n#div#22;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#STYLE#0;n#div#23;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#STYLE#0;n#textarea#0;n#div#23;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
