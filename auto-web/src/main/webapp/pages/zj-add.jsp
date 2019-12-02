@@ -153,15 +153,15 @@
 							</select>
 						</div>
 
-						<div class="col-md-2 title rowHeight2x" STYLE="height: 257px;"
-						><br>组件功能说明</div>
-						<div class="col-md-10 data rowHeight2x" STYLE="height: 257px;">
-							<textarea class="form-control" rows="3" placeholder="组件功能说明" STYLE="height: 257px;"></textarea>
+						<div class="col-md-1 title rowHeight2x" STYLE="height: 666px;"><br>组件功能说明</div>
+						<div class="col-md-5 data rowHeight2x"  STYLE="height: 666px;">
+							<textarea class="form-control" rows="3" placeholder="组件功能说明"  STYLE="height: 666px;"></textarea>
 						</div>
 
-						<div class="col-md-2 title rowHeight2x" STYLE="height: 257px;">页面定义<br>(同一菜单编码共用,<br>修改请慎重)</div>
-						<div class="col-md-10 data rowHeight2x"  STYLE="height: 257px;">
-							<textarea class="form-control" rows="3" placeholder="操作步骤："  STYLE="height: 257px;"></textarea>
+						<div class="col-md-1 title rowHeight2x" STYLE="height: 666px;"
+						><br><br>页面定义<br>(同一菜单编码共用,<br>修改请慎重)</div>
+						<div class="col-md-5 data rowHeight2x" STYLE="height: 666px;">
+							<textarea class="form-control" rows="3" placeholder="页面定义" STYLE="height: 666px;"></textarea>
 						</div>
 
 
