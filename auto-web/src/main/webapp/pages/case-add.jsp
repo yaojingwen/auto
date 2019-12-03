@@ -102,49 +102,49 @@
 					<div class="row data-type">
 
 						<input type="hidden" name="operatorId" value="${admin.operatorId}">
-						<div class="col-md-2 title">业务模块</div>
-						<div class="col-md-4 data">
+						<div class="col-md-1 title">业务模块</div>
+						<div class="col-md-5 data">
 							<input type="text" class="form-control" name="userAdmin"
 								   placeholder="业务模块" value="${admin.userAdmin}">
 						</div>
-						<div class="col-md-2 title">测试人员</div>
-						<div class="col-md-4 data">
+						<div class="col-md-1 title">测试人员</div>
+						<div class="col-md-5 data">
 							<input type="password" class="form-control" name="userPass"
 								   placeholder="测试人员" value="${admin.userPass}">
 						</div>
-						<div class="col-md-2 title">业务菜单</div>
+						<div class="col-md-1 title">业务菜单</div>
 						<input type="hidden" name="operatorId" value="${admin.operatorId}"/>
-						<div class="col-md-4 data">
+						<div class="col-md-5 data">
 							<input type="text" class="form-control" name="userName"
 								   placeholder="业务菜单" value="${admin.userName}">
 						</div>
-						<div class="col-md-2 title">菜单编码</div>
-						<div class="col-md-4 data">
+						<div class="col-md-1 title">菜单编码</div>
+						<div class="col-md-5 data">
 							<input type="text" class="form-control" name="userMobile"
 								   placeholder="菜单编码" value="${admin.userMobile}">
 						</div>
-						<div class="col-md-2 title">用例名称</div>
-						<div class="col-md-4 data">
+						<div class="col-md-1 title">用例名称</div>
+						<div class="col-md-5 data">
 							<input type="text" class="form-control" name="userStaff"
 								   placeholder="用例名称" value="${admin.userStaff}">
 						</div>
-						<div class="col-md-2 title">用例编码</div>
-						<div class="col-md-4 data">
+						<div class="col-md-1 title">用例编码</div>
+						<div class="col-md-5 data">
 							<input type="text" class="form-control" name="userEmail"
 								   placeholder="用例编码" value="${admin.userEmail}">
 						</div>
-						<div class="col-md-2 title">用例参数名</div>
-						<div class="col-md-4 data">
+						<div class="col-md-1 title">用例参数名</div>
+						<div class="col-md-5 data">
 							<input type="text" class="form-control" name="userEmail"
 								   placeholder="用例参数名" value="${admin.userEmail}">
 						</div>
-						<div class="col-md-2 title">用例级别</div>
-						<div class="col-md-4 data">
+						<div class="col-md-1 title">用例级别</div>
+						<div class="col-md-5 data">
 							<input type="text" class="form-control" name="userEmail"
 								   placeholder="用例级别" value="${admin.userEmail}">
 						</div>
-						<div class="col-md-2 title">用例参数值</div>
-						<div class="col-md-10 data">
+						<div class="col-md-1 title">用例参数值</div>
+						<div class="col-md-11 data">
 							<input type="text" class="form-control" name="userEmail"
 								   placeholder="用例参数值" value="${admin.userEmail}">
 						</div>
@@ -182,52 +182,6 @@
 					<%--老的--%>
 					</div>
 				</div>
-
-
-
-						<%--老的--%>
-						<%--<div>
-						<tr>
-							<td bgcolor="#FFFDF0">
-								<div align="center">
-									页面定义<br>(同一菜单编码共用,<br>修改请慎重)：
-								</div>
-							</td>
-							<td bgcolor="#FFFFFF">
-						<textarea rows="40" id="123" name="pageElement" placeholder="如 ：choiceType_x=/html/body/div[1]/div[1]/div[2]/ul/li[2]/div[2];
-
-    说明:choiceType-自定义页面元素变量
-          _x - 根据后缀判断查找元素方式，目前支持_x xpath路径; _i 元素id属性值 ; _c 元素属性值
-      	 /html/body/div[1]/div[1]/div[2]/ul/li[2]/div[2] :页面查找路径,通过浏览器工具可查看获取" style="font-size:15px;height:100%;width: 100%; resize: none;">&lt;%if(caseinfo.getPageElement()==null){%&gt;&lt;%}else{%&gt;&lt;%=caseinfo.getPageElement()%&gt;&lt;%}%&gt;</textarea>
-							</td>
-
-
-
-
-
-							<td bgcolor="#FFFDF0">
-								<div align="center">
-									操作步骤：
-									<div id="popDiv">
-										<table id="content_table" style="font-size:15px;width: 100%">
-											<tbody id="556" style="color:#FF0000">
-											</tbody>
-
-										</table>
-									</div>
-								</div>
-							</td>
-							<td bgcolor="#FFFFFF">
-
-						<textarea placeholder="举例:
-test=&quot;abc&quot;;
-ab=searchmap(&quot;select t.bill_id,t.user_id from so1.ins_user_791 t where bill_id='&quot;+test+&quot;'&quot;);
-switchframetomenu();
-click(choiceType_x);
-switchframe(&quot; 1 &quot;,&quot; 0 &quot;);" valid="required" errmsg="操作步骤不能为空!" rows="40" id="223" name="opStep" onkeyup="getMoreContens(223,'opStep',556)" onfocus="getMoreContens(223,'opStep',556)" style="font-size:15px;width: 100%; resize: none;">&lt;%if(caseinfo.getOpStep()==null){%&gt;&lt;%}else{%&gt;&lt;%=caseinfo.getOpStep()%&gt;&lt;%}%&gt;</textarea>
-							</td>
-						</tr>
-						</div>--%>
 
 				<!--订单信息/--> <!--工具栏-->
 				<div class="box-tools text-center">
