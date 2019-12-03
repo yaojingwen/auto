@@ -1,4 +1,3 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -7,6 +6,7 @@
 <!-- 页面meta -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 <title>界面自动化</title>
 <meta name="description" content="界面自动化">
 <meta name="keywords" content="界面自动化">
@@ -15,7 +15,6 @@
 <meta
 	content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
 	name="viewport">
-
 
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/plugins/bootstrap/css/bootstrap.min.css">
@@ -63,13 +62,14 @@
 	href="${pageContext.request.contextPath}/plugins/bootstrap-datetimepicker/bootstrap-datetimepicker.css">
 </head>
 
-<body class="hold-transition skin-purple sidebar-mini">
+<body class="hold-transition skin-blue sidebar-mini">
 
 	<div class="wrapper">
 
 		<!-- 页面头部 -->
 		<jsp:include page="header.jsp"></jsp:include>
 		<!-- 页面头部 /-->
+
 		<!-- 导航侧栏 -->
 		<jsp:include page="aside.jsp"></jsp:include>
 		<!-- 导航侧栏 /-->
@@ -80,123 +80,155 @@
 			<!-- 内容头部 -->
 			<section class="content-header">
 			<h1>
-				管理视图 <small>CASE管理</small>
+				配置管理 <small>配置列表</small>
 			</h1>
 			<ol class="breadcrumb">
 				<li><a href="${pageContext.request.contextPath}/index.jsp"><i
 						class="fa fa-dashboard"></i> 首页</a></li>
 				<li><a
-					href="${pageContext.request.contextPath}/user/findAll.do">管理视图</a></li>
-				<li class="active">CASE管理</li>
+					href="${pageContext.request.contextPath}/sysLog/findAll.do">配置列表</a></li>
+
+				<li class="active">全部配置</li>
 			</ol>
 			</section>
 			<!-- 内容头部 /-->
 
-			<form action="/case/add"
-				method="post">
-				<!-- 正文区域 -->
-				<section class="content"> <!--产品信息-->
+			<!-- 正文区域 -->
+			<section class="content"> <!-- .box-body -->
+			<div class="box box-primary">
+				<div class="box-header with-border">
+					<h3 class="box-title">列表</h3>
+				</div>
 
-				<div class="panel panel-default">
-					<div class="panel-heading">用例详情</div>
-					<div class="row data-type">
+				<div class="box-body">
 
-						<input type="hidden" name="operatorId" value="${admin.operatorId}">
-						<div class="col-md-1 title">业务模块</div>
-						<div class="col-md-5 data">
-							<input type="text" class="form-control" name="userAdmin"
-								   placeholder="业务模块" value="${admin.userAdmin}">
-						</div>
-						<div class="col-md-1 title">测试人员</div>
-						<div class="col-md-5 data">
-							<input type="password" class="form-control" name="userPass"
-								   placeholder="测试人员" value="${admin.userPass}">
-						</div>
-						<div class="col-md-1 title">业务菜单</div>
-						<input type="hidden" name="operatorId" value="${admin.operatorId}"/>
-						<div class="col-md-5 data">
-							<input type="text" class="form-control" name="userName"
-								   placeholder="业务菜单" value="${admin.userName}">
-						</div>
-						<div class="col-md-1 title">菜单编码</div>
-						<div class="col-md-5 data">
-							<input type="text" class="form-control" name="userMobile"
-								   placeholder="菜单编码" value="${admin.userMobile}">
-						</div>
-						<div class="col-md-1 title">用例名称</div>
-						<div class="col-md-5 data">
-							<input type="text" class="form-control" name="userStaff"
-								   placeholder="用例名称" value="${admin.userStaff}">
-						</div>
-						<div class="col-md-1 title">用例编码</div>
-						<div class="col-md-5 data">
-							<input type="text" class="form-control" name="userEmail"
-								   placeholder="用例编码" value="${admin.userEmail}">
-						</div>
-						<div class="col-md-1 title">用例参数名</div>
-						<div class="col-md-5 data">
-							<input type="text" class="form-control" name="userEmail"
-								   placeholder="用例参数名" value="${admin.userEmail}">
-						</div>
-						<div class="col-md-1 title">用例级别</div>
-						<div class="col-md-5 data">
-							<input type="text" class="form-control" name="userEmail"
-								   placeholder="用例级别" value="${admin.userEmail}">
-						</div>
-						<div class="col-md-1 title">用例参数值</div>
-						<div class="col-md-11 data">
-							<input type="text" class="form-control" name="userEmail"
-								   placeholder="用例参数值" value="${admin.userEmail}">
-						</div>
+					<!-- 界面表格 -->
+					<div class="table-box">
 
-					<%--	<div class="col-md-2 title rowHeight2x" STYLE="height: 257px;"
-						>页面定义<br>(同一菜单编码共用,<br>修改请慎重)</div>
-						<div class="col-md-10 data rowHeight2x" STYLE="height: 257px;">
-							<textarea class="form-control" rows="3" placeholder="页面定义" STYLE="height: 257px;"></textarea>
+						<!--工具栏-->
+						<div class="pull-left">
+							<div class="form-group form-inline">
+								<div class="btn-group">
+									<button type="button" class="btn btn-default" title="刷新"
+										onclick="window.location.reload();">
+										<i class="fa fa-refresh"></i> 刷新
+									</button>
+									<button type="button" class="btn btn-default" title="新建" onclick="location.href='${pageContext.request.contextPath}/pages/config-add.jsp'">
+										<i class="fa fa-file-o"></i> 新建
+									</button>
+
+								</div>
+							</div>
 						</div>
-						<div class="col-md-2 title rowHeight2x" STYLE="height: 257px;"><br>操作步骤：</div>
-						<div class="col-md-10 data rowHeight2x"  STYLE="height: 257px;">
-							<textarea class="form-control" rows="3" placeholder="操作步骤："  STYLE="height: 257px;"></textarea>
+						<div class="box-tools pull-right">
+							<div class="has-feedback">
+								<input type="text" class="form-control input-sm"
+									placeholder="搜索"> <span
+									class="glyphicon glyphicon-search form-control-feedback"></span>
+
+							</div>
+
+						</div>
+						<!--工具栏/-->
+
+						<!--界面列表-->
+						<table id="dataList"
+							class="table table-bordered table-striped table-hover dataTable">
+							<thead>
+								<tr>
+								<%--	<th class="" style="padding-right: 0px"><input id="selall"
+										type="checkbox" class="icheckbox_square-blue"></th>--%>
+									<%--<th class="sorting_asc">用例编号</th>--%>
+									<th class="sorting">参数类型</th>
+									<th class="sorting">参数编码</th>
+									<th class="sorting">sql值</th>
+									<th class="sorting">说明</th>
+									<th class="text-center">基本操作</th>
+								</tr>
+							</thead>
+							<tbody>
+								<c:forEach items="${sysLogs}" var="syslog">
+									<tr>
+										<%--<td><input name="ids" type="checkbox"></td>
+										<td>${syslog.id}4000</td>--%>
+										<td>${syslog.visitTimeStr }公共操作</td>
+										<td>${syslog.username }getnumberbykey</td>
+										<td>${syslog.ip } 无</td>
+										<td>${syslog.url} 查询满足条件得号码</td>
+										<td class="text-center">
+                                            <a href="${pageContext.request.contextPath}/pages/config-add.jsp" class="btn bg-olive btn-xs">详情</a>
+											<a href="${pageContext.request.contextPath}/pages/删除" class="btn bg-maroon btn-xs">删除</a>
+										</td>
+									</tr>
+								</c:forEach>
+							</tbody>
+
+						</table>
+						<!--界面列表/-->
+
+						<!--工具栏-->
+					<%--	<div class="pull-left">
+							<div class="form-group form-inline">
+								<div class="btn-group">
+									<button type="button" class="btn btn-default" title="刷新"
+										onclick="window.location.reload();">
+										<i class="fa fa-refresh"></i> 刷新
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="box-tools pull-right">
+							<div class="has-feedback">
+								<input type="text" class="form-control input-sm"
+									placeholder="搜索"> <span
+									class="glyphicon glyphicon-search form-control-feedback"></span>
+							</div>
 						</div>--%>
+						<!--工具栏/-->
 
 
-							<div class="col-md-1 title rowHeight2x" STYLE="height: 666px;"
-							><br><br>页面定义<br>(同一菜单编码共用,<br>修改请慎重)</div>
-							<div class="col-md-5 data rowHeight2x" STYLE="height: 666px;">
-								<textarea class="form-control" rows="3" placeholder="页面定义" STYLE="height: 666px;"></textarea>
-							</div>
-							<div class="col-md-1 title rowHeight2x" STYLE="height: 666px;"><br><br><br>操作步骤：</div>
-							<div class="col-md-5 data rowHeight2x"  STYLE="height: 666px;">
-								<textarea class="form-control" rows="3" placeholder="操作步骤："  STYLE="height: 666px;"></textarea>
-							</div>
-
-
-
-
-						<div class="col-md-1 title rowHeight2x" STYLE="height: 333px;"><br><br>校验步骤: </div>
-						<div class="col-md-11 data rowHeight2x"  STYLE="height: 333px;">
-							<textarea class="form-control" rows="3" placeholder="校验步骤："  STYLE="height: 333px;"></textarea>
-						</div>
-
-
-					<%--老的--%>
 					</div>
-				</div>
+					<!-- 界面表格 /-->
 
-				<!--订单信息/--> <!--工具栏-->
-				<div class="box-tools text-center">
-					<c:if test="${admin.operatorId==null}">
-						<button type="submit" class="btn bg-maroon">保存</button>
-					</c:if>
-					<c:if test="${admin.operatorId!=null}">
-						<button type="submit" class="btn bg-maroon">修改</button>
-					</c:if>
-					<button type="button" class="btn bg-default"
-						onclick="history.back(-1);">返回</button>
 				</div>
-				<!--工具栏/--> </section>
-				<!-- 正文区域 /-->
-			</form>
+				<!-- /.box-body -->
+
+				<!-- .box-footer-->
+				<div class="box-footer">
+					<div class="pull-left">
+						<div class="form-group form-inline">
+							总共2 页，共14 条界面。 每页 <select class="form-control">
+								<option>10</option>
+								<option>15</option>
+								<option>20</option>
+								<option>50</option>
+								<option>80</option>
+							</select> 条
+						</div>
+					</div>
+
+					<div class="box-tools pull-right">
+						<ul class="pagination">
+							<li><a href="#" aria-label="Previous">首页</a></li>
+							<li><a href="#">上一页</a></li>
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li><a href="#">下一页</a></li>
+							<li><a href="#" aria-label="Next">尾页</a></li>
+						</ul>
+					</div>
+
+				</div>
+				<!-- /.box-footer-->
+
+			</div>
+
+			</section>
+			<!-- 正文区域 /-->
+
 		</div>
 		<!-- 内容区域 /-->
 
@@ -211,7 +243,6 @@
 		<!-- 底部导航 /-->
 
 	</div>
-
 
 	<script
 		src="${pageContext.request.contextPath}/plugins/jQuery/jquery-2.2.3.min.js"></script>
@@ -318,9 +349,29 @@
 				liObj.addClass("active");
 			}
 		}
+
+		$(document).ready(function() {
+
+			// 激活导航位置
+			setSidebarActive("order-manage");
+
+			// 列表按钮 
+			$("#dataList td input[type='checkbox']").iCheck({
+				checkboxClass : 'icheckbox_square-blue',
+				increaseArea : '20%'
+			});
+			// 全选操作 
+			$("#selall").click(function() {
+				var clicks = $(this).is(':checked');
+				if (!clicks) {
+					$("#dataList td input[type='checkbox']").iCheck("uncheck");
+				} else {
+					$("#dataList td input[type='checkbox']").iCheck("check");
+				}
+				$(this).data("clicks", !clicks);
+			});
+		});
 	</script>
-
-
 </body>
 
 </html>

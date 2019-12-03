@@ -31,7 +31,7 @@
 				<ul class="treeview-menu">
 
 					<li id="system-setting"><a
-							href="/product/page/list">
+							href="case-work.jsp">
 						<i class="fa fa-circle-o"></i> CASE执行
 					</a></li>
 
@@ -49,7 +49,7 @@
 						<i class="fa fa-circle-o"></i> CASE管理
 					</a></li>
 					<li id="system-setting"><a
-							href="${pageContext.request.contextPath}/pages/zj-add.jsp">
+							href="${pageContext.request.contextPath}/pages/zj-list.jsp">
 						<i class="fa fa-circle-o"></i> 组件开发
 					</a></li>
 
@@ -62,11 +62,11 @@
 				<ul class="treeview-menu">
 
 					<li id="system-setting"><a
-							href="/product/page/list">
+							href="config-list.jsp">
 						<i class="fa fa-circle-o"></i> 配置管理
 					</a></li>
 					<li id="system-setting"><a
-							href="/orders/list">
+							href="query-list.jsp">
 						<i class="fa fa-circle-o"></i> 数据查询
 					</a></li>
 

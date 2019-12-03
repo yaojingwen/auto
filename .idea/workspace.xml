@@ -7,11 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="614661cf-6fbc-4c7c-b4e1-027994becbf9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-work.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/config-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/config-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/query-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/query.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/zj-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/case-work.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/config-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/config-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/query-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/query.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/zj-list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/aside.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/zj-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/zj-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/aside.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/case-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/auto-web/target/auto-web-1.0-SNAPSHOT/pages/case-add.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -149,7 +159,7 @@
           <entry key="java" value="74" />
           <entry key="jpg" value="1" />
           <entry key="js" value="2" />
-          <entry key="jsp" value="44" />
+          <entry key="jsp" value="45" />
           <entry key="png" value="7" />
           <entry key="pom" value="2" />
           <entry key="properties" value="1" />
@@ -164,7 +174,7 @@
           <entry key="HTML" value="1" />
           <entry key="Image" value="8" />
           <entry key="JAVA" value="74" />
-          <entry key="JSP" value="44" />
+          <entry key="JSP" value="45" />
           <entry key="JavaScript" value="2" />
           <entry key="Properties" value="1" />
           <entry key="UML" value="3" />
@@ -175,7 +185,7 @@
         <counts>
           <entry key="html" value="295" />
           <entry key="java" value="1848" />
-          <entry key="jsp" value="1885" />
+          <entry key="jsp" value="1949" />
           <entry key="txt" value="97" />
           <entry key="xml" value="291" />
         </counts>
@@ -184,7 +194,7 @@
         <counts>
           <entry key="HTML" value="295" />
           <entry key="JAVA" value="1848" />
-          <entry key="JSP" value="1885" />
+          <entry key="JSP" value="1949" />
           <entry key="PLAIN_TEXT" value="97" />
           <entry key="SQL" value="3" />
           <entry key="XML" value="288" />
@@ -193,367 +203,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-add.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="142" column="77" selection-start-line="142" selection-start-column="77" selection-end-line="142" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/main.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="282" column="33" selection-start-line="282" selection-end-line="283" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#2;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/zj-add.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="863">
-              <caret line="189" column="63" lean-forward="true" selection-start-line="189" selection-start-column="63" selection-end-line="189" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="152" column="75" lean-forward="true" selection-start-line="152" selection-start-column="75" selection-end-line="152" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-work.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="863">
-              <caret line="257" column="28" selection-start-line="257" selection-start-column="28" selection-end-line="257" selection-end-column="28" />
-              <folding>
-                <element signature="e#11638#11670#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#16673#16729#0#HTML" expanded="true" />
-                <element signature="e#16782#16876#0#HTML" expanded="true" />
-                <element signature="e#16909#17026#0#HTML" expanded="true" />
-                <element signature="e#17078#17167#0#HTML" expanded="true" />
-                <element signature="e#17207#17296#0#HTML" expanded="true" />
-                <element signature="e#17343#17433#0#HTML" expanded="true" />
-                <element signature="e#17481#17571#0#HTML" expanded="true" />
-                <element signature="e#17619#17709#0#HTML" expanded="true" />
-                <element signature="e#17757#17847#0#HTML" expanded="true" />
-                <element signature="e#17895#17985#0#HTML" expanded="true" />
-                <element signature="e#18033#18123#0#HTML" expanded="true" />
-                <element signature="e#18171#18261#0#HTML" expanded="true" />
-                <element signature="e#18309#18399#0#HTML" expanded="true" />
-                <element signature="e#18447#18538#0#HTML" expanded="true" />
-                <element signature="e#18604#18693#0#HTML" expanded="true" />
-                <element signature="e#18733#18803#0#HTML" expanded="true" />
-                <element signature="e#18850#18919#0#HTML" expanded="true" />
-                <element signature="e#18967#19036#0#HTML" expanded="true" />
-                <element signature="e#19084#19153#0#HTML" expanded="true" />
-                <element signature="e#19201#19269#0#HTML" expanded="true" />
-                <element signature="e#19317#19384#0#HTML" expanded="true" />
-                <element signature="e#19461#19555#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/plugins/adminLTE/css/AdminLTE.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="1794" column="1" selection-start-line="1794" selection-start-column="1" selection-end-line="1794" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebPermission.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-              <folding>
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/PermissionService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-dao/src/main/java/com/auto/mapper/WebRolePermissionMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/impl/PermissionServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
-              <folding>
-                <element signature="e#774#775#0" expanded="true" />
-                <element signature="e#838#839#0" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
-                <element signature="e#963#964#0" expanded="true" />
-                <element signature="e#1038#1039#0" expanded="true" />
-                <element signature="e#1103#1104#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/impl/RoleServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-dao/src/main/java/com/auto/mapper/WebRoleMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="62" column="27" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-dao/src/main/java/com/auto/mapper/WebAdminMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebAdmin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="34" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="34" />
-              <folding>
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/java/com/auto/controller/PermissionController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/java/com/auto/controller/RoleController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/permission-list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1870">
-              <caret line="110" column="133" selection-start-line="110" selection-start-column="133" selection-end-line="110" selection-end-column="133" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/role-list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4879">
-              <caret line="287" column="12" selection-start-line="287" selection-start-column="12" selection-end-line="287" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/role-permission-add.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/permission-add.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1666">
-              <caret line="98" column="53" selection-start-line="98" selection-start-column="53" selection-end-line="98" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/RoleService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/aside.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/query-list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
-              <folding>
-                <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/query.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
-              <caret line="137" column="22" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
-              <folding>
-                <element signature="n#STYLE#0;n#div#14;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#STYLE#0;n#div#15;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#STYLE#0;n#textarea#0;n#div#15;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#STYLE#0;n#div#2;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#STYLE#0;n#div#3;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#STYLE#0;n#textarea#0;n#div#3;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/zj-list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="138" column="36" lean-forward="true" selection-start-line="138" selection-start-column="36" selection-end-line="138" selection-end-column="36" />
-              <folding>
-                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/config-list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="120" column="34" selection-start-line="120" selection-start-column="34" selection-end-line="120" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/config-add.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="148" column="30" selection-start-line="148" selection-start-column="30" selection-end-line="148" selection-end-column="30" />
-              <folding>
-                <element signature="n#STYLE#0;n#textarea#0;n#div#19;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#STYLE#0;n#textarea#0;n#div#9;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#STYLE#0;n#textarea#0;n#div#11;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#STYLE#0;n#textarea#0;n#div#13;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#STYLE#0;n#textarea#0;n#div#15;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-entity/src/main/java/com/auto/entity/WebRole.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="46" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="46" />
-              <folding>
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/LoginService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/auto/service/impl/LoginServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+            <state relative-caret-position="-758">
+              <caret line="285" column="43" selection-start-line="285" selection-start-column="43" selection-end-line="285" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -811,7 +466,7 @@
     <property name="SearchEverywhereHistoryKey" value="spring&#9;FILE&#9;file://D:/chromedownloads/auto/auto-service/src/main/resources/spring.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575376298799" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575378312901" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../apache-tomcat-9.0.4" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -961,7 +616,7 @@
       <workItem from="1574858624814" duration="1809000" />
       <workItem from="1574991716562" duration="914000" />
       <workItem from="1575270496146" duration="8577000" />
-      <workItem from="1575337059438" duration="25262000" />
+      <workItem from="1575337059438" duration="27263000" />
     </task>
     <task id="LOCAL-00001" summary="第一个">
       <created>1571453021810</created>
@@ -1124,11 +779,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575357370251</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="页面变动">
+      <created>1575376439182</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1575376439184</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209687000" />
+    <option name="totallyTimeSpent" value="211688000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
@@ -1606,55 +1268,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="152" column="75" lean-forward="true" selection-start-line="152" selection-start-column="75" selection-end-line="152" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/query-list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
+        <state relative-caret-position="306">
+          <caret line="99" column="49" lean-forward="true" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
           <folding>
             <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="116" column="28" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/auto-web/src/main/webapp/pages/case-work.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="863">
-          <caret line="257" column="28" selection-start-line="257" selection-start-column="28" selection-end-line="257" selection-end-column="28" />
-          <folding>
-            <element signature="e#11638#11670#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#16673#16729#0#HTML" expanded="true" />
-            <element signature="e#16782#16876#0#HTML" expanded="true" />
-            <element signature="e#16909#17026#0#HTML" expanded="true" />
-            <element signature="e#17078#17167#0#HTML" expanded="true" />
-            <element signature="e#17207#17296#0#HTML" expanded="true" />
-            <element signature="e#17343#17433#0#HTML" expanded="true" />
-            <element signature="e#17481#17571#0#HTML" expanded="true" />
-            <element signature="e#17619#17709#0#HTML" expanded="true" />
-            <element signature="e#17757#17847#0#HTML" expanded="true" />
-            <element signature="e#17895#17985#0#HTML" expanded="true" />
-            <element signature="e#18033#18123#0#HTML" expanded="true" />
-            <element signature="e#18171#18261#0#HTML" expanded="true" />
-            <element signature="e#18309#18399#0#HTML" expanded="true" />
-            <element signature="e#18447#18538#0#HTML" expanded="true" />
-            <element signature="e#18604#18693#0#HTML" expanded="true" />
-            <element signature="e#18733#18803#0#HTML" expanded="true" />
-            <element signature="e#18850#18919#0#HTML" expanded="true" />
-            <element signature="e#18967#19036#0#HTML" expanded="true" />
-            <element signature="e#19084#19153#0#HTML" expanded="true" />
-            <element signature="e#19201#19269#0#HTML" expanded="true" />
-            <element signature="e#19317#19384#0#HTML" expanded="true" />
-            <element signature="e#19461#19555#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="-758">
+          <caret line="285" column="43" selection-start-line="285" selection-start-column="43" selection-end-line="285" selection-end-column="43" />
         </state>
       </provider>
     </entry>

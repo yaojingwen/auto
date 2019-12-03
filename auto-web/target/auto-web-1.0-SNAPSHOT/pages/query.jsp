@@ -80,117 +80,59 @@
 			<!-- 内容头部 -->
 			<section class="content-header">
 			<h1>
-				管理视图 <small>CASE管理</small>
+				数据查询 <small>数据展示</small>
 			</h1>
 			<ol class="breadcrumb">
 				<li><a href="${pageContext.request.contextPath}/index.jsp"><i
 						class="fa fa-dashboard"></i> 首页</a></li>
 				<li><a
-					href="${pageContext.request.contextPath}/user/findAll.do">管理视图</a></li>
-				<li class="active">CASE管理</li>
+					href="${pageContext.request.contextPath}/user/findAll.do">数据查询</a></li>
+				<li class="active">数据展示</li>
 			</ol>
 			</section>
 			<!-- 内容头部 /-->
 
-			<form action="/case/add"
+			<form action="/zj/add"
 				method="post">
 				<!-- 正文区域 -->
 				<section class="content"> <!--产品信息-->
 
 				<div class="panel panel-default">
-					<div class="panel-heading">用例详情</div>
+					<div class="panel-heading">配置编辑栏</div>
 					<div class="row data-type">
 
 						<input type="hidden" name="operatorId" value="${admin.operatorId}">
-						<div class="col-md-1 title">业务模块</div>
-						<div class="col-md-5 data">
-							<input type="text" class="form-control" name="userAdmin"
-								   placeholder="业务模块" value="${admin.userAdmin}">
-						</div>
-						<div class="col-md-1 title">测试人员</div>
-						<div class="col-md-5 data">
-							<input type="password" class="form-control" name="userPass"
-								   placeholder="测试人员" value="${admin.userPass}">
-						</div>
-						<div class="col-md-1 title">业务菜单</div>
-						<input type="hidden" name="operatorId" value="${admin.operatorId}"/>
-						<div class="col-md-5 data">
-							<input type="text" class="form-control" name="userName"
-								   placeholder="业务菜单" value="${admin.userName}">
-						</div>
-						<div class="col-md-1 title">菜单编码</div>
-						<div class="col-md-5 data">
-							<input type="text" class="form-control" name="userMobile"
-								   placeholder="菜单编码" value="${admin.userMobile}">
-						</div>
-						<div class="col-md-1 title">用例名称</div>
-						<div class="col-md-5 data">
-							<input type="text" class="form-control" name="userStaff"
-								   placeholder="用例名称" value="${admin.userStaff}">
-						</div>
-						<div class="col-md-1 title">用例编码</div>
-						<div class="col-md-5 data">
-							<input type="text" class="form-control" name="userEmail"
-								   placeholder="用例编码" value="${admin.userEmail}">
-						</div>
-						<div class="col-md-1 title">用例参数名</div>
-						<div class="col-md-5 data">
-							<input type="text" class="form-control" name="userEmail"
-								   placeholder="用例参数名" value="${admin.userEmail}">
-						</div>
-						<div class="col-md-1 title">用例级别</div>
-						<div class="col-md-5 data">
-							<input type="text" class="form-control" name="userEmail"
-								   placeholder="用例级别" value="${admin.userEmail}">
-						</div>
-						<div class="col-md-1 title">用例参数值</div>
-						<div class="col-md-11 data">
-							<input type="text" class="form-control" name="userEmail"
-								   placeholder="用例参数值" value="${admin.userEmail}">
-						</div>
-
-					<%--	<div class="col-md-2 title rowHeight2x" STYLE="height: 257px;"
-						>页面定义<br>(同一菜单编码共用,<br>修改请慎重)</div>
-						<div class="col-md-10 data rowHeight2x" STYLE="height: 257px;">
-							<textarea class="form-control" rows="3" placeholder="页面定义" STYLE="height: 257px;"></textarea>
-						</div>
-						<div class="col-md-2 title rowHeight2x" STYLE="height: 257px;"><br>操作步骤：</div>
-						<div class="col-md-10 data rowHeight2x"  STYLE="height: 257px;">
-							<textarea class="form-control" rows="3" placeholder="操作步骤："  STYLE="height: 257px;"></textarea>
-						</div>--%>
 
 
-							<div class="col-md-1 title rowHeight2x" STYLE="height: 666px;"
-							><br><br>页面定义<br>(同一菜单编码共用,<br>修改请慎重)</div>
-							<div class="col-md-5 data rowHeight2x" STYLE="height: 666px;">
-								<textarea class="form-control" rows="3" placeholder="页面定义" STYLE="height: 666px;"></textarea>
-							</div>
-							<div class="col-md-1 title rowHeight2x" STYLE="height: 666px;"><br><br><br>操作步骤：</div>
-							<div class="col-md-5 data rowHeight2x"  STYLE="height: 666px;">
-								<textarea class="form-control" rows="3" placeholder="操作步骤："  STYLE="height: 666px;"></textarea>
-							</div>
+						<div class="col-md-1 title rowHeight2x" STYLE="height: 300px;"><br>配置说明</div>
+						<div class="col-md-5 data rowHeight2x"  STYLE="height: 300px;">
+							<textarea class="form-control" rows="3" placeholder="查询订购了MAS服务器商品得集团编号"  STYLE="height: 300px;"></textarea>
+						</div>
+
+						<div class="col-md-1 title rowHeight2x" STYLE="height: 300px;"><br>查询SQL :</div>
+						<div class="col-md-5 data rowHeight2x"  STYLE="height: 300px;">
+							<textarea class="form-control" rows="3" placeholder="select * from XXXXXXXXXX"  STYLE="height: 300px;"></textarea>
+						</div>
 
 
 
-
-						<div class="col-md-1 title rowHeight2x" STYLE="height: 333px;"><br><br>校验步骤: </div>
-						<div class="col-md-11 data rowHeight2x"  STYLE="height: 333px;">
-							<textarea class="form-control" rows="3" placeholder="校验步骤："  STYLE="height: 333px;"></textarea>
-						</div>
 
 
 					<%--老的--%>
 					</div>
 				</div>
 
+
+
+
 				<!--订单信息/--> <!--工具栏-->
 				<div class="box-tools text-center">
-					<c:if test="${admin.operatorId==null}">
+					<%--<c:if test="${admin.operatorId==null}">
 						<button type="submit" class="btn bg-maroon">保存</button>
 					</c:if>
 					<c:if test="${admin.operatorId!=null}">
 						<button type="submit" class="btn bg-maroon">修改</button>
-					</c:if>
+					</c:if>--%>
 					<button type="button" class="btn bg-default"
 						onclick="history.back(-1);">返回</button>
 				</div>
