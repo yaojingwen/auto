@@ -102,40 +102,40 @@
 					<div class="row data-type">
 
 						<input type="hidden" name="operatorId" value="${admin.operatorId}">
-						<div class="col-md-2 title">内部组件</div>
-						<div class="col-md-4 data">
+						<div class="col-md-1 title">内部组件</div>
+						<div class="col-md-5 data">
 							<input type="text" class="form-control" name="userAdmin"
 								   placeholder="内部组件" value="${admin.userAdmin}">
 						</div>
-						<div class="col-md-2 title">组件编码</div>
-						<div class="col-md-4 data">
+						<div class="col-md-1 title">组件编码</div>
+						<div class="col-md-5 data">
 							<input type="password" class="form-control" name="userPass"
 								   placeholder="组件编码" value="${admin.userPass}">
 						</div>
-						<div class="col-md-2 title">组件形参</div>
+						<div class="col-md-1 title">组件形参</div>
 						<input type="hidden" name="operatorId" value="${admin.operatorId}"/>
-						<div class="col-md-4 data">
+						<div class="col-md-5 data">
 							<input type="text" class="form-control" name="userName"
 								   placeholder="组件形参" value="${admin.userName}">
 						</div>
-						<div class="col-md-2 title">组件实参</div>
-						<div class="col-md-4 data">
+						<div class="col-md-1 title">组件实参</div>
+						<div class="col-md-5 data">
 							<input type="text" class="form-control" name="userMobile"
 								   placeholder="组件实参" value="${admin.userMobile}">
 						</div>
-						<div class="col-md-2 title">组件出参</div>
-						<div class="col-md-4 data">
+						<div class="col-md-1 title">组件出参</div>
+						<div class="col-md-5 data">
 							<input type="text" class="form-control" name="userStaff"
 								   placeholder="组件出参" value="${admin.userStaff}">
 						</div>
-						<div class="col-md-2 title">开发人员</div>
-						<div class="col-md-4 data">
+						<div class="col-md-1 title">开发人员</div>
+						<div class="col-md-5 data">
 							<input type="text" class="form-control" name="userEmail"
 								   placeholder="开发人员" value="${admin.userEmail}">
 						</div>
 
-						<div class="col-md-2 title">模块私有</div>
-						<div class="col-md-10 data">
+						<div class="col-md-1 title">模块私有</div>
+						<div class="col-md-11 data">
 							<select class="form-control select2" style="width: 100%"
 									name="isUsed">
 								<c:if test="${admin.isUsed==0}">
@@ -165,8 +165,8 @@
 						</div>
 
 
-						<div class="col-md-2 title rowHeight2x" STYLE="height: 257px;"><br>校验步骤</div>
-						<div class="col-md-10 data rowHeight2x"  STYLE="height: 257px;">
+						<div class="col-md-1 title rowHeight2x" STYLE="height: 257px;"><br>校验步骤</div>
+						<div class="col-md-11 data rowHeight2x"  STYLE="height: 257px;">
 							<textarea class="form-control" rows="3" placeholder="校验步骤："  STYLE="height: 257px;"></textarea>
 						</div>
 

@@ -313,7 +313,7 @@
     option = null;
     option = {
         title: {
-            text: 'CASE视图'
+            text: 'CASE分布'
         },
         legend: {
             data: ['数量']

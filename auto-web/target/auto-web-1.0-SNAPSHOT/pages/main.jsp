@@ -116,14 +116,14 @@
                     <!-- small box -->
                     <div class="small-box bg-green">
                         <div class="inner">
-                            <h3>53<sup style="font-size: 20px">%</sup></h3>
+                            <h3>49</h3>
 
-                            <p>完成</p>
+                            <p>成功</p>
                         </div>
                         <div class="icon">
                             <i class="ion ion-stats-bars"></i>
                         </div>
-                        <a href="#" class="small-box-footer">详细 <i
+                        <a href="#" class="small-box-footer"># <i
                                 class="fa fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
@@ -139,7 +139,7 @@
                         <div class="icon">
                             <i class="ion ion-person-add"></i>
                         </div>
-                        <a href="case-add.jsp" class="small-box-footer">详细 <i
+                        <a href="case-add.jsp" class="small-box-footer">新增 <i
                                 class="fa fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
@@ -155,28 +155,29 @@
                         <div class="icon">
                             <i class="ion ion-pie-graph"></i>
                         </div>
-                        <a href="#" class="small-box-footer">详细 <i
+                        <a href="#" class="small-box-footer"># <i
                                 class="fa fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
                 <!-- ./col -->
 
 
-            <%--一个链接--%>
-           <%-- <li id="charts-chartjs" class="active">
-                <a href="all-charts-chartjs.html">
-                    <i class="fa fa-circle-o"></i> ChartJS
-                </a>
-            </li>--%>
+                <%--一个链接--%>
+                <%-- <li id="charts-chartjs" class="active">
+                     <a href="all-charts-chartjs.html">
+                         <i class="fa fa-circle-o"></i> ChartJS
+                     </a>
+                 </li>--%>
 
 
-            <%--图表--%>
-            <div class="col-md-6">
-                <div id="container-bar" style="width: 600px;height: 400px"></div>
-            </div>
-            <div class="col-md-6">
-                <div id="container-pie" style="width: 600px;height: 400px"></div>
-            </div>
+                <%--图表--%>
+                <div class="col-md-6">
+                    <div id="container-bar" style="width: 600px;height: 400px"></div>
+                </div>
+                <div class="col-md-6">
+                    <div id="container-pie" style="width: 600px;height: 400px"></div>
+                </div>
+
             </div>
             <!-- /.row -->
         </section>
@@ -312,7 +313,7 @@
     option = null;
     option = {
         title: {
-            text: 'Case视图'
+            text: 'CASE视图'
         },
         legend: {
             data: ['数量']
